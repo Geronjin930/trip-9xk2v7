@@ -1,0 +1,2045 @@
+{
+  "meta": {
+    "data_version": 11,
+    "generated_at": "2026-09-21T20:30:00+08:00",
+    "contract_version": "v1"
+  },
+  "travelers": [
+    {
+      "id": "t1",
+      "nickname": "Zhengyang",
+      "device": "Android"
+    },
+    {
+      "id": "t2",
+      "nickname": "Yongtong",
+      "device": "Android"
+    },
+    {
+      "id": "t3",
+      "nickname": "Mingxin",
+      "device": "iPhone"
+    },
+    {
+      "id": "t4",
+      "nickname": "Chiu Yan",
+      "device": "iPhone"
+    }
+  ],
+  "trip": {
+    "start_date": "2026-09-23",
+    "end_date": "2026-10-07",
+    "cities": [
+      {
+        "city": "马德里",
+        "country": "ES",
+        "tz": "Europe/Madrid",
+        "arrive_date": "2026-09-23",
+        "depart_date": "2026-09-24"
+      },
+      {
+        "city": "塞维利亚",
+        "country": "ES",
+        "tz": "Europe/Madrid",
+        "arrive_date": "2026-09-24",
+        "depart_date": "2026-09-25"
+      },
+      {
+        "city": "巴塞罗那",
+        "country": "ES",
+        "tz": "Europe/Madrid",
+        "arrive_date": "2026-09-25",
+        "depart_date": "2026-09-27"
+      },
+      {
+        "city": "阿尔库迪亚",
+        "country": "ES",
+        "tz": "Europe/Madrid",
+        "arrive_date": "2026-09-27",
+        "depart_date": "2026-09-28"
+      },
+      {
+        "city": "罗马",
+        "country": "IT",
+        "tz": "Europe/Rome",
+        "arrive_date": "2026-09-28",
+        "depart_date": "2026-10-01"
+      },
+      {
+        "city": "佛罗伦萨",
+        "country": "IT",
+        "tz": "Europe/Rome",
+        "arrive_date": "2026-10-01",
+        "depart_date": "2026-10-03"
+      },
+      {
+        "city": "威尼斯",
+        "country": "IT",
+        "tz": "Europe/Rome",
+        "arrive_date": "2026-10-03",
+        "depart_date": "2026-10-04"
+      },
+      {
+        "city": "米兰",
+        "country": "IT",
+        "tz": "Europe/Rome",
+        "arrive_date": "2026-10-04",
+        "depart_date": "2026-10-06"
+      },
+      {
+        "city": "广州",
+        "country": "CN",
+        "tz": "Asia/Shanghai",
+        "arrive_date": "2026-10-07",
+        "depart_date": "2026-10-07"
+      }
+    ]
+  },
+  "days": [
+    {
+      "date": "2026-09-23",
+      "city": "马德里",
+      "title": "抵达日:广州→重庆→马德里",
+      "items": [
+        {
+          "id": "d01-i01",
+          "time": "02:25",
+          "name": "航班:重庆→马德里 HU727(直飞)",
+          "type": "transport",
+          "summary": "海南航空 HU727 · CKG T3 02:25 → MAD T1 08:55,4 人已出票(前夜广州→重庆段不在本行程内)",
+          "details": "两段航班接驳。抵达当天直接开始市区游览,行李可先寄存酒店(入住 15:00 后)。",
+          "tips": "入境备好护照+回程机票+住宿订单;马德里与国内时差 6 小时(夏令时)",
+          "end_time": "08:55"
+        },
+        {
+          "id": "d01-i02",
+          "time": "09:30",
+          "end_time": "12:30",
+          "name": "马约尔广场+熊与野草莓树雕像",
+          "type": "sight",
+          "summary": "上午粗排:老城广场打卡,圣米格尔市场午餐",
+          "location": {
+            "name": "Plaza Mayor, Madrid",
+            "lat": 40.4155,
+            "lng": -3.7074
+          }
+        },
+        {
+          "id": "d01-i03",
+          "time": "13:00",
+          "end_time": "16:00",
+          "name": "阿尔穆德纳大教堂+马德里王宫",
+          "type": "sight",
+          "summary": "大教堂含登顶(14:30 前),出来即隔壁王宫",
+          "location": {
+            "name": "Palacio Real de Madrid",
+            "lat": 40.4179,
+            "lng": -3.7143
+          }
+        },
+        {
+          "id": "d01-i04",
+          "time": "16:30",
+          "end_time": "19:30",
+          "name": "普拉多博物馆",
+          "type": "sight",
+          "summary": "16:30 入馆,看 2.5-3 小时",
+          "details": "重点:委拉斯凯兹《宫娥》、戈雅黑色绘画系列。",
+          "location": {
+            "name": "Museo del Prado",
+            "lat": 40.4138,
+            "lng": -3.6921
+          }
+        },
+        {
+          "id": "d01-i05",
+          "time": "19:50",
+          "end_time": "21:00",
+          "name": "德波神庙看日落",
+          "type": "free",
+          "summary": "19:30 出馆乘地铁/打车约 20 分钟,等 20:10 日落",
+          "location": {
+            "name": "Templo de Debod",
+            "lat": 40.4242,
+            "lng": -3.7168
+          },
+          "tips": "日落时段人多,提前占好机位"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "city": "塞维利亚",
+      "title": "塞维利亚:大教堂+王宫+斗牛场",
+      "items": [
+        {
+          "id": "d02-i01",
+          "time": "08:00",
+          "end_time": "10:39",
+          "name": "火车:马德里→塞维利亚",
+          "type": "transport",
+          "summary": "AVE 02080 · 车厢5(5A/5B/5C/5D)· 08:00-10:39",
+          "location": {
+            "name": "Madrid Atocha"
+          },
+          "tips": "开车前 2 分钟停止检票;四人各自亮自己的 QR;酒店至 Atocha 打车约 15-20 分钟,建议 07:15 前出发",
+          "ticket_ids": [
+            "renfe-ave-t1",
+            "renfe-ave-t2",
+            "renfe-ave-t3",
+            "renfe-ave-t4"
+          ]
+        },
+        {
+          "id": "d02-i02",
+          "time": "11:30",
+          "end_time": "12:00",
+          "name": "午餐:Santa Cruz 区",
+          "type": "meal",
+          "summary": "10:39 到站后先到 Letoh Letoh 寄存行李,再前往 Santa Cruz 午餐"
+        },
+        {
+          "id": "d02-i03",
+          "time": "12:05",
+          "end_time": "13:45",
+          "name": "塞维利亚大教堂·含吉拉尔达塔",
+          "type": "sight",
+          "summary": "12:05 入场,从吉拉尔达塔开始参观",
+          "details": "套票含救世主教堂(Church of El Salvador)。参观必须先登吉拉尔达塔(票面时间即登塔时间);不可重新入场。",
+          "location": {
+            "name": "Catedral de Sevilla",
+            "lat": 37.3856,
+            "lng": -5.993
+          },
+          "ticket_ids": [
+            "cathedral-sevilla-group"
+          ],
+          "tips": "4 人共用一条 PDF417 条码,整组一起入场;未带证件不退款"
+        },
+        {
+          "id": "d02-i04",
+          "time": "14:10",
+          "end_time": "14:30",
+          "name": "Santa Cruz 老城漫步",
+          "type": "free",
+          "summary": "就在王宫背后,逛 20 分钟",
+          "location": {
+            "name": "Barrio Santa Cruz, Sevilla"
+          }
+        },
+        {
+          "id": "d02-i05",
+          "time": "14:30",
+          "end_time": "17:00",
+          "name": "塞维利亚王宫·Real Alcázar",
+          "type": "sight",
+          "summary": "14:30 入场(提前 15 分钟即可入)",
+          "details": "每人一码各自扫(4 张实名票);狮子门(Puerta del León)入场;安全检查可能要求出示证件。",
+          "location": {
+            "name": "Real Alcázar de Sevilla",
+            "lat": 37.383,
+            "lng": -5.9905
+          },
+          "ticket_ids": [
+            "alcazar-t1",
+            "alcazar-t2",
+            "alcazar-t3",
+            "alcazar-t4"
+          ],
+          "tips": "票面时间 30 分钟后不可入场"
+        },
+        {
+          "id": "d02-i06",
+          "time": "17:30",
+          "end_time": "20:00",
+          "name": "马埃斯特兰萨斗牛场·novillada",
+          "type": "sight",
+          "summary": "18:00 开场(仅 3 人);Tendido 3 Fila 10 座 7/8/9,1 号门",
+          "location": {
+            "name": "Plaza de Toros de la Maestranza",
+            "lat": 37.3852,
+            "lng": -5.9987
+          },
+          "ticket_ids": [
+            "maestranza-group"
+          ],
+          "details": "NOVILLADA CON PICADORES,约 2 小时。不参加的同行人老城区自由活动。",
+          "tips": "检票须出示完整票页(勿只截条码);按票面座位就座;建议 17:30 前到场找门"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "city": "巴塞罗那",
+      "title": "转场:塞维利亚→巴塞罗那",
+      "items": [
+        {
+          "id": "d03-i01",
+          "time": "10:25",
+          "end_time": "12:05",
+          "name": "航班:塞维利亚→巴塞罗那",
+          "type": "transport",
+          "summary": "瑞安 FR1164 · SVQ 10:25 → BCN T2 12:05,4 人已出票",
+          "tips": "必须提前在线值机;仅随身小包+20kg 托运;建议提前 2.5-3 小时到机场"
+        },
+        {
+          "id": "d03-i02",
+          "time": "12:30",
+          "end_time": "13:15",
+          "name": "抵达·放行李",
+          "type": "free",
+          "summary": "落地 T2 后进城至 Novotel Barcelona City,寄存行李;之后可先午餐再开始市区漫步",
+          "location": {
+            "name": "Novotel Barcelona City",
+            "lat": 41.3966,
+            "lng": 2.1977
+          }
+        },
+        {
+          "id": "d03-i03",
+          "time": "14:45",
+          "end_time": "17:30",
+          "name": "加泰罗尼亚广场→兰布拉→哥特区大教堂",
+          "type": "sight",
+          "summary": "14:45 广场;15:15 兰布拉+波盖利亚市场;15:45 哥特区",
+          "details": "沿兰布拉大道向南到波盖利亚市场,再拐进哥特区窄巷到巴塞罗那大教堂。",
+          "location": {
+            "name": "Plaça de Catalunya",
+            "lat": 41.3874,
+            "lng": 2.1686
+          },
+          "tips": "兰布拉沿线注意扒手"
+        },
+        {
+          "id": "d03-i04",
+          "time": "18:15",
+          "end_time": "20:45",
+          "name": "奥林匹克港+Barceloneta 晚餐",
+          "type": "meal",
+          "summary": "17:30 打车去海边(约 9 分钟);19:47 日落",
+          "location": {
+            "name": "Port Olímpic",
+            "lat": 41.3866,
+            "lng": 2.1949
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "city": "巴塞罗那",
+      "title": "高迪日:米拉之家+圣家堂+巴特罗之家",
+      "items": [
+        {
+          "id": "d04-i01",
+          "time": "08:30",
+          "end_time": "10:00",
+          "name": "米拉之家",
+          "type": "sight",
+          "summary": "08:30 中文导览早场(Trip.com 订,4 人一码)",
+          "location": {
+            "name": "Casa Milà (La Pedrera)",
+            "lat": 41.3953,
+            "lng": 2.1616
+          },
+          "ticket_ids": [
+            "pedrera-group"
+          ],
+          "tips": "提前 10 分钟到 Passeig de Gràcia 92 入口;雨天屋顶露台关闭;不可改期"
+        },
+        {
+          "id": "d04-i02",
+          "time": "11:15",
+          "end_time": "13:15",
+          "name": "圣家堂",
+          "type": "sight",
+          "summary": "General 票 4 张,Marina 街入口",
+          "details": "Marina 街入口(Entrance on carrer de la Marina);入场须出示带照片证件原件;票不可转让;参观全程保留票面备查。",
+          "location": {
+            "name": "Basílica de la Sagrada Família",
+            "lat": 41.4036,
+            "lng": 2.1744
+          },
+          "ticket_ids": [
+            "sagrada-t1",
+            "sagrada-t2",
+            "sagrada-t3",
+            "sagrada-t4"
+          ],
+          "tips": "4 人 4 码各扫各的;建议 10:45 前到入口"
+        },
+        {
+          "id": "d04-i03",
+          "time": "13:20",
+          "end_time": "14:20",
+          "name": "午餐",
+          "type": "meal"
+        },
+        {
+          "id": "d04-i04",
+          "time": "14:35",
+          "end_time": "16:05",
+          "name": "圣十字圣保罗医院",
+          "type": "sight",
+          "summary": "高迪参与的现代主义建筑群",
+          "location": {
+            "name": "Recinte Modernista de Sant Pau",
+            "lat": 41.4123,
+            "lng": 2.1746
+          }
+        },
+        {
+          "id": "d04-i05",
+          "time": "16:05",
+          "end_time": "16:45",
+          "name": "咖啡/休息",
+          "type": "free"
+        },
+        {
+          "id": "d04-i06",
+          "time": "17:30",
+          "end_time": "19:00",
+          "name": "巴特罗之家",
+          "type": "sight",
+          "location": {
+            "name": "Casa Batlló",
+            "lat": 41.3917,
+            "lng": 2.1649
+          },
+          "summary": "17:30 入场,GOLD 票 4 张(官网)",
+          "ticket_ids": [
+            "batllo-group"
+          ],
+          "tips": "米拉之家步行约 8 分钟(Passeig de Gràcia 92→43);提前 10 分钟到;GOLD 票权益以官网说明为准"
+        },
+        {
+          "id": "d04-i07",
+          "time": "19:15",
+          "end_time": "21:00",
+          "name": "晚餐",
+          "type": "meal",
+          "summary": "21:00 回酒店"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "city": "阿尔库迪亚",
+      "title": "转场:巴塞罗那→马略卡岛·阿尔库迪亚",
+      "items": [
+        {
+          "id": "d05-i01",
+          "time": "13:05",
+          "end_time": "14:00",
+          "name": "航班:巴塞罗那→帕尔马 VY3926",
+          "type": "transport",
+          "summary": "伏林航空 VY3926 · BCN T1 13:05 → PMI 14:00,4 人已出票(原计划 12:20 已按票面覆盖)"
+        },
+        {
+          "id": "d05-i02",
+          "time": "14:30",
+          "name": "租车:帕尔马机场取车→阿尔库迪亚",
+          "type": "transport",
+          "summary": "Record go 奔驰 V 级(订单 75/2026-89406,€135.39 已付含全险)→阿尔库迪亚约 45-60 分钟",
+          "tips": "主驾 Mingxin 本人驾照原件+西语宣誓翻译认证件(租租车在线生成彩印即用)+护照+信用卡;满油取还——机场 10km 内加油并保留小票;Prinsotel 停车收费;老城巷窄",
+          "end_time": "15:30",
+          "ticket_ids": [
+            "rental-recordgo"
+          ],
+          "details": "14:00 落地后直奔航站楼 Level 0 的 Just Go Box 自助取车点,QR 码朝上放读码托盘即可出钥匙,无需排队柜台。"
+        },
+        {
+          "id": "d05-i03",
+          "time": "15:00",
+          "end_time": "18:00",
+          "name": "入住 Prinsotel Mal Pas·海滩放松",
+          "type": "free",
+          "summary": "15:00 后入住",
+          "tips": "⚠ 到店另付城市税 102.76 元"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "city": "罗马",
+      "title": "转场:马略卡→罗马",
+      "items": [
+        {
+          "id": "d06-i01",
+          "time": "14:45",
+          "name": "还车:阿尔库迪亚→帕尔马机场",
+          "type": "transport",
+          "summary": "先加油(留小票)→16:00 前机场停车场 Drop-offs 还车;⚠ 航班 17:25,还车后直奔值机,时间紧凑",
+          "end_time": "16:00",
+          "tips": "阿尔库迪亚出发约 14:45,中途加油;Wizz Air 值机截止约 16:45"
+        },
+        {
+          "id": "d06-i02",
+          "time": "17:25",
+          "end_time": "19:10",
+          "name": "航班:帕尔马→罗马",
+          "type": "transport",
+          "summary": "维兹 W46232 · PMI 17:25 → FCO 19:10,4 人已出票",
+          "details": "⚠ Home Alex 入住时段 13:00-22:00,时段外到店加收 30 欧(最晚 01:00);FCO 进城 Leonardo Express 约 32 分钟 + 市内接驳,争取 21:30 前到店。",
+          "tips": "推荐官方 App 提前填好入境信息"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "city": "罗马",
+      "title": "梵蒂冈日(时间待细化)",
+      "items": [
+        {
+          "id": "d07-i01",
+          "time": "全天",
+          "name": "梵蒂冈博物馆+西斯廷礼拜堂",
+          "type": "sight",
+          "summary": "计划现场购票(用户 9/20 定);排队约 1-2 小时,如改主意可官网预约(+€4/人)免排队",
+          "location": {
+            "name": "Musei Vaticani",
+            "lat": 41.9065,
+            "lng": 12.4536
+          },
+          "tips": "馆内单向动线;西斯廷礼拜堂禁止拍照"
+        },
+        {
+          "id": "d07-i02",
+          "time": "全天",
+          "name": "圣彼得大教堂+圣彼得广场",
+          "type": "sight",
+          "summary": "可登顶俯瞰钥匙形广场",
+          "location": {
+            "name": "St. Peter's Basilica",
+            "lat": 41.9022,
+            "lng": 12.4539
+          },
+          "tips": "安检禁大型背包;着装须过膝遮肩"
+        },
+        {
+          "id": "d07-i03",
+          "time": "全天",
+          "name": "圣天使堡",
+          "type": "sight",
+          "location": {
+            "name": "Castel Sant'Angelo",
+            "lat": 41.9033,
+            "lng": 12.4663
+          }
+        },
+        {
+          "id": "d07-i04",
+          "time": "全天",
+          "name": "万神殿→纳沃纳广场→西班牙台阶",
+          "type": "free",
+          "summary": "老城步行串线",
+          "location": {
+            "name": "Pantheon, Roma",
+            "lat": 41.8986,
+            "lng": 12.4768
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "city": "罗马",
+      "title": "古罗马日(宿罗马,次日晨退房)",
+      "items": [
+        {
+          "id": "d08-i01",
+          "time": "全天",
+          "name": "斗兽场+古罗马广场+帕拉蒂尼山",
+          "type": "sight",
+          "summary": "官网抢票中(用户 9/20):目标竞技场地面(IL Monte.../Arena 层)或地下层(Underground/Belvedere)场次;抢到后发我入库",
+          "location": {
+            "name": "Colosseo",
+            "lat": 41.8902,
+            "lng": 12.4922
+          },
+          "tips": "斗兽场实名票须带护照原件入场"
+        },
+        {
+          "id": "d08-i02",
+          "time": "全天",
+          "name": "真理之口+特雷维喷泉",
+          "type": "free",
+          "summary": "顺线打卡;许愿池晚间亮灯",
+          "location": {
+            "name": "Trevi Fountain",
+            "lat": 41.9009,
+            "lng": 12.4833
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "city": "佛罗伦萨",
+      "title": "罗马→佛罗伦萨→比萨一日往返",
+      "items": [
+        {
+          "id": "d09-i01",
+          "time": "全天",
+          "name": "火车:罗马→佛罗伦萨",
+          "type": "transport",
+          "summary": "车次待补;⚠ 早 09:30-10:00 Home Alex 退房后再出发",
+          "location": {
+            "name": "Roma Termini",
+            "lat": 41.9013,
+            "lng": 12.5005
+          }
+        },
+        {
+          "id": "d09-i02",
+          "time": "全天",
+          "name": "火车:佛罗伦萨↔比萨往返",
+          "type": "transport",
+          "summary": "两段车次待补",
+          "location": {
+            "name": "Firenze S.M.N.",
+            "lat": 43.771,
+            "lng": 11.248
+          },
+          "tips": "区间车(Regionale)上车前须打票,否则罚款"
+        },
+        {
+          "id": "d09-i03",
+          "time": "全天",
+          "name": "比萨斜塔",
+          "type": "sight",
+          "location": {
+            "name": "Torre di Pisa",
+            "lat": 43.723,
+            "lng": 10.3966
+          }
+        },
+        {
+          "id": "d09-i04",
+          "time": "16:00",
+          "end_time": "21:00",
+          "name": "入住 Casa di Giotto",
+          "type": "free",
+          "summary": "入住 16:00-21:00;不可退款"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "city": "佛罗伦萨",
+      "title": "佛罗伦萨艺术日:乌菲兹→皮蒂宫→学院美术馆",
+      "items": [
+        {
+          "id": "d10-i03",
+          "time": "09:00",
+          "name": "圣母百花大教堂",
+          "type": "sight",
+          "location": {
+            "name": "Cattedrale di Santa Maria del Fiore",
+            "lat": 43.7731,
+            "lng": 11.256
+          },
+          "end_time": "10:45",
+          "summary": "大教堂免费入内(穹顶/钟楼登顶需另约,未约则只看内部)",
+          "tips": "穹顶登顶须提前很久预约;着装须过膝遮肩"
+        },
+        {
+          "id": "d10-i02",
+          "time": "11:30",
+          "name": "乌菲兹美术馆",
+          "type": "sight",
+          "summary": "11:30 入场(票面 Passepartout 5 日票,含皮蒂宫+波波里)",
+          "location": {
+            "name": "Galleria degli Uffizi",
+            "lat": 43.7678,
+            "lng": 11.2554
+          },
+          "tips": "实名票票证不符拒入;大件背包须寄存;11:15 前到门口",
+          "end_time": "14:00",
+          "ticket_ids": [
+            "uffizi-t1",
+            "uffizi-t2",
+            "uffizi-t3",
+            "uffizi-t4"
+          ]
+        },
+        {
+          "id": "d10-i05",
+          "time": "14:30",
+          "name": "皮蒂宫与波波里花园",
+          "type": "free",
+          "location": {
+            "name": "Palazzo Pitti",
+            "lat": 43.7659,
+            "lng": 11.2493
+          },
+          "end_time": "16:50",
+          "summary": "凭乌菲兹 Passepartout 免费入场(时间紧可选其一:宫殿或花园)",
+          "tips": "乌菲兹出来快速午餐后过阿诺河;17:00 前动身步行回学院美术馆(过桥约 20 分钟)"
+        },
+        {
+          "id": "d10-i01",
+          "time": "17:15",
+          "name": "学院美术馆·大卫像",
+          "type": "sight",
+          "summary": "17:15-17:30 入场窗口(票面);Pass 48h 含巴杰罗博物馆",
+          "location": {
+            "name": "Galleria dell'Accademia",
+            "lat": 43.7766,
+            "lng": 11.2592
+          },
+          "end_time": "18:45",
+          "ticket_ids": [
+            "accademia-t1",
+            "accademia-t2",
+            "accademia-t3",
+            "accademia-t4"
+          ],
+          "tips": "实名票带证件;18:50 闭馆,入内直奔大卫像;窗口 15 分钟,勿迟"
+        },
+        {
+          "id": "d10-i04",
+          "time": "18:45",
+          "name": "老桥+米开朗琪罗广场",
+          "type": "free",
+          "summary": "学院美术馆出来经老桥;米开朗琪罗广场看日落(10 月初日落约 18:55)",
+          "location": {
+            "name": "Piazzale Michelangelo",
+            "lat": 43.7634,
+            "lng": 11.263
+          },
+          "end_time": "20:30"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "city": "威尼斯",
+      "title": "佛罗伦萨→威尼斯",
+      "items": [
+        {
+          "id": "d11-i01",
+          "time": "全天",
+          "name": "火车:佛罗伦萨→威尼斯",
+          "type": "transport",
+          "summary": "车次待补;住宿 05:00-10:00 退房(早班出发)",
+          "location": {
+            "name": "Venezia Mestre"
+          }
+        },
+        {
+          "id": "d11-i02",
+          "time": "全天",
+          "name": "圣马可广场+叹息桥",
+          "type": "sight",
+          "location": {
+            "name": "Piazza San Marco",
+            "lat": 45.4341,
+            "lng": 12.3388
+          }
+        },
+        {
+          "id": "d11-i03",
+          "time": "全天",
+          "name": "贡多拉游船",
+          "type": "free"
+        },
+        {
+          "id": "d11-i04",
+          "time": "全天",
+          "name": "穆拉诺岛",
+          "type": "sight",
+          "summary": "玻璃岛",
+          "location": {
+            "name": "Murano, Venezia"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "city": "米兰",
+      "title": "转场:威尼斯→米兰",
+      "items": [
+        {
+          "id": "d12-i01",
+          "time": "全天",
+          "name": "火车:威尼斯→米兰",
+          "type": "transport",
+          "summary": "方式待核实(酒店在梅斯特)"
+        },
+        {
+          "id": "d12-i02",
+          "time": "16:00",
+          "end_time": "17:30",
+          "name": "入住:Walk to Duomo 公寓",
+          "type": "free",
+          "summary": "Via dell'Unione 4,近 Duomo;确认号 5210.508.440(PIN 9957)"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-05",
+      "city": "米兰",
+      "title": "米兰日(时间待细化)",
+      "items": [
+        {
+          "id": "d13-i01",
+          "time": "全天",
+          "name": "米兰大教堂+埃马努埃莱二世长廊",
+          "type": "sight",
+          "location": {
+            "name": "Duomo di Milano",
+            "lat": 45.4641,
+            "lng": 9.19
+          }
+        },
+        {
+          "id": "d13-i02",
+          "time": "全天",
+          "name": "圣玛利亚感恩教堂·《最后的晚餐》",
+          "type": "sight",
+          "summary": "强实名预约票;抢票中(用户 9/20,极难约);兜底可考虑含《最后的晚餐》观景的付费导览套餐",
+          "location": {
+            "name": "Santa Maria delle Grazie, Milano",
+            "lat": 45.4661,
+            "lng": 9.171
+          },
+          "tips": "提前 15-20 分钟到馆换票并查证件;迟到作废;15 分钟一批严格定时"
+        },
+        {
+          "id": "d13-i03",
+          "time": "全天",
+          "name": "斯福尔扎城堡+和平门",
+          "type": "sight",
+          "location": {
+            "name": "Castello Sforzesco",
+            "lat": 45.47,
+            "lng": 9.181
+          }
+        },
+        {
+          "id": "d13-i04",
+          "time": "全天",
+          "name": "布雷拉美术馆+斯卡拉歌剧院",
+          "type": "free",
+          "location": {
+            "name": "Pinacoteca di Brera"
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "city": "米兰",
+      "title": "返程:米兰→河内→广州",
+      "items": [
+        {
+          "id": "d14-i01",
+          "time": "09:00",
+          "end_time": "11:00",
+          "name": "酒店退房",
+          "type": "free",
+          "summary": "11:00 前退房"
+        },
+        {
+          "id": "d14-i02",
+          "time": "全天",
+          "name": "送机:酒店→米兰马尔彭萨机场(MXP)",
+          "type": "transport",
+          "summary": "方式待补;建议 10:30 前出发(国际段值机截止早)"
+        },
+        {
+          "id": "d14-i03",
+          "time": "12:45",
+          "name": "航班:米兰→河内→广州(越南航空联程)",
+          "type": "transport",
+          "summary": "VN72 10/6 12:45 MXP→河内 04:45(+1),停留 7h40m;VN506 河内 12:25→广州白云 T2 15:20(10/7);行李直挂、无需过境签",
+          "tips": "退税单先海关盖章再托运;⚠ 本票仅含 Zhengyang/Yongtong,另两人回程票待确认"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-07",
+      "city": "广州",
+      "title": "回家",
+      "items": [
+        {
+          "id": "d15-i01",
+          "time": "15:20",
+          "name": "抵达广州白云机场 T2",
+          "type": "transport",
+          "summary": "VN506 落地,入境回家",
+          "location": {
+            "name": "广州白云国际机场 T2",
+            "lat": 23.3924,
+            "lng": 113.2988
+          }
+        }
+      ]
+    }
+  ],
+  "tickets": [
+    {
+      "id": "cathedral-sevilla-group",
+      "name": "塞维利亚大教堂·含吉拉尔达塔(4人团票)",
+      "date": "2026-09-24",
+      "time": "12:05",
+      "type": "group",
+      "owner_ids": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ],
+      "barcode_type": "PDF417",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "票面日期时间之外不可入场",
+      "batch": null,
+      "order_no": "26TWI1X4UW",
+      "platform": "官网 catedraldesevilla.es",
+      "images": [
+        {
+          "file": "cathedral-sevilla-group-1.png",
+          "caption": "4 人共用 PDF417 条码"
+        }
+      ],
+      "notes": "参观从吉拉尔达塔开始(12:05 即登塔时间);含救世主教堂;不可重新入场;预订参考号 QQN7PFCU;未带证件/迟到不退款"
+    },
+    {
+      "id": "alcazar-t1",
+      "name": "塞维利亚王宫(Zhengyang)",
+      "date": "2026-09-24",
+      "time": "14:30",
+      "type": "personal",
+      "owner_ids": [
+        "t1"
+      ],
+      "barcode_type": "QR",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": 30,
+      "exchange_required": null,
+      "late_policy": "可提前 15 分钟入场;票面时间 30 分钟后不可入场",
+      "batch": "ALC-24973000",
+      "order_no": "24973000",
+      "platform": "官网",
+      "images": [
+        {
+          "file": "alcazar-t1-1.jpg",
+          "owner_id": "t1",
+          "caption": "Zhengyang 的门票(整页含QR)"
+        }
+      ],
+      "notes": "狮子门(Puerta del León)入场;安全检查可能查证件"
+    },
+    {
+      "id": "alcazar-t2",
+      "name": "塞维利亚王宫(Yongtong)",
+      "date": "2026-09-24",
+      "time": "14:30",
+      "type": "personal",
+      "owner_ids": [
+        "t2"
+      ],
+      "barcode_type": "QR",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": 30,
+      "exchange_required": null,
+      "late_policy": "可提前 15 分钟入场;票面时间 30 分钟后不可入场",
+      "batch": "ALC-24973000",
+      "order_no": "24973000",
+      "platform": "官网",
+      "images": [
+        {
+          "file": "alcazar-t2-1.jpg",
+          "owner_id": "t2",
+          "caption": "Yongtong 的门票(整页含QR)"
+        }
+      ],
+      "notes": "狮子门(Puerta del León)入场;安全检查可能查证件"
+    },
+    {
+      "id": "alcazar-t3",
+      "name": "塞维利亚王宫(Mingxin)",
+      "date": "2026-09-24",
+      "time": "14:30",
+      "type": "personal",
+      "owner_ids": [
+        "t3"
+      ],
+      "barcode_type": "QR",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": 30,
+      "exchange_required": null,
+      "late_policy": "可提前 15 分钟入场;票面时间 30 分钟后不可入场",
+      "batch": "ALC-24973000",
+      "order_no": "24973000",
+      "platform": "官网",
+      "images": [
+        {
+          "file": "alcazar-t3-1.jpg",
+          "owner_id": "t3",
+          "caption": "Mingxin 的门票(整页含QR)"
+        }
+      ],
+      "notes": "狮子门(Puerta del León)入场;安全检查可能查证件"
+    },
+    {
+      "id": "alcazar-t4",
+      "name": "塞维利亚王宫(Chiu Yan)",
+      "date": "2026-09-24",
+      "time": "14:30",
+      "type": "personal",
+      "owner_ids": [
+        "t4"
+      ],
+      "barcode_type": "QR",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": 30,
+      "exchange_required": null,
+      "late_policy": "可提前 15 分钟入场;票面时间 30 分钟后不可入场",
+      "batch": "ALC-24973000",
+      "order_no": "24973000",
+      "platform": "官网",
+      "images": [
+        {
+          "file": "alcazar-t4-1.jpg",
+          "owner_id": "t4",
+          "caption": "Chiu Yan 的门票(整页含QR)"
+        }
+      ],
+      "notes": "狮子门(Puerta del León)入场;安全检查可能查证件"
+    },
+    {
+      "id": "sagrada-t1",
+      "name": "圣家堂(Zhengyang)",
+      "date": "2026-09-26",
+      "time": "11:15",
+      "type": "personal",
+      "owner_ids": [
+        "t1"
+      ],
+      "barcode_type": "QR",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": null,
+      "batch": "SF-103839234",
+      "order_no": "103839234",
+      "platform": "官网 sagradafamilia.org",
+      "images": [
+        {
+          "file": "sagrada-t1-1.png",
+          "owner_id": "t1",
+          "caption": "Zhengyang 的入场 QR"
+        }
+      ],
+      "notes": "Marina 街入口;General 票 26 欧;票不可转让,全程保留备查;Locator 308649472"
+    },
+    {
+      "id": "sagrada-t2",
+      "name": "圣家堂(Yongtong)",
+      "date": "2026-09-26",
+      "time": "11:15",
+      "type": "personal",
+      "owner_ids": [
+        "t2"
+      ],
+      "barcode_type": "QR",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": null,
+      "batch": "SF-103839234",
+      "order_no": "103839234",
+      "platform": "官网 sagradafamilia.org",
+      "images": [
+        {
+          "file": "sagrada-t2-1.png",
+          "owner_id": "t2",
+          "caption": "Yongtong 的入场 QR"
+        }
+      ],
+      "notes": "Marina 街入口;General 票 26 欧;票不可转让,全程保留备查;Locator 308649473"
+    },
+    {
+      "id": "sagrada-t3",
+      "name": "圣家堂(Mingxin)",
+      "date": "2026-09-26",
+      "time": "11:15",
+      "type": "personal",
+      "owner_ids": [
+        "t3"
+      ],
+      "barcode_type": "QR",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": null,
+      "batch": "SF-103839234",
+      "order_no": "103839234",
+      "platform": "官网 sagradafamilia.org",
+      "images": [
+        {
+          "file": "sagrada-t3-1.png",
+          "owner_id": "t3",
+          "caption": "Mingxin 的入场 QR"
+        }
+      ],
+      "notes": "Marina 街入口;General 票 26 欧;票不可转让,全程保留备查;Locator 308649471"
+    },
+    {
+      "id": "sagrada-t4",
+      "name": "圣家堂(Chiu Yan)",
+      "date": "2026-09-26",
+      "time": "11:15",
+      "type": "personal",
+      "owner_ids": [
+        "t4"
+      ],
+      "barcode_type": "QR",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": null,
+      "batch": "SF-103839234",
+      "order_no": "103839234",
+      "platform": "官网 sagradafamilia.org",
+      "images": [
+        {
+          "file": "sagrada-t4-1.png",
+          "owner_id": "t4",
+          "caption": "Chiu Yan 的入场 QR"
+        }
+      ],
+      "notes": "Marina 街入口;General 票 26 欧;票不可转让,全程保留备查;Locator 308649474"
+    },
+    {
+      "id": "renfe-ave-t1",
+      "name": "AVE 火车票·马德里→塞维利亚(Zhengyang)",
+      "date": "2026-09-24",
+      "time": "08:00",
+      "type": "personal",
+      "owner_ids": [
+        "t1"
+      ],
+      "barcode_type": "QR",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "开车前 2 分钟停止检票,逾时不予登车",
+      "batch": "U2WRMJ",
+      "order_no": "U2WRMJ",
+      "platform": "Renfe AVE(经 Rail Europe 代理出票)",
+      "images": [
+        {
+          "file": "renfe-ave-t1-1.png",
+          "owner_id": "t1",
+          "caption": "Zhengyang 的登车 QR(票面右上)"
+        },
+        {
+          "file": "renfe-ave-t1-2.jpg",
+          "owner_id": "t1",
+          "caption": "完整票面:车厢5 座位5D · 票号 7345102091666"
+        }
+      ],
+      "notes": "AVE 02080 标准舱;马德里 Atocha 08:00 → 塞维利亚 Santa Justa 10:39;票号 7345102091666;马德里市内 Cercanías 接驳码 SXCDM"
+    },
+    {
+      "id": "renfe-ave-t2",
+      "name": "AVE 火车票·马德里→塞维利亚(Yongtong)",
+      "date": "2026-09-24",
+      "time": "08:00",
+      "type": "personal",
+      "owner_ids": [
+        "t2"
+      ],
+      "barcode_type": "QR",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "开车前 2 分钟停止检票,逾时不予登车",
+      "batch": "U2WRMJ",
+      "order_no": "U2WRMJ",
+      "platform": "Renfe AVE(经 Rail Europe 代理出票)",
+      "images": [
+        {
+          "file": "renfe-ave-t2-1.png",
+          "owner_id": "t2",
+          "caption": "Yongtong 的登车 QR(票面右上)"
+        },
+        {
+          "file": "renfe-ave-t2-2.jpg",
+          "owner_id": "t2",
+          "caption": "完整票面:车厢5 座位5C · 票号 7345102091674"
+        }
+      ],
+      "notes": "AVE 02080 标准舱;马德里 Atocha 08:00 → 塞维利亚 Santa Justa 10:39;票号 7345102091674;马德里市内 Cercanías 接驳码 PCT7P"
+    },
+    {
+      "id": "renfe-ave-t3",
+      "name": "AVE 火车票·马德里→塞维利亚(Mingxin)",
+      "date": "2026-09-24",
+      "time": "08:00",
+      "type": "personal",
+      "owner_ids": [
+        "t3"
+      ],
+      "barcode_type": "QR",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "开车前 2 分钟停止检票,逾时不予登车",
+      "batch": "U2WRMJ",
+      "order_no": "U2WRMJ",
+      "platform": "Renfe AVE(经 Rail Europe 代理出票)",
+      "images": [
+        {
+          "file": "renfe-ave-t3-1.png",
+          "owner_id": "t3",
+          "caption": "Mingxin 的登车 QR(票面右上)"
+        },
+        {
+          "file": "renfe-ave-t3-2.jpg",
+          "owner_id": "t3",
+          "caption": "完整票面:车厢5 座位5A · 票号 7345102091641"
+        }
+      ],
+      "notes": "AVE 02080 标准舱;马德里 Atocha 08:00 → 塞维利亚 Santa Justa 10:39;票号 7345102091641;马德里市内 Cercanías 接驳码 VYSC9"
+    },
+    {
+      "id": "renfe-ave-t4",
+      "name": "AVE 火车票·马德里→塞维利亚(Chiu Yan)",
+      "date": "2026-09-24",
+      "time": "08:00",
+      "type": "personal",
+      "owner_ids": [
+        "t4"
+      ],
+      "barcode_type": "QR",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "开车前 2 分钟停止检票,逾时不予登车",
+      "batch": "U2WRMJ",
+      "order_no": "U2WRMJ",
+      "platform": "Renfe AVE(经 Rail Europe 代理出票)",
+      "images": [
+        {
+          "file": "renfe-ave-t4-1.png",
+          "owner_id": "t4",
+          "caption": "Chiu Yan 的登车 QR(票面右上)"
+        },
+        {
+          "file": "renfe-ave-t4-2.jpg",
+          "owner_id": "t4",
+          "caption": "完整票面:车厢5 座位5B · 票号 7345102091658"
+        }
+      ],
+      "notes": "AVE 02080 标准舱;马德里 Atocha 08:00 → 塞维利亚 Santa Justa 10:39;票号 7345102091658;马德里市内 Cercanías 接驳码 22G24"
+    },
+    {
+      "id": "pedrera-group",
+      "name": "米拉之家·中文导览早场(4人团票)",
+      "date": "2026-09-26",
+      "time": "08:30",
+      "type": "group",
+      "owner_ids": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ],
+      "barcode_type": "PDF417",
+      "nominal": false,
+      "id_required": false,
+      "entry_window": null,
+      "exchange_required": "提前 10 分钟到入口集合",
+      "late_policy": "请准时到场;本票不可改期",
+      "batch": null,
+      "order_no": "955873656",
+      "platform": "Trip.com(Tiqets 供票)",
+      "images": [
+        {
+          "file": "pedrera-group-1.png",
+          "caption": "4 人共用一维条码(Code128,按宽条码展示)"
+        },
+        {
+          "file": "pedrera-group-2.jpg",
+          "caption": "凭证页(参考号 955873656,下单人 Mingxin)"
+        }
+      ],
+      "notes": "中文导览早场 08:30,全程约 1 小时 15 分;入口 Passeig de Gràcia 92;雨天屋顶露台关闭、不退款;凭证注明 strictly personal,建议下单人携带证件;4 张票编号 SG 开头、尾号 04638/04639/04640/04641,整组验一码入场"
+    },
+    {
+      "id": "maestranza-group",
+      "name": "马埃斯特兰萨斗牛场·novillada(3人,座7/8/9)",
+      "date": "2026-09-24",
+      "time": "18:00",
+      "type": "group",
+      "owner_ids": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ],
+      "barcode_type": "PDF417",
+      "nominal": false,
+      "id_required": false,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "开场后按座位就座;现场须出示完整票页",
+      "batch": "GP020501-167801031",
+      "order_no": "GP020501-167801031",
+      "platform": "bacantix.com",
+      "images": [
+        {
+          "file": "maestranza-group-1.png",
+          "caption": "座 7 检票条码(Code128,按宽条码展示)"
+        },
+        {
+          "file": "maestranza-group-2.jpg",
+          "caption": "座 7 完整票页(检票须出示整页)"
+        },
+        {
+          "file": "maestranza-group-3.png",
+          "caption": "座 8 检票条码"
+        },
+        {
+          "file": "maestranza-group-4.jpg",
+          "caption": "座 8 完整票页"
+        },
+        {
+          "file": "maestranza-group-5.png",
+          "caption": "座 9 检票条码"
+        },
+        {
+          "file": "maestranza-group-6.jpg",
+          "caption": "座 9 完整票页"
+        }
+      ],
+      "notes": "仅 3 人参加(一人不观赛;四人默认可见——用户 2026-09-21 确认组内无需区分);NOVILLADA CON PICADORES(小牛赛+长矛手);Tendido 3 区 Fila 10 排 7/8/9 号座,1 号门(Puerta 1)入场;€55/张(含 €5 手续费);票面要求 PRESENTA LA PÁGINA ENTERA——检票出示完整票页而非仅条码"
+    },
+    {
+      "id": "batllo-group",
+      "name": "巴特罗之家·GOLD 票(4人)",
+      "date": "2026-09-26",
+      "time": "17:30",
+      "type": "group",
+      "owner_ids": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ],
+      "barcode_type": "QR",
+      "nominal": false,
+      "id_required": false,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "按时段入场,票面时间后不再保证入场",
+      "batch": "107438931",
+      "order_no": "107438931",
+      "platform": "官网 casabatllo.es(Clorian 出票)",
+      "images": [
+        {
+          "file": "batllo-group-1.png",
+          "caption": "票 1/4 检票 QR"
+        },
+        {
+          "file": "batllo-group-2.png",
+          "caption": "票 2/4 检票 QR"
+        },
+        {
+          "file": "batllo-group-3.png",
+          "caption": "票 3/4 检票 QR"
+        },
+        {
+          "file": "batllo-group-4.png",
+          "caption": "票 4/4 检票 QR"
+        }
+      ],
+      "notes": "GENERAL VISIT - GOLD,€43/张含税;票号 317 9984 77/78/79/80;未具名,谁持哪个码均可;入场 Passeig de Gràcia 43;建议提前 10 分钟到"
+    },
+    {
+      "id": "accademia-t1",
+      "name": "学院美术馆·大卫像(Zhengyang)",
+      "date": "2026-10-02",
+      "time": "17:15",
+      "type": "personal",
+      "owner_ids": [
+        "t1"
+      ],
+      "barcode_type": "PDF417",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": 15,
+      "exchange_required": null,
+      "late_policy": "票面注明:仅限所示日期与时间有效(TITOLO VALIDO SOLO PER IL GIORNO E L'ORARIO INDICATO)",
+      "batch": "4651671",
+      "order_no": "4651671",
+      "platform": "Accademia 官方电子票(官网购 20.09)",
+      "images": [
+        {
+          "file": "accademia-t1-1.png",
+          "owner_id": "t1",
+          "caption": "Zhengyang 的 PDF417 条码(票面顶部)"
+        }
+      ],
+      "notes": "Pass 48h:学院美术馆+巴杰罗博物馆(Museo del Bargello);学院美术馆入场窗口 17:15-17:30(10/2);持票人 ZHENGYANG JIN;Cod.Cliente 24189589;€30 含 €4 预约费;美术馆 18:50 闭馆,入内直奔大卫像;实名票请带证件"
+    },
+    {
+      "id": "accademia-t2",
+      "name": "学院美术馆·大卫像(Yongtong)",
+      "date": "2026-10-02",
+      "time": "17:15",
+      "type": "personal",
+      "owner_ids": [
+        "t2"
+      ],
+      "barcode_type": "PDF417",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": 15,
+      "exchange_required": null,
+      "late_policy": "票面注明:仅限所示日期与时间有效(TITOLO VALIDO SOLO PER IL GIORNO E L'ORARIO INDICATO)",
+      "batch": "4651671",
+      "order_no": "4651671",
+      "platform": "Accademia 官方电子票(官网购 20.09)",
+      "images": [
+        {
+          "file": "accademia-t2-1.png",
+          "owner_id": "t2",
+          "caption": "Yongtong 的 PDF417 条码(票面顶部)"
+        }
+      ],
+      "notes": "Pass 48h:学院美术馆+巴杰罗博物馆(Museo del Bargello);学院美术馆入场窗口 17:15-17:30(10/2);持票人 XIE YONGTONG;Cod.Cliente 24189589;€30 含 €4 预约费;美术馆 18:50 闭馆,入内直奔大卫像;实名票请带证件"
+    },
+    {
+      "id": "accademia-t3",
+      "name": "学院美术馆·大卫像(Mingxin)",
+      "date": "2026-10-02",
+      "time": "17:15",
+      "type": "personal",
+      "owner_ids": [
+        "t3"
+      ],
+      "barcode_type": "PDF417",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": 15,
+      "exchange_required": null,
+      "late_policy": "票面注明:仅限所示日期与时间有效(TITOLO VALIDO SOLO PER IL GIORNO E L'ORARIO INDICATO)",
+      "batch": "4651671",
+      "order_no": "4651671",
+      "platform": "Accademia 官方电子票(官网购 20.09)",
+      "images": [
+        {
+          "file": "accademia-t3-1.png",
+          "owner_id": "t3",
+          "caption": "Mingxin 的 PDF417 条码(票面顶部)"
+        }
+      ],
+      "notes": "Pass 48h:学院美术馆+巴杰罗博物馆(Museo del Bargello);学院美术馆入场窗口 17:15-17:30(10/2);持票人 YUAN MINGXIN;Cod.Cliente 24189589;€30 含 €4 预约费;美术馆 18:50 闭馆,入内直奔大卫像;实名票请带证件"
+    },
+    {
+      "id": "accademia-t4",
+      "name": "学院美术馆·大卫像(Chiu Yan)",
+      "date": "2026-10-02",
+      "time": "17:15",
+      "type": "personal",
+      "owner_ids": [
+        "t4"
+      ],
+      "barcode_type": "PDF417",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": 15,
+      "exchange_required": null,
+      "late_policy": "票面注明:仅限所示日期与时间有效(TITOLO VALIDO SOLO PER IL GIORNO E L'ORARIO INDICATO)",
+      "batch": "4651671",
+      "order_no": "4651671",
+      "platform": "Accademia 官方电子票(官网购 20.09)",
+      "images": [
+        {
+          "file": "accademia-t4-1.png",
+          "owner_id": "t4",
+          "caption": "Chiu Yan 的 PDF417 条码(票面顶部)"
+        }
+      ],
+      "notes": "Pass 48h:学院美术馆+巴杰罗博物馆(Museo del Bargello);学院美术馆入场窗口 17:15-17:30(10/2);持票人 CHIU YAN LUI;Cod.Cliente 24189589;€30 含 €4 预约费;美术馆 18:50 闭馆,入内直奔大卫像;实名票请带证件"
+    },
+    {
+      "id": "uffizi-t1",
+      "name": "乌菲兹美术馆·Passepartout(Zhengyang)",
+      "date": "2026-10-02",
+      "time": "11:30",
+      "type": "personal",
+      "owner_ids": [
+        "t1"
+      ],
+      "barcode_type": "PDF417",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "入场时段以票面为准(10/2 11:30)",
+      "batch": "S9RWTHZG",
+      "order_no": "S9RWTHZG",
+      "platform": "乌菲兹官网(CoopCulture 出票)",
+      "images": [
+        {
+          "file": "uffizi-t1-1.png",
+          "owner_id": "t1",
+          "caption": "Zhengyang 的 PDF417 条码"
+        }
+      ],
+      "notes": "Passepartout 5 日票 €40:乌菲兹+皮蒂宫+波波里花园各 1 次;乌菲兹入场 10/2 11:30;首次使用后 5 日内有效(皮蒂/波波里可 10/2 下午用);持票人 ZHENGYANG JIN;实名票票证不符拒入;大件背包须寄存"
+    },
+    {
+      "id": "uffizi-t2",
+      "name": "乌菲兹美术馆·Passepartout(Yongtong)",
+      "date": "2026-10-02",
+      "time": "11:30",
+      "type": "personal",
+      "owner_ids": [
+        "t2"
+      ],
+      "barcode_type": "PDF417",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "入场时段以票面为准(10/2 11:30)",
+      "batch": "S9RWTHZG",
+      "order_no": "S9RWTHZG",
+      "platform": "乌菲兹官网(CoopCulture 出票)",
+      "images": [
+        {
+          "file": "uffizi-t2-1.png",
+          "owner_id": "t2",
+          "caption": "Yongtong 的 PDF417 条码"
+        }
+      ],
+      "notes": "Passepartout 5 日票 €40:乌菲兹+皮蒂宫+波波里花园各 1 次;乌菲兹入场 10/2 11:30;首次使用后 5 日内有效(皮蒂/波波里可 10/2 下午用);持票人 XIE YONGTONG;实名票票证不符拒入;大件背包须寄存"
+    },
+    {
+      "id": "uffizi-t3",
+      "name": "乌菲兹美术馆·Passepartout(Mingxin)",
+      "date": "2026-10-02",
+      "time": "11:30",
+      "type": "personal",
+      "owner_ids": [
+        "t3"
+      ],
+      "barcode_type": "PDF417",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "入场时段以票面为准(10/2 11:30)",
+      "batch": "S9RWTHZG",
+      "order_no": "S9RWTHZG",
+      "platform": "乌菲兹官网(CoopCulture 出票)",
+      "images": [
+        {
+          "file": "uffizi-t3-1.png",
+          "owner_id": "t3",
+          "caption": "Mingxin 的 PDF417 条码"
+        }
+      ],
+      "notes": "Passepartout 5 日票 €40:乌菲兹+皮蒂宫+波波里花园各 1 次;乌菲兹入场 10/2 11:30;首次使用后 5 日内有效(皮蒂/波波里可 10/2 下午用);持票人 YUAN MINGXIN;实名票票证不符拒入;大件背包须寄存"
+    },
+    {
+      "id": "uffizi-t4",
+      "name": "乌菲兹美术馆·Passepartout(Chiu Yan)",
+      "date": "2026-10-02",
+      "time": "11:30",
+      "type": "personal",
+      "owner_ids": [
+        "t4"
+      ],
+      "barcode_type": "PDF417",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "入场时段以票面为准(10/2 11:30)",
+      "batch": "S9RWTHZG",
+      "order_no": "S9RWTHZG",
+      "platform": "乌菲兹官网(CoopCulture 出票)",
+      "images": [
+        {
+          "file": "uffizi-t4-1.png",
+          "owner_id": "t4",
+          "caption": "Chiu Yan 的 PDF417 条码"
+        }
+      ],
+      "notes": "Passepartout 5 日票 €40:乌菲兹+皮蒂宫+波波里花园各 1 次;乌菲兹入场 10/2 11:30;首次使用后 5 日内有效(皮蒂/波波里可 10/2 下午用);持票人 CHIU YAN LUI;实名票票证不符拒入;大件背包须寄存"
+    },
+    {
+      "id": "rental-recordgo",
+      "name": "马略卡租车·Record go 取车码",
+      "date": "2026-09-27",
+      "time": "14:30",
+      "type": "group",
+      "owner_ids": [
+        "t1",
+        "t2",
+        "t3",
+        "t4"
+      ],
+      "barcode_type": "QR",
+      "nominal": false,
+      "id_required": true,
+      "entry_window": null,
+      "exchange_required": "Just Go Box 自助取车:把此 QR 码朝上放进读码托盘",
+      "late_policy": "取车时间 9/27 14:30;还车 9/28 16:00 前须完成",
+      "batch": null,
+      "order_no": "75/2026-89406",
+      "platform": "Record go 官网",
+      "images": [
+        {
+          "file": "rental-recordgo-1.png",
+          "caption": "Just Go Box 取车 QR(帕尔马机场 T0 层)"
+        }
+      ],
+      "notes": "订单 75/2026-89406,客户/主驾 Mingxin(取车需本人证件+信用卡);奔驰 V 级(PVAR 组);€135.39 已全付含 Total Comfort 全险+补充险,不限里程;满油取还:机场 10 公里内加满并保留加油小票,否则按 1/8 箱油+€24 手续费扣费;取车航站楼 Level 0 Just Go Box,还车机场停车场 Drop-offs 柜台;⚠ 中国驾照须配西语宣誓翻译认证件(租租车 App 在线生成、彩印即用,出发前打印 2 份)——无翻译件柜台可拒发车、出险保险可拒赔"
+    }
+  ],
+  "lodging": [
+    {
+      "id": "lod1",
+      "city": "马德里",
+      "name": "Colectia Stays Gran Vía",
+      "checkin": "2026-09-23",
+      "checkout": "2026-09-24",
+      "nights": 1,
+      "address": "Gran Vía 15, Centro, Madrid",
+      "confirmation_no": "1128149815905831",
+      "phone": "+34 636 333 580",
+      "notes": "入住 15:00-23:30(非 24 小时前台);⚠ 代理商确认函仅含 Yongtong/Mingxin 两人(订单 454538630242),另两人第二张订单待核实"
+    },
+    {
+      "id": "lod2",
+      "city": "塞维利亚",
+      "name": "Letoh Letoh Sevilla",
+      "checkin": "2026-09-24",
+      "checkout": "2026-09-25",
+      "nights": 1,
+      "address": "C. Rioja 14, Casco Antiguo, Sevilla",
+      "confirmation_no": "1128149816050844",
+      "phone": "+34 913 437 882",
+      "notes": "入住 14:00-次日 00:00;⚠ 代理商确认函仅含 Yongtong/Mingxin 两人(订单 454538035075),另两人第二张订单待核实"
+    },
+    {
+      "id": "lod3",
+      "city": "巴塞罗那",
+      "name": "诺富特巴塞罗那城市酒店(Novotel Barcelona City)",
+      "checkin": "2026-09-25",
+      "checkout": "2026-09-27",
+      "nights": 2,
+      "address": "Avenida Diagonal 201, Sant Martí, 08018 Barcelona",
+      "confirmation_no": "6679.264.861",
+      "phone": "+34 933 26 24 99",
+      "location": {
+        "name": "Novotel Barcelona City",
+        "lat": 41.3966,
+        "lng": 2.1977
+      },
+      "notes": "Booking.com 2 间客房,PIN 2989;14:00 起入住;9/27 12:00 前离店"
+    },
+    {
+      "id": "lod4",
+      "city": "阿尔库迪亚",
+      "name": "Prinsotel Mal Pas(普林索特马尔帕斯酒店)",
+      "checkin": "2026-09-27",
+      "checkout": "2026-09-28",
+      "nights": 1,
+      "address": "Camí Vell de la Victòria, Alcúdia, Mallorca",
+      "confirmation_no": "4032169",
+      "phone": "+34 971 545 143",
+      "notes": "15:00 后入住;⚠ 到店另付城市税 102.76 元;⚠ 代理商确认函仅含 Yongtong/Chiu Yan 两人(订单 454539616817)"
+    },
+    {
+      "id": "lod5",
+      "city": "罗马",
+      "name": "Home Alex",
+      "checkin": "2026-09-28",
+      "checkout": "2026-10-01",
+      "nights": 3,
+      "address": "Via Foscolo 10, 00185 Roma",
+      "confirmation_no": "5544.593.076",
+      "phone": "+39 339 278 2075",
+      "notes": "入住 13:00-22:00;10/1 09:30-10:00 退房;⚠ 时段外到店加收 30 欧;⚠ 不可退款订单;✅ 确认函核实为 3 晚(城市税×3晚),已修正原 9/30 退房之误,9/30 缺晚问题解决"
+    },
+    {
+      "id": "lod6",
+      "city": "佛罗伦萨",
+      "name": "Casa di Giotto",
+      "checkin": "2026-10-01",
+      "checkout": "2026-10-03",
+      "nights": 2,
+      "address": "Via Giuseppe Zanardelli 9, 50136 Firenze",
+      "confirmation_no": "6067.604.829",
+      "phone": "+39 335 597 7676",
+      "notes": "入住 16:00-21:00;10/3 05:00-10:00 退房;⚠ 不可退款;Booking.com PIN 3573"
+    },
+    {
+      "id": "lod7",
+      "city": "威尼斯",
+      "name": "CX Venice Mestre(CX 威尼斯梅斯特酒店)",
+      "checkin": "2026-10-03",
+      "checkout": "2026-10-04",
+      "nights": 1,
+      "address": "Via Ca' Marcello 15, Mestre, Venezia",
+      "confirmation_no": "EXP-2524807139 / EXP-2524807143",
+      "phone": "+39 041 099 5329",
+      "notes": "入住 15:00-次日 00:00;⚠ 到店另付城市税;⚠ 代理商订单 454539225317,确认函仅含 Yongtong/Chiu Yan 两人"
+    },
+    {
+      "id": "lod9",
+      "city": "米兰",
+      "name": "Walk to Duomo - Unione Central Apartment(两卧公寓)",
+      "checkin": "2026-10-04",
+      "checkout": "2026-10-06",
+      "nights": 2,
+      "address": "Via dell'Unione 4, 20122 Milano",
+      "confirmation_no": "5210.508.440",
+      "phone": "+39 375 529 9457",
+      "notes": "米兰两晚(10/4-10/6)正式订单(QUO Milano 已取消,以本单为准);入住 16:00-00:00,退房 11:00 前;4 人两卧含厨房;到店 EUR 支付约 €732.22(含 €60 清洁费),城市税另计约 €583(CNY);地址近 Duomo,步行可达大教堂"
+    }
+  ],
+  "transport": [
+    {
+      "id": "tr0",
+      "date": "2026-09-23",
+      "time": "02:25",
+      "type": "flight",
+      "no": "HU727",
+      "from": "重庆江北 T3",
+      "to": "马德里 Barajas T1",
+      "arrive_time": "08:55",
+      "seat": "",
+      "ticket_ids": [],
+      "notes": "海南航空直飞,4 人同行(PNR JD9RZT,票号连号 880-2402616851~854);前夜广州→重庆段不在本行程内;入境备好护照/回程机票/住宿订单"
+    },
+    {
+      "id": "tr1",
+      "date": "2026-09-24",
+      "time": "08:00",
+      "type": "train",
+      "no": "AVE 02080",
+      "from": "马德里 Atocha(Puerta de Atocha)",
+      "to": "塞维利亚 Santa Justa",
+      "arrive_time": "10:39",
+      "seat": "车厢5:5A/5B/5C/5D",
+      "ticket_ids": [
+        "renfe-ave-t1",
+        "renfe-ave-t2",
+        "renfe-ave-t3",
+        "renfe-ave-t4"
+      ],
+      "notes": "已按票面覆盖原计划 11:35-12:45;开车前 2 分钟停止检票;四人各亮自己的 QR;定位号 U2WRMJ(经 Rail Europe 代理出票);原与 12:05 大教堂入场的时间冲突解除(10:39 到站)",
+      "company": "Renfe AVE"
+    },
+    {
+      "id": "tr2",
+      "date": "2026-09-25",
+      "time": "10:25",
+      "type": "flight",
+      "no": "FR1164",
+      "from": "塞维利亚 SVQ",
+      "to": "巴塞罗那 BCN T2",
+      "arrive_time": "12:05",
+      "seat": "",
+      "ticket_ids": [],
+      "notes": "4 人已出票(去哪儿订单 334586542012);每人仅随身小包 40×20×25cm + 托运 1×20kg,无登机箱;务必提前在线值机(机场打印登机牌费用很高);已按票面覆盖原计划 13:40-15:25(Excel 总览时间有误,日程表 12:05 落地与票面一致)",
+      "company": "瑞安航空(Ryanair)"
+    },
+    {
+      "id": "tr3",
+      "date": "2026-09-27",
+      "time": "13:05",
+      "type": "flight",
+      "no": "VY3926",
+      "from": "巴塞罗那 BCN T1",
+      "to": "帕尔马 PMI",
+      "arrive_time": "14:00",
+      "seat": "",
+      "ticket_ids": [],
+      "notes": "伏林航空,4 人,已出票(去哪儿订单 334585229289);原计划 12:20-13:20 已按票面覆盖;落地后接驳前往阿尔库迪亚(接驳方式待补)"
+    },
+    {
+      "id": "tr4",
+      "date": "2026-09-28",
+      "time": "17:25",
+      "type": "flight",
+      "no": "W46232",
+      "from": "帕尔马 PMI",
+      "to": "罗马 FCO(菲乌米奇诺)",
+      "arrive_time": "19:10",
+      "seat": "",
+      "ticket_ids": [],
+      "notes": "4 人已出票(Trip.com 订单 1128 1510 3757 8890;航司编码 ZLZ4PV/ZKIU9V/IKYCYV/THUURB);经济舱仅含小背包,托运需另购;机场已核实为 FCO;Leonardo Express 进城约 32 分钟到 Termini;⚠ Home Alex 入住 13:00-22:00,落地较晚需抓紧",
+      "company": "维兹马耳他航空(Wizz Air Malta)"
+    },
+    {
+      "id": "tr5",
+      "date": "2026-10-06",
+      "time": "12:45",
+      "type": "flight",
+      "no": "VN72+VN506",
+      "from": "米兰马尔彭萨 T1",
+      "to": "广州白云 T2",
+      "arrive_time": "15:20",
+      "seat": "",
+      "ticket_ids": [],
+      "notes": "越南航空河内联程:10/6 12:45 MXP→河内 04:45(次日),停留 7h40m;河内 12:25→广州 15:20(10/7);行李直挂、无需过境签(去哪儿订单 334583272836);四人回程分两单购买,本单含 Zhengyang/Yongtong,另两人另有订单(用户 2026-09-21 确认,无需补录)"
+    }
+  ],
+  "documents": [
+    {
+      "traveler_id": "t1",
+      "type": "passport",
+      "name": "Zhengyang Jin",
+      "last4": "8087"
+    },
+    {
+      "traveler_id": "t2",
+      "type": "passport",
+      "name": "Yongtong Xie",
+      "last4": "7494"
+    },
+    {
+      "traveler_id": "t3",
+      "type": "passport",
+      "name": "Mingxin Yuan",
+      "last4": "3951",
+      "notes": "西班牙两票登记为 Mingxin、圣家堂票为 MINGXING,拼写略有出入;票面无法修改,用户裁决(2026-09-21)现场沟通处理,入场出示证件原件"
+    },
+    {
+      "traveler_id": "t4",
+      "type": "passport",
+      "name": "Chiu Yan Lui",
+      "last4": "3203"
+    },
+    {
+      "traveler_id": "t4",
+      "type": "id_card",
+      "name": "Chiu Yan Lui",
+      "last4": "1246",
+      "notes": "HU727 机票登记的证件(与护照不同本),登机以购票证件为准;两本都带"
+    }
+  ],
+  "border_check": [
+    {
+      "id": "bc1",
+      "category": "回程机票",
+      "title": "回程行程单·越南航空 VN72/VN506(Zhengyang)",
+      "detail": "10/6 12:45 MXP T1 → 河内转机(7h40m)→ 10/7 15:20 广州白云 T2;订单 334583272836;⚠ 订单内仅 Zhengyang/Yongtong 两人",
+      "image": "misc-return-vn72-1.png"
+    },
+    {
+      "id": "bc1b",
+      "category": "回程机票",
+      "title": "回程行程单副本(Yongtong)",
+      "detail": "同订单第二乘机人的行程单页,内容同上",
+      "image": "misc-return-vn506-1.png"
+    },
+    {
+      "id": "bc2",
+      "category": "住宿订单",
+      "title": "8 段住宿确认单(总览)",
+      "detail": "平台住宿总览截图(下单时点);确认号已录入住宿页(点击可复制);⚠ 马德里/塞维利亚/马略卡/威尼斯确认函仅见一间双人房,4 人出行需核实是否另有第二张订单;米兰 QUO Milano 已取消、现为 Duomo 公寓",
+      "image": "misc-lod1-1.png"
+    },
+    {
+      "id": "bc2b",
+      "category": "住宿订单",
+      "title": "Letoh Letoh Sevilla(塞维利亚)",
+      "detail": "确认号 1128…0844(完整号见住宿页,可点击复制);入住人 XIE/YUAN(一间)",
+      "image": "misc-lod2-1.png"
+    },
+    {
+      "id": "bc2c",
+      "category": "住宿订单",
+      "title": "Novotel Barcelona City(巴塞罗那)",
+      "detail": "确认号 6679.264.861(PIN 2989);两间房;⚠ 须出示预订用同一张信用卡",
+      "image": "misc-lod3-1.png"
+    },
+    {
+      "id": "bc2d",
+      "category": "住宿订单",
+      "title": "Prinsotel Mal Pas(马略卡)",
+      "detail": "确认号 4032169;入住人 XIE/CHIU(一间);到店另付城市税 102.76 元",
+      "image": "misc-lod4-1.png"
+    },
+    {
+      "id": "bc2e",
+      "category": "住宿订单",
+      "title": "Home Alex(罗马,3 晚)",
+      "detail": "确认号 5544.593.076(PIN 4314);阁楼公寓 4 人;10/1 09:30-10:00 退房",
+      "image": "misc-lod5-1.png"
+    },
+    {
+      "id": "bc2f",
+      "category": "住宿订单",
+      "title": "Casa di Giotto(佛罗伦萨)",
+      "detail": "确认号 6067.604.829(PIN 3573);两卧公寓 4 人;不可退款",
+      "image": "misc-lod6-1.png"
+    },
+    {
+      "id": "bc2g",
+      "category": "住宿订单",
+      "title": "CX Venice Mestre(威尼斯)",
+      "detail": "确认号 EXP-2524807139 / EXP-2524807143(两间);到店另付城市税 USD 6.40",
+      "image": "misc-lod7-1.png"
+    },
+    {
+      "id": "bc3",
+      "category": "保险单",
+      "title": "申根旅行保险单(4 人)",
+      "detail": "待用户提供后补录"
+    },
+    {
+      "id": "bc4",
+      "category": "行程单",
+      "title": "15 天行程概览",
+      "detail": "可出示 Excel 行程单,与每日城市一致;应用内打印页亦可作为行程凭证",
+      "image": "misc-flight-hu727-1.png"
+    },
+    {
+      "id": "bc4b",
+      "category": "其他",
+      "title": "VY3926 巴塞罗那→帕尔马行程单",
+      "detail": "9/27 13:05-14:00 境内段行程凭证(去哪儿订单 334585229289)",
+      "image": "misc-flight-vy3926-1.png"
+    },
+    {
+      "id": "bc4c",
+      "category": "其他",
+      "title": "FR1164 塞维利亚→巴塞罗那行程单",
+      "detail": "9/25 10:25 SVQ → 12:05 BCN T2;瑞安航空;去哪儿订单 334586542012;每人随身小包+1×20kg 托运;须在线值机",
+      "image": "misc-flight-fr1164-1.png"
+    },
+    {
+      "id": "bc4d",
+      "category": "其他",
+      "title": "W46232 帕尔马→罗马行程单",
+      "detail": "9/28 17:25 PMI → 19:10 FCO;维兹马耳他航空;Trip.com 订单 1128 1510 3757 8890;航司编码 ZLZ4PV/ZKIU9V/IKYCYV/THUURB",
+      "image": "misc-flight-w46232-1.png"
+    },
+    {
+      "id": "bc2i",
+      "category": "住宿订单",
+      "title": "Duomo 中央公寓(米兰)",
+      "detail": "确认号 5210.508.440(PIN 9957);10/4-10/6 两晚,4 人两卧;到店付约 €732.22+城市税;退房 11:00 前",
+      "image": "misc-lod9-1.png"
+    }
+  ],
+  "packing": [
+    {
+      "id": "pk1",
+      "category": "证件财物",
+      "text": "护照 + 复印件分开存放"
+    },
+    {
+      "id": "pk2",
+      "category": "电子",
+      "text": "欧标转换插头(C 型)×2 + 充电宝"
+    },
+    {
+      "id": "pk3",
+      "category": "衣物",
+      "text": "轻便外套(早晚温差大,9-10 月地中海)"
+    },
+    {
+      "id": "pk4",
+      "category": "药品",
+      "text": "常用药 + 肠胃药 + 创可贴"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "ph1",
+      "lang": "es",
+      "zh": "你好",
+      "local": "Hola",
+      "pron": "欧拉"
+    },
+    {
+      "id": "ph2",
+      "lang": "es",
+      "zh": "谢谢",
+      "local": "Gracias",
+      "pron": "格拉西亚斯"
+    },
+    {
+      "id": "ph3",
+      "lang": "it",
+      "zh": "你好(早)",
+      "local": "Buongiorno",
+      "pron": "崩乔尔诺"
+    },
+    {
+      "id": "ph4",
+      "lang": "it",
+      "zh": "谢谢",
+      "local": "Grazie",
+      "pron": "格拉齐埃"
+    }
+  ],
+  "emergency": [
+    {
+      "id": "em1",
+      "label": "欧盟通用紧急电话",
+      "value": "112"
+    },
+    {
+      "id": "em2",
+      "label": "外交部全球领保",
+      "value": "+86-10-12308"
+    },
+    {
+      "id": "em3",
+      "label": "驻西班牙使馆领保(马德里)",
+      "value": "+34-915438877"
+    },
+    {
+      "id": "em4",
+      "label": "驻巴塞罗那总领馆领保",
+      "value": "+34-932125622"
+    },
+    {
+      "id": "em5",
+      "label": "驻意大利使馆领保(罗马)",
+      "value": "+39-3939110852"
+    },
+    {
+      "id": "em6",
+      "label": "驻佛罗伦萨总领馆领保",
+      "value": "+39-3357748753"
+    },
+    {
+      "id": "em7",
+      "label": "驻米兰总领馆领保",
+      "value": "+39-3242616666"
+    }
+  ]
+}
