@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 13,
-    "generated_at": "2026-09-22T11:05:00+08:00",
+    "data_version": 20,
+    "generated_at": "2026-09-23T00:06:46+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -122,7 +122,18 @@
             "name": "Plaza Mayor, Madrid",
             "lat": 40.4155,
             "lng": -3.7074
-          }
+          },
+          "images": [
+            {
+              "file": "d01-i02-1.webp",
+              "caption": "马约尔广场全景·红墙尖塔"
+            },
+            {
+              "file": "d01-i02-2.webp",
+              "caption": "面包房之家立面壁画"
+            }
+          ],
+          "photo_note": "马约尔广场红墙+暗金壁画背景,白天顺光;红/酒红/墨绿系出片,白衬衫拍壁画也干净。熊雕像在太阳门广场,人多需排队凹造型"
         },
         {
           "id": "d01-i03",
@@ -135,7 +146,22 @@
             "name": "Palacio Real de Madrid",
             "lat": 40.4179,
             "lng": -3.7143
-          }
+          },
+          "images": [
+            {
+              "file": "d01-i03-1.webp",
+              "caption": "马德里王宫正面"
+            },
+            {
+              "file": "d01-i03-2.webp",
+              "caption": "阿尔穆德纳大教堂外观"
+            },
+            {
+              "file": "d01-i03-3.webp",
+              "caption": "阿尔穆德纳内部金色祭坛"
+            }
+          ],
+          "photo_note": "王宫白色立面+广场开阔,深色或饱和色显轮廓;内部不能拍照的区域注意标识。阿尔穆德纳内部蓝金穹顶仰拍很出片,避开大地色"
         },
         {
           "id": "d01-i04",
@@ -149,7 +175,26 @@
             "name": "Museo del Prado",
             "lat": 40.4138,
             "lng": -3.6921
-          }
+          },
+          "images": [
+            {
+              "file": "d01-i04-1.webp",
+              "caption": "普拉多博物馆外观·黄昏"
+            },
+            {
+              "file": "d01-i04-2.webp",
+              "caption": "红墙展厅与古典油画"
+            },
+            {
+              "file": "d01-i04-3.webp",
+              "caption": "委拉斯开兹《宫娥》展厅"
+            },
+            {
+              "file": "d01-i04-4.webp",
+              "caption": "展厅一隅"
+            }
+          ],
+          "photo_note": "馆内红墙金框+大理石,光偏暖偏暗;素色长裙/深色系与古典油画背景最融合;看展禁闪光,宫娥厅人多"
         },
         {
           "id": "d01-i05",
@@ -214,7 +259,26 @@
           "ticket_ids": [
             "cathedral-sevilla-group"
           ],
-          "tips": "4 人共用一条 PDF417 条码,整组一起入场;未带证件不退款"
+          "tips": "4 人共用一条 PDF417 条码,整组一起入场;未带证件不退款",
+          "images": [
+            {
+              "file": "d02-i03-1.webp",
+              "caption": "大教堂外观·飞扶壁与希拉尔达"
+            },
+            {
+              "file": "d02-i03-2.webp",
+              "caption": "黄昏航拍教堂全景"
+            },
+            {
+              "file": "d02-i03-3.webp",
+              "caption": "夜景灯光下的教堂"
+            },
+            {
+              "file": "d02-i03-4.webp",
+              "caption": "内部金色主祭坛"
+            }
+          ],
+          "photo_note": "哥特内部高耸偏暗,金色主祭坛是绝佳背景,深色/金色系呼应;吉拉尔达塔登顶俯瞰全城,塔顶风大注意发型裙摆"
         },
         {
           "id": "d02-i04",
@@ -246,7 +310,34 @@
             "alcazar-t3",
             "alcazar-t4"
           ],
-          "tips": "票面时间 30 分钟后不可入场"
+          "tips": "票面时间 30 分钟后不可入场",
+          "images": [
+            {
+              "file": "d02-i05-1.webp",
+              "caption": "王宫外观红墙与狮门"
+            },
+            {
+              "file": "d02-i05-2.webp",
+              "caption": "少女庭院·穆德哈尔拱廊与水池"
+            },
+            {
+              "file": "d02-i05-3.webp",
+              "caption": "大使厅金色穹顶"
+            },
+            {
+              "file": "d02-i05-4.webp",
+              "caption": "雕花拱廊与尖塔"
+            },
+            {
+              "file": "d02-i05-5.webp",
+              "caption": "王宫花园"
+            },
+            {
+              "file": "d02-i05-6.webp",
+              "caption": "摩尔风格雕花拱门"
+            }
+          ],
+          "photo_note": "少女庭院蓝金瓷砖拱廊+倒影水池,蓝色系/白色最佳,全程最出片机位之一;花园绿植棕榈背景,大地色易融入,建议亮色"
         },
         {
           "id": "d02-i06",
@@ -264,7 +355,22 @@
             "maestranza-group"
           ],
           "details": "NOVILLADA CON PICADORES,约 2 小时。不参加的同行人老城区自由活动。",
-          "tips": "检票须出示完整票页(勿只截条码);按票面座位就座;建议 17:30 前到场找门"
+          "tips": "检票须出示完整票页(勿只截条码);按票面座位就座;建议 17:30 前到场找门",
+          "images": [
+            {
+              "file": "d02-i06-1.webp",
+              "caption": "斗牛场环形看台与黄沙"
+            },
+            {
+              "file": "d02-i06-2.webp",
+              "caption": "斗牛进行时"
+            },
+            {
+              "file": "d02-i06-3.webp",
+              "caption": "斗牛士与粉红斗篷"
+            }
+          ],
+          "photo_note": "黄沙场地+红砖拱廊看台,色彩对比强;红/白/黑经典西班牙配色;novillada 傍晚场光线偏暖,看台风大"
         }
       ]
     },
@@ -308,7 +414,26 @@
             "lat": 41.3874,
             "lng": 2.1686
           },
-          "tips": "兰布拉沿线注意扒手"
+          "tips": "兰布拉沿线注意扒手",
+          "images": [
+            {
+              "file": "d03-i03-1.webp",
+              "caption": "兰布拉大道人流"
+            },
+            {
+              "file": "d03-i03-2.webp",
+              "caption": "兰布拉林荫街景"
+            },
+            {
+              "file": "d03-i03-3.webp",
+              "caption": "博盖利亚市场入口"
+            },
+            {
+              "file": "d03-i03-4.webp",
+              "caption": "哥特区窄巷"
+            }
+          ],
+          "photo_note": "兰布拉林荫光斑好看;哥特区窄巷石墙偏暗,白/亮色对比强;博盖利亚市场彩色摊位超上镜,顺路即可拍"
         },
         {
           "id": "d03-i04",
@@ -345,7 +470,22 @@
           "ticket_ids": [
             "pedrera-group"
           ],
-          "tips": "提前 10 分钟到 Passeig de Gràcia 92 入口;雨天屋顶露台关闭;不可改期"
+          "tips": "提前 10 分钟到 Passeig de Gràcia 92 入口;雨天屋顶露台关闭;不可改期",
+          "images": [
+            {
+              "file": "d04-i01-1.webp",
+              "caption": "日落时分的屋顶烟囱"
+            },
+            {
+              "file": "d04-i01-2.webp",
+              "caption": "屋顶石浪烟囱与游客"
+            },
+            {
+              "file": "d04-i01-3.webp",
+              "caption": "高迪风格门厅"
+            }
+          ],
+          "photo_note": "屋顶石浪烟囱+黄昏天际线,拍剪影穿深色或纯白都好;内部曲线走廊乳白色系,柔和光"
         },
         {
           "id": "d04-i02",
@@ -366,7 +506,34 @@
             "sagrada-t3",
             "sagrada-t4"
           ],
-          "tips": "4 人 4 码各扫各的;建议 10:45 前到入口"
+          "tips": "4 人 4 码各扫各的;建议 10:45 前到入口",
+          "images": [
+            {
+              "file": "d04-i02-1.webp",
+              "caption": "星形塔尖与蓝天"
+            },
+            {
+              "file": "d04-i02-2.webp",
+              "caption": "塔楼仰视"
+            },
+            {
+              "file": "d04-i02-3.webp",
+              "caption": "受难立面雕塑"
+            },
+            {
+              "file": "d04-i02-4.webp",
+              "caption": "内部·树状石柱与彩窗"
+            },
+            {
+              "file": "d04-i02-5.webp",
+              "caption": "内部·穹顶暖光"
+            },
+            {
+              "file": "d04-i02-6.webp",
+              "caption": "夜景航拍"
+            }
+          ],
+          "photo_note": "内部彩窗光柱:上午偏蓝冷、傍晚偏金橙;穿纯白/黑色让光线当主角最出片;仰拍穹顶人像易逆光;外观塔尖可拍全景"
         },
         {
           "id": "d04-i03",
@@ -386,7 +553,14 @@
             "name": "Recinte Modernista de Sant Pau",
             "lat": 41.4123,
             "lng": 2.1746
-          }
+          },
+          "images": [
+            {
+              "file": "d04-i04-1.webp",
+              "caption": "红砖主楼与彩瓷圆顶"
+            }
+          ],
+          "photo_note": "红砖+彩色瓷砖圆顶,蓝白花砖与天色呼应,亮蓝/白色最搭;庭院游人少,好拍"
         },
         {
           "id": "d04-i05",
@@ -410,7 +584,22 @@
           "ticket_ids": [
             "batllo-group"
           ],
-          "tips": "米拉之家步行约 8 分钟(Passeig de Gràcia 92→43);提前 10 分钟到;GOLD 票权益以官网说明为准"
+          "tips": "米拉之家步行约 8 分钟(Passeig de Gràcia 92→43);提前 10 分钟到;GOLD 票权益以官网说明为准",
+          "images": [
+            {
+              "file": "d04-i06-1.webp",
+              "caption": "马赛克外立面与龙脊屋顶"
+            },
+            {
+              "file": "d04-i06-2.webp",
+              "caption": "内部蓝色渐变天井"
+            },
+            {
+              "file": "d04-i06-3.webp",
+              "caption": "夜晚外立面投影"
+            }
+          ],
+          "photo_note": "外观碎瓷马赛克蓝绿渐变,蓝绿系/白色呼应最稳;内部天井蓝色由浅到深向上渐变,避免全身蓝融入背景"
         },
         {
           "id": "d04-i07",
@@ -501,7 +690,26 @@
             "lat": 41.9065,
             "lng": 12.4536
           },
-          "tips": "馆内单向动线;西斯廷礼拜堂禁止拍照"
+          "tips": "馆内单向动线;西斯廷礼拜堂禁止拍照",
+          "images": [
+            {
+              "file": "d07-i01-1.webp",
+              "caption": "松果庭院"
+            },
+            {
+              "file": "d07-i01-2.webp",
+              "caption": "现代雕塑·破碎金球"
+            },
+            {
+              "file": "d07-i01-3.webp",
+              "caption": "西斯廷礼拜堂内部(禁拍·预览)"
+            },
+            {
+              "file": "d07-i01-4.webp",
+              "caption": "天顶画《创造亚当》"
+            }
+          ],
+          "photo_note": "松果庭院橙墙青铜雕塑出片;西斯廷礼拜堂内部禁止拍照(图仅供行前预览),看展穿搭深色端庄;地图廊金顶华丽"
         },
         {
           "id": "d07-i02",
@@ -514,7 +722,30 @@
             "lat": 41.9022,
             "lng": 12.4539
           },
-          "tips": "安检禁大型背包;着装须过膝遮肩"
+          "tips": "安检禁大型背包;着装须过膝遮肩",
+          "images": [
+            {
+              "file": "d07-i02-1.webp",
+              "caption": "圣彼得大教堂与广场"
+            },
+            {
+              "file": "d07-i02-2.webp",
+              "caption": "广场环形柱廊俯瞰"
+            },
+            {
+              "file": "d07-i02-3.webp",
+              "caption": "内部穹顶仰视"
+            },
+            {
+              "file": "d07-i02-4.webp",
+              "caption": "穹顶金色内饰"
+            },
+            {
+              "file": "d07-i02-5.webp",
+              "caption": "青铜华盖与主祭坛"
+            }
+          ],
+          "photo_note": "教堂内部暖金+大理石白,避开大地色;广场柱廊开阔逆光多,顺光机位在柱廊下;登穹顶楼梯窄,舒适鞋"
         },
         {
           "id": "d07-i03",
@@ -525,7 +756,14 @@
             "name": "Castel Sant'Angelo",
             "lat": 41.9033,
             "lng": 12.4663
-          }
+          },
+          "images": [
+            {
+              "file": "d07-i03-1.webp",
+              "caption": "圣天使堡夜景"
+            }
+          ],
+          "photo_note": "城堡夜景灯光+桥上天使雕像剪影,蓝调时刻最出片;傍晚台伯河边风大,备外套"
         },
         {
           "id": "d07-i04",
@@ -557,7 +795,34 @@
             "lat": 41.8902,
             "lng": 12.4922
           },
-          "tips": "斗兽场实名票须带护照原件入场"
+          "tips": "斗兽场实名票须带护照原件入场",
+          "images": [
+            {
+              "file": "d08-i01-1.webp",
+              "caption": "斗兽场全景"
+            },
+            {
+              "file": "d08-i01-2.webp",
+              "caption": "斗兽场拱门内景"
+            },
+            {
+              "file": "d08-i01-3.webp",
+              "caption": "绿树环绕的斗兽场"
+            },
+            {
+              "file": "d08-i01-4.webp",
+              "caption": "古罗马广场遗迹全景"
+            },
+            {
+              "file": "d08-i01-5.webp",
+              "caption": "红砖遗址"
+            },
+            {
+              "file": "d08-i01-6.webp",
+              "caption": "遗址柱廊与游人"
+            }
+          ],
+          "photo_note": "千年石遗址米黄/土褐色调,红裙/饱和色对比最强(经典游客照位);地面碎石坡道,务必舒适鞋;帕拉蒂尼山远眺斗兽场机位人多需等"
         },
         {
           "id": "d08-i02",
@@ -612,7 +877,26 @@
             "name": "Torre di Pisa",
             "lat": 43.723,
             "lng": 10.3966
-          }
+          },
+          "images": [
+            {
+              "file": "d09-i03-1.webp",
+              "caption": "大教堂与斜塔·蓝天绿草"
+            },
+            {
+              "file": "d09-i03-2.webp",
+              "caption": "斜塔与草坪游客"
+            },
+            {
+              "file": "d09-i03-3.webp",
+              "caption": "比萨大教堂白大理石立面"
+            },
+            {
+              "file": "d09-i03-4.webp",
+              "caption": "大教堂内部马赛克穹顶"
+            }
+          ],
+          "photo_note": "白色大理石+绿草坪,亮色/红色最跳;经典推塔照在草坪取角度,上午人少;洗礼堂蓝天白云作背景也干净"
         },
         {
           "id": "d09-i04",
@@ -641,7 +925,22 @@
           },
           "end_time": "10:45",
           "summary": "大教堂免费入内(穹顶/钟楼登顶需另约,未约则只看内部)",
-          "tips": "穹顶登顶须提前很久预约;着装须过膝遮肩"
+          "tips": "穹顶登顶须提前很久预约;着装须过膝遮肩",
+          "images": [
+            {
+              "file": "d10-i03-1.webp",
+              "caption": "三色大理石外墙雕塑"
+            },
+            {
+              "file": "d10-i03-2.webp",
+              "caption": "内部·时钟与玫瑰窗"
+            },
+            {
+              "file": "d10-i03-3.webp",
+              "caption": "立面仰拍"
+            }
+          ],
+          "photo_note": "白绿粉三色大理石立面,粉/白/绿色系都搭;登穹顶 463 级楼梯窄且陡,裤装+运动鞋为宜,途中可仰拍末日审判壁画"
         },
         {
           "id": "d10-i02",
@@ -661,7 +960,22 @@
             "uffizi-t2",
             "uffizi-t3",
             "uffizi-t4"
-          ]
+          ],
+          "images": [
+            {
+              "file": "d10-i02-1.webp",
+              "caption": "乌菲兹内庭"
+            },
+            {
+              "file": "d10-i02-2.webp",
+              "caption": "红墙雕塑展厅"
+            },
+            {
+              "file": "d10-i02-3.webp",
+              "caption": "天花壁画走廊"
+            }
+          ],
+          "photo_note": "红墙金框+天花壁画走廊,暖色调浓郁,深绿/酒红/黑色高级;靠窗看老桥的机位光最好"
         },
         {
           "id": "d10-i05",
@@ -695,7 +1009,18 @@
             "accademia-t3",
             "accademia-t4"
           ],
-          "tips": "实名票带证件;18:50 闭馆,入内直奔大卫像;窗口 15 分钟,勿迟"
+          "tips": "实名票带证件;18:50 闭馆,入内直奔大卫像;窗口 15 分钟,勿迟",
+          "images": [
+            {
+              "file": "d10-i01-1.webp",
+              "caption": "穹顶大厅的大卫像(资料图)"
+            },
+            {
+              "file": "d10-i01-2.webp",
+              "caption": "领主广场大卫复制品"
+            }
+          ],
+          "photo_note": "大卫像穹顶大厅白色石膏色调,素色简约穿搭呼应文艺复兴气质;馆内禁闪光、人多位窄,轻装"
         },
         {
           "id": "d10-i04",
@@ -736,7 +1061,34 @@
             "name": "Piazza San Marco",
             "lat": 45.4341,
             "lng": 12.3388
-          }
+          },
+          "images": [
+            {
+              "file": "d11-i02-1.webp",
+              "caption": "圣马可广场俯瞰"
+            },
+            {
+              "file": "d11-i02-2.webp",
+              "caption": "教堂立面·金色飞狮"
+            },
+            {
+              "file": "d11-i02-3.webp",
+              "caption": "圣马可大教堂外观"
+            },
+            {
+              "file": "d11-i02-4.webp",
+              "caption": "总督宫与叹息桥一带"
+            },
+            {
+              "file": "d11-i02-5.webp",
+              "caption": "运河上的贡多拉"
+            },
+            {
+              "file": "d11-i02-6.webp",
+              "caption": "门洞水巷"
+            }
+          ],
+          "photo_note": "广场建筑暖金褐色,教堂立面金色马赛克,深色/金色呼应;水巷贡多拉蓝绿水+暖墙,白/红都出片;清晨广场人少光柔"
         },
         {
           "id": "d11-i03",
@@ -752,7 +1104,22 @@
           "summary": "玻璃岛",
           "location": {
             "name": "Murano, Venezia"
-          }
+          },
+          "images": [
+            {
+              "file": "d11-i04-1.webp",
+              "caption": "穆拉诺条纹灯塔与运河"
+            },
+            {
+              "file": "d11-i04-2.webp",
+              "caption": "穆拉诺玻璃器皿"
+            },
+            {
+              "file": "d11-i04-3.webp",
+              "caption": "玻璃制品橱窗"
+            }
+          ],
+          "photo_note": "玻璃岛以蓝色玻璃器皿与海天色著称,亮色 casual 风;运河边彩色房屋作背景,白/黄最跳"
         }
       ]
     },
@@ -792,7 +1159,34 @@
             "name": "Duomo di Milano",
             "lat": 45.4641,
             "lng": 9.19
-          }
+          },
+          "images": [
+            {
+              "file": "d13-i01-1.webp",
+              "caption": "夕阳下的哥特立面"
+            },
+            {
+              "file": "d13-i01-2.webp",
+              "caption": "内部立柱与彩窗"
+            },
+            {
+              "file": "d13-i01-3.webp",
+              "caption": "屋顶尖塔近景"
+            },
+            {
+              "file": "d13-i01-4.webp",
+              "caption": "屋顶俯瞰米兰红顶"
+            },
+            {
+              "file": "d13-i01-5.webp",
+              "caption": "埃马努埃莱二世长廊穹顶"
+            },
+            {
+              "file": "d13-i01-6.webp",
+              "caption": "长廊内景"
+            }
+          ],
+          "photo_note": "白色哥特尖塔林立,黑/白/红色在教堂前都经典;屋顶步道时装周氛围感,防风;长廊金色玻璃穹顶+奢侈品牌橱窗,黑色优雅最搭"
         },
         {
           "id": "d13-i02",
@@ -805,7 +1199,18 @@
             "lat": 45.4661,
             "lng": 9.171
           },
-          "tips": "提前 15-20 分钟到馆换票并查证件;迟到作废;15 分钟一批严格定时"
+          "tips": "提前 15-20 分钟到馆换票并查证件;迟到作废;15 分钟一批严格定时",
+          "images": [
+            {
+              "file": "d13-i02-1.webp",
+              "caption": "感恩教堂街景"
+            },
+            {
+              "file": "d13-i02-2.webp",
+              "caption": "《最后的晚餐》壁画(预览)"
+            }
+          ],
+          "photo_note": "《最后的晚餐》湿壁画偏暗偏黄,参观限时约15分钟且不可拍照(图仅供行前预览);教堂红砖外观街拍简洁"
         },
         {
           "id": "d13-i03",
@@ -816,7 +1221,26 @@
             "name": "Castello Sforzesco",
             "lat": 45.47,
             "lng": 9.181
-          }
+          },
+          "images": [
+            {
+              "file": "d13-i03-1.webp",
+              "caption": "斯福尔扎城堡红砖堡垒"
+            },
+            {
+              "file": "d13-i03-2.webp",
+              "caption": "城堡钟塔与喷泉"
+            },
+            {
+              "file": "d13-i03-3.webp",
+              "caption": "和平门特写"
+            },
+            {
+              "file": "d13-i03-4.webp",
+              "caption": "和平门与绿荫"
+            }
+          ],
+          "photo_note": "红砖城堡+绿荫,大地色/白色简洁出片;和平门新古典白色配绿植背景,亮色对比"
         },
         {
           "id": "d13-i04",
@@ -1854,7 +2278,7 @@
       "address": "Via dell'Unione 4, 20122 Milano",
       "confirmation_no": "5210.508.440",
       "phone": "+39 375 529 9457",
-      "notes": "米兰两晚(10/4-10/6)正式订单(QUO Milano 已取消,以本单为准);入住 16:00-00:00,退房 11:00 前;4 人两卧含厨房;到店 EUR 支付约 €732.22(含 €60 清洁费),城市税另计约 €583(CNY);地址近 Duomo,步行可达大教堂"
+      "notes": "米兰两晚(10/4-10/6)正式订单(QUO Milano 已取消,以本单为准);入住 16:00-00:00,退房 11:00 前;4 人两卧含厨房;到店 EUR 支付约 €732.22(含 €60 清洁费),城市税另计约 €583(CNY);地址近 Duomo,步行可达大教堂;⚠ 10/6 航班 12:45 起飞,须约 09:00 提前退房(ph19 邮件含确认项);⚠ 公寓无前台,10/4 中午早到若房东不收行李,备选 Duomo 附近 Radical Storage(约 €5-6/件/天)或 Milano Centrale 车站寄存(ph19/ph20 模板)"
     }
   ],
   "transport": [
@@ -2053,8 +2477,16 @@
     {
       "id": "bc3b",
       "category": "保险单",
-      "title": "申根旅行保险单(Mingxin/Chiu Yan)",
-      "detail": "⚠ bc3 保单仅含金正阳/谢永彤 2 人;Mingxin、Chiu Yan 未在任何已入库保单中,待用户提供另单或出发前补购(用户 2026-09-22 确认待查)"
+      "title": "平安境外旅行险保单(原铭新)",
+      "detail": "平安支付宝无忧保·境外旅行险(申根计划),保单号 1120…7096(完整号见保单图);保险期间 2026-09-23 00:00 至 2026-10-07 24:00(北京时间,与 bc3 同窗口);医疗保障与 bc3 相同(门急诊+住院 ¥100 万/0 免赔 100%、运送送返 ¥100 万、证件重置 ¥3 万);被保险人 1 人(原铭新,核对被保险人清单,用户 2026-09-22 提供);原件存 docs/保险/",
+      "image": "misc-insurance-2.png"
+    },
+    {
+      "id": "bc3c",
+      "category": "保险单",
+      "title": "华泰境外旅行险保单(赵昕蕾/Chiu Yan)",
+      "detail": "华泰财产保险,保单号 P007…569(完整号见保单图);保险期间 2026-09-23 00:00 至 2026-10-07 23:59(北京时间,覆盖全程);境外医疗(急诊/门诊/住院)¥100 万、医疗运送送返 ¥100 万、证件丢失重置 ¥2.5 万、延误每 4 小时 ¥300;救援热线境外 +86-21-80210006(境内 95509);被保险人赵昕蕾,护照尾号 3203 与库内一致;⚠ 与其余三人(平安)非同一保司法,理赔/救援电话不同;原件存 docs/保险/(用户 2026-09-22 提供);图含保单页+保障明细页",
+      "image": "misc-insurance-3.png"
     },
     {
       "id": "bc4",
@@ -2142,6 +2574,102 @@
       "zh": "谢谢",
       "local": "Grazie",
       "pron": "格拉齐埃"
+    },
+    {
+      "id": "ph5",
+      "lang": "es",
+      "zh": "【行李寄存·前台出示】我们今晚有预订(预订人 XXX),还没到入住时间,能否先寄存行李?稍后回来取",
+      "local": "Buenos días, tenemos una reserva a nombre de XXX esta noche. Es demasiado pronto para el check-in, ¿podrían guardarnos el equipaje? Volvemos esta tarde. Gracias."
+    },
+    {
+      "id": "ph6",
+      "lang": "it",
+      "zh": "【行李寄存·前台出示】我们今晚有预订(预订人 XXX),还没到入住时间,能否先寄存行李?稍后回来取",
+      "local": "Buongiorno, abbiamo una prenotazione a nome di XXX per stasera. È troppo presto per il check-in, potete tenerci i bagagli? Torniamo più tardi. Grazie."
+    },
+    {
+      "id": "ph7",
+      "lang": "en",
+      "zh": "【行李寄存·前台出示】英语版(意/西通用)",
+      "local": "Good morning, we have a reservation tonight under XXX. It's too early for check-in — could you keep our luggage? We'll be back later. Thank you!"
+    },
+    {
+      "id": "ph8",
+      "lang": "es",
+      "zh": "【提前入住】如果房间已打扫好,能否提前办理入住?",
+      "local": "¿Hay alguna posibilidad de hacer el check-in un poco antes si la habitación está lista?"
+    },
+    {
+      "id": "ph9",
+      "lang": "it",
+      "zh": "【提前入住】如果公寓已准备好,能否提前办理入住?",
+      "local": "C'è la possibilità di fare il check-in prima se l'appartamento è pronto?"
+    },
+    {
+      "id": "ph10",
+      "lang": "en",
+      "zh": "【提前入住】英语版",
+      "local": "Is there any chance to check in a bit early if the room is ready?"
+    },
+    {
+      "id": "ph11",
+      "lang": "es",
+      "zh": "【退房后寄存】退房后能否把行李再寄存几小时?",
+      "local": "¿Podemos dejar el equipaje aquí unas horas después del check-out?"
+    },
+    {
+      "id": "ph12",
+      "lang": "it",
+      "zh": "【退房后寄存】退房后能否把行李再寄存几小时?",
+      "local": "Possiamo lasciare i bagagli qui qualche ora dopo il check-out?"
+    },
+    {
+      "id": "ph13",
+      "lang": "en",
+      "zh": "【退房后寄存】英语版",
+      "local": "Can we leave our luggage here for a few hours after check-out?"
+    },
+    {
+      "id": "ph14",
+      "lang": "en",
+      "zh": "【马德里 Colectia·出发前发消息】我们 4 人约 11:00 到店,早于入住时间;上午前台/行李房是否开放可先放 4 件行李?15:00 左右回来办入住(订单 454538630242)",
+      "local": "Hello, we are 4 guests arriving tomorrow around 11:00, before check-in time. Is the reception or luggage room open in the morning so we can drop 4 suitcases? We'll return for check-in around 15:00. Reservation under XXX, order 454538630242. Thank you!"
+    },
+    {
+      "id": "ph15",
+      "lang": "en",
+      "zh": "【米兰公寓·出发前发消息】4 人 10/4-10/6 入住(确认号 5210.508.440),火车中午前后到,早于 16:00 入住;公寓有无寄存处或可否提前入住?可付小额费用",
+      "local": "Hello, we are 4 guests staying 4-6 Oct, confirmation 5210.508.440. Our train arrives around noon, before the 16:00 check-in. As this is an apartment — is there anywhere to store luggage before check-in, or could early check-in be possible if the apartment is ready? Happy to pay a small fee. Thank you!"
+    },
+    {
+      "id": "ph16",
+      "lang": "en",
+      "zh": "【罗马 Home Alex·防延误发消息】航班 19:10 落地,若延误可能 22:00 后到店;请确认晚到流程(已知会加收 30 欧)",
+      "local": "Hi, our flight lands at FCO at 19:10 on 28 Sep. In case of delay we might arrive after 22:00 — could you confirm the late-arrival procedure? We understand a €30 fee applies. Confirmation under XXX, 4 guests. Thank you!"
+    },
+    {
+      "id": "ph17",
+      "lang": "en",
+      "zh": "【马德里 Colectia·邮件模板(发 bookgranvia@colectia.com)】9/23 早到寄存 4 件行李+核实 4 人两单是否都在系统+顺问提前入住",
+      "local": "Subject: Booking 23 Sep, Xie/Yuan — 4 guests, morning luggage storage\n\nDear Colectia Stays Gran Vía team,\n\nWe have a reservation for the night of 23 September 2026 under Xie Yongtong / Yuan Mingxin (booked via agency, order 454538630242). Our flight lands at MAD at 08:55, so we expect to arrive around 11:00, before check-in time.\n\nCould you kindly confirm:\n1. Can we leave 4 suitcases at reception around 11:00 until check-in?\n2. We are 4 guests in total — Xie Yongtong, Yuan Mingxin, Jin Zhengyang and Chiu Yan Lui. Our confirmation shows only 2 guests; we believe there is a second reservation for the other two the same night. Could you confirm both bookings are in your system?\n3. If a room happens to be ready earlier, we would happily check in before 15:00.\n\nThank you very much!\n\nBest regards, [姓名] / [电话]"
+    },
+    {
+      "id": "ph18",
+      "lang": "es",
+      "zh": "【马德里 Colectia·邮件模板西语版】同 ph17 内容的西班牙语版",
+      "local": "Asunto: Reserva 23 Sep, Xie/Yuan — 4 huéspedes, guardar equipaje por la mañana\n\nEstimado equipo de Colectia Stays Gran Vía:\n\nTenemos una reserva para la noche del 23 de septiembre de 2026 a nombre de Xie Yongtong / Yuan Mingxin (reservada por agencia, pedido 454538630242). Nuestro vuelo aterriza a las 08:55 y llegaremos hacia las 11:00, antes de la hora de check-in.\n\n¿Podrían confirmarnos:\n1. ¿Podemos dejar 4 maletas en recepción sobre las 11:00 hasta el check-in?\n2. Somos 4 huéspedes en total — Xie Yongtong, Yuan Mingxin, Jin Zhengyang y Chiu Yan Lui. Nuestra confirmación solo muestra 2 huéspedes; creemos que existe una segunda reserva para los otros dos la misma noche. ¿Pueden confirmar que ambas reservas figuran en su sistema?\n3. Si alguna habitación estuviera lista antes, nos encantaría hacer el check-in antes de las 15:00.\n\n¡Muchas gracias!\n\nSaludos cordiales, [姓名] / [电话]"
+    },
+    {
+      "id": "ph19",
+      "lang": "en",
+      "zh": "【米兰公寓·邮件模板(回复确认邮件或 Booking 联系房东)】10/4 中午早到寄存/提前入住+10/6 约 09:00 提前退房(航班 12:45)+确认到店应付金额与刷卡",
+      "local": "Subject: Stay 4-6 Oct, Conf. 5210.508.440 — early luggage drop & early check-out\n\nDear Host,\n\nWe are the 4 guests staying at Unione Central Apartment from 4 to 6 October 2026 (confirmation 5210.508.440, PIN 9957).\n\nOur train from Venice arrives at Milano Centrale around [时间], so we expect to reach the apartment around 12:30, before the 16:00 check-in. Could you kindly confirm:\n\n1. Is there any possibility to leave our 4 suitcases somewhere before check-in (we are happy to pay a fee) — or even better, to check in earlier if the apartment is ready?\n2. How does check-in work — will we meet someone, or receive self check-in instructions?\n3. On 6 October our flight departs from Malpensa at 12:45, so we would need to check out around 09:00 — would early check-out be OK?\n4. Could you confirm the exact amount due on arrival (balance + city tax) and whether we can pay by credit card?\n\nThank you very much!\n\nBest regards, [姓名] / [电话]"
+    },
+    {
+      "id": "ph20",
+      "lang": "it",
+      "zh": "【米兰公寓·邮件模板意语版】同 ph19 内容的意大利语版",
+      "local": "Oggetto: Soggiorno 4-6 ott, conf. 5210.508.440 — deposito bagagli anticipato e check-out anticipato\n\nGentile Host,\n\nSiamo i 4 ospiti che soggiornano presso Unione Central Apartment dal 4 al 6 ottobre 2026 (conferma 5210.508.440, PIN 9957).\n\nIl nostro treno da Venezia arriva a Milano Centrale verso le [ora], quindi raggiungeremo l'appartamento verso le 12:30, prima del check-in alle 16:00. Potrebbe gentilmente confermare:\n\n1. C'è la possibilità di lasciare le nostre 4 valigie da qualche parte prima del check-in (siamo disposti a pagare) — o ancora meglio, fare il check-in in anticipo se l'appartamento è pronto?\n2. Come funziona il check-in — ci verrà incontro qualcuno o riceveremo istruzioni per il check-in autonomo?\n3. Il 6 ottobre il nostro volo parte da Malpensa alle 12:45, quindi dovremmo fare il check-out verso le 09:00 — va bene?\n4. Può confermare l'importo esatto da pagare all'arrivo (saldo + tassa di soggiorno) e se è possibile pagare con carta?\n\nGrazie mille!\n\nCordiali saluti, [姓名] / [电话]"
     }
   ],
   "emergency": [
@@ -2184,6 +2712,11 @@
       "id": "em8",
       "label": "平安保险 24h 全球救援(境外医疗)",
       "value": "+86-755-95511"
+    },
+    {
+      "id": "em9",
+      "label": "华泰保险 24h 境外救援(赵昕蕾保单)",
+      "value": "+86-21-80210006"
     }
   ]
 }
