@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 11,
-    "generated_at": "2026-09-21T20:30:00+08:00",
+    "data_version": 12,
+    "generated_at": "2026-09-22T00:50:00+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -1783,7 +1783,7 @@
       "arrive_time": "14:00",
       "seat": "",
       "ticket_ids": [],
-      "notes": "伏林航空,4 人,已出票(去哪儿订单 334585229289);原计划 12:20-13:20 已按票面覆盖;落地后接驳前往阿尔库迪亚(接驳方式待补)"
+      "notes": "伏林航空,4 人,已出票(去哪儿订单 334585229289);行李:随身小包 40×20×30cm+每人托运 1×20kg(票面确认);原计划 12:20-13:20 已按票面覆盖;落地后接驳前往阿尔库迪亚(接驳方式待补)"
     },
     {
       "id": "tr4",
@@ -1796,7 +1796,7 @@
       "arrive_time": "19:10",
       "seat": "",
       "ticket_ids": [],
-      "notes": "4 人已出票(Trip.com 订单 1128 1510 3757 8890;航司编码 ZLZ4PV/ZKIU9V/IKYCYV/THUURB);经济舱仅含小背包,托运需另购;机场已核实为 FCO;Leonardo Express 进城约 32 分钟到 Termini;⚠ Home Alex 入住 13:00-22:00,落地较晚需抓紧",
+      "notes": "4 人已出票(Trip.com 订单 1128 1510 3757 8890;航司编码 ZLZ4PV/ZKIU9V/IKYCYV/THUURB);行李:随身小包 40×30×20cm+托运 26kg×4 人全含(票面未体现,用户 2026-09-22 确认);机场已核实为 FCO;Leonardo Express 进城约 32 分钟到 Termini;⚠ Home Alex 入住 13:00-22:00,落地较晚需抓紧",
       "company": "维兹马耳他航空(Wizz Air Malta)"
     },
     {
@@ -1928,7 +1928,7 @@
       "id": "bc4b",
       "category": "其他",
       "title": "VY3926 巴塞罗那→帕尔马行程单",
-      "detail": "9/27 13:05-14:00 境内段行程凭证(去哪儿订单 334585229289)",
+      "detail": "9/27 13:05-14:00 境内段行程凭证(去哪儿订单 334585229289);每人随身小包+1×20kg 托运",
       "image": "misc-flight-vy3926-1.png"
     },
     {
@@ -1942,7 +1942,7 @@
       "id": "bc4d",
       "category": "其他",
       "title": "W46232 帕尔马→罗马行程单",
-      "detail": "9/28 17:25 PMI → 19:10 FCO;维兹马耳他航空;Trip.com 订单 1128 1510 3757 8890;航司编码 ZLZ4PV/ZKIU9V/IKYCYV/THUURB",
+      "detail": "9/28 17:25 PMI → 19:10 FCO;维兹马耳他航空;Trip.com 订单 1128 1510 3757 8890;航司编码 ZLZ4PV/ZKIU9V/IKYCYV/THUURB;每人随身小包+26kg 托运×4 人全含(票面未体现,用户 2026-09-22 确认)",
       "image": "misc-flight-w46232-1.png"
     },
     {
