@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 12,
-    "generated_at": "2026-09-22T00:50:00+08:00",
+    "data_version": 13,
+    "generated_at": "2026-09-22T11:05:00+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -892,7 +892,7 @@
         "t3",
         "t4"
       ],
-      "barcode_type": "PDF417",
+      "barcode_type": "QR",
       "nominal": true,
       "id_required": true,
       "entry_window": null,
@@ -904,10 +904,20 @@
       "images": [
         {
           "file": "cathedral-sevilla-group-1.png",
-          "caption": "4 人共用 PDF417 条码"
+          "caption": "入场 QR(全单 4 人共用一码)"
         }
       ],
-      "notes": "参观从吉拉尔达塔开始(12:05 即登塔时间);含救世主教堂;不可重新入场;预订参考号 QQN7PFCU;未带证件/迟到不退款"
+      "notes": "参观从吉拉尔达塔开始(12:05 即登塔时间);含救世主教堂;不可重新入场;预订参考号 QQN7PFCU;未带证件/迟到不退款",
+      "pages": [
+        {
+          "file": "cathedral-sevilla-group-page-1.jpg",
+          "caption": "完整票面(预订人页,证件号已遮盖)"
+        },
+        {
+          "file": "cathedral-sevilla-group-page-2.jpg",
+          "caption": "4 人名单页(证件号已遮盖)"
+        }
+      ]
     },
     {
       "id": "alcazar-t1",
@@ -1026,7 +1036,7 @@
       "owner_ids": [
         "t1"
       ],
-      "barcode_type": "QR",
+      "barcode_type": "DATAMATRIX",
       "nominal": true,
       "id_required": true,
       "entry_window": null,
@@ -1042,7 +1052,13 @@
           "caption": "Zhengyang 的入场 QR"
         }
       ],
-      "notes": "Marina 街入口;General 票 26 欧;票不可转让,全程保留备查;Locator 308649472"
+      "notes": "Marina 街入口;General 票 26 欧;票不可转让,全程保留备查;Locator 308649472",
+      "pages": [
+        {
+          "file": "sagrada-t1-page-1.jpg",
+          "caption": "完整票面(实名,入场须出示证件原件)"
+        }
+      ]
     },
     {
       "id": "sagrada-t2",
@@ -1053,7 +1069,7 @@
       "owner_ids": [
         "t2"
       ],
-      "barcode_type": "QR",
+      "barcode_type": "DATAMATRIX",
       "nominal": true,
       "id_required": true,
       "entry_window": null,
@@ -1069,7 +1085,13 @@
           "caption": "Yongtong 的入场 QR"
         }
       ],
-      "notes": "Marina 街入口;General 票 26 欧;票不可转让,全程保留备查;Locator 308649473"
+      "notes": "Marina 街入口;General 票 26 欧;票不可转让,全程保留备查;Locator 308649473",
+      "pages": [
+        {
+          "file": "sagrada-t2-page-1.jpg",
+          "caption": "完整票面(实名,入场须出示证件原件)"
+        }
+      ]
     },
     {
       "id": "sagrada-t3",
@@ -1080,7 +1102,7 @@
       "owner_ids": [
         "t3"
       ],
-      "barcode_type": "QR",
+      "barcode_type": "DATAMATRIX",
       "nominal": true,
       "id_required": true,
       "entry_window": null,
@@ -1096,7 +1118,13 @@
           "caption": "Mingxin 的入场 QR"
         }
       ],
-      "notes": "Marina 街入口;General 票 26 欧;票不可转让,全程保留备查;Locator 308649471"
+      "notes": "Marina 街入口;General 票 26 欧;票不可转让,全程保留备查;Locator 308649471",
+      "pages": [
+        {
+          "file": "sagrada-t3-page-1.jpg",
+          "caption": "完整票面(实名,入场须出示证件原件)"
+        }
+      ]
     },
     {
       "id": "sagrada-t4",
@@ -1107,7 +1135,7 @@
       "owner_ids": [
         "t4"
       ],
-      "barcode_type": "QR",
+      "barcode_type": "DATAMATRIX",
       "nominal": true,
       "id_required": true,
       "entry_window": null,
@@ -1123,7 +1151,13 @@
           "caption": "Chiu Yan 的入场 QR"
         }
       ],
-      "notes": "Marina 街入口;General 票 26 欧;票不可转让,全程保留备查;Locator 308649474"
+      "notes": "Marina 街入口;General 票 26 欧;票不可转让,全程保留备查;Locator 308649474",
+      "pages": [
+        {
+          "file": "sagrada-t4-page-1.jpg",
+          "caption": "完整票面(实名,入场须出示证件原件)"
+        }
+      ]
     },
     {
       "id": "renfe-ave-t1",
@@ -1265,7 +1299,7 @@
         "t3",
         "t4"
       ],
-      "barcode_type": "PDF417",
+      "barcode_type": "CODE128",
       "nominal": false,
       "id_required": false,
       "entry_window": null,
@@ -1277,14 +1311,40 @@
       "images": [
         {
           "file": "pedrera-group-1.png",
-          "caption": "4 人共用一维条码(Code128,按宽条码展示)"
+          "caption": "票 1/4 一维码(Tiqets,不实名,任意一人出示)"
         },
         {
-          "file": "pedrera-group-2.jpg",
-          "caption": "凭证页(参考号 955873656,下单人 Mingxin)"
+          "file": "pedrera-group-2.png",
+          "caption": "票 2/4 一维码(Tiqets,不实名,任意一人出示)"
+        },
+        {
+          "file": "pedrera-group-3.png",
+          "caption": "票 3/4 一维码(Tiqets,不实名,任意一人出示)"
+        },
+        {
+          "file": "pedrera-group-4.png",
+          "caption": "票 4/4 一维码(Tiqets,不实名,任意一人出示)"
         }
       ],
-      "notes": "中文导览早场 08:30,全程约 1 小时 15 分;入口 Passeig de Gràcia 92;雨天屋顶露台关闭、不退款;凭证注明 strictly personal,建议下单人携带证件;4 张票编号 SG 开头、尾号 04638/04639/04640/04641,整组验一码入场"
+      "notes": "中文导览早场 08:30,全程约 1 小时 15 分;入口 Passeig de Gràcia 92;雨天屋顶露台关闭、不退款;凭证注明 strictly personal,建议下单人携带证件;4 张票编号 SG 开头、尾号 04638/04639/04640/04641,整组验一码入场",
+      "pages": [
+        {
+          "file": "pedrera-group-page-1.jpg",
+          "caption": "完整票面 1/4(含当日名单与参观须知)"
+        },
+        {
+          "file": "pedrera-group-page-2.jpg",
+          "caption": "完整票面 2/4(含当日名单与参观须知)"
+        },
+        {
+          "file": "pedrera-group-page-3.jpg",
+          "caption": "完整票面 3/4(含当日名单与参观须知)"
+        },
+        {
+          "file": "pedrera-group-page-4.jpg",
+          "caption": "完整票面 4/4(含当日名单与参观须知)"
+        }
+      ]
     },
     {
       "id": "maestranza-group",
@@ -1347,7 +1407,7 @@
         "t3",
         "t4"
       ],
-      "barcode_type": "QR",
+      "barcode_type": "DATAMATRIX",
       "nominal": false,
       "id_required": false,
       "entry_window": null,
@@ -1374,7 +1434,25 @@
           "caption": "票 4/4 检票 QR"
         }
       ],
-      "notes": "GENERAL VISIT - GOLD,€43/张含税;票号 317 9984 77/78/79/80;未具名,谁持哪个码均可;入场 Passeig de Gràcia 43;建议提前 10 分钟到"
+      "notes": "GENERAL VISIT - GOLD,€43/张含税;票号 317 9984 77/78/79/80;未具名,谁持哪个码均可;入场 Passeig de Gràcia 43;建议提前 10 分钟到",
+      "pages": [
+        {
+          "file": "batllo-group-page-1.jpg",
+          "caption": "完整票面 1/4"
+        },
+        {
+          "file": "batllo-group-page-2.jpg",
+          "caption": "完整票面 2/4"
+        },
+        {
+          "file": "batllo-group-page-3.jpg",
+          "caption": "完整票面 3/4"
+        },
+        {
+          "file": "batllo-group-page-4.jpg",
+          "caption": "完整票面 4/4"
+        }
+      ]
     },
     {
       "id": "accademia-t1",
@@ -1385,7 +1463,7 @@
       "owner_ids": [
         "t1"
       ],
-      "barcode_type": "PDF417",
+      "barcode_type": "QR",
       "nominal": true,
       "id_required": true,
       "entry_window": 15,
@@ -1401,7 +1479,13 @@
           "caption": "Zhengyang 的 PDF417 条码(票面顶部)"
         }
       ],
-      "notes": "Pass 48h:学院美术馆+巴杰罗博物馆(Museo del Bargello);学院美术馆入场窗口 17:15-17:30(10/2);持票人 ZHENGYANG JIN;Cod.Cliente 24189589;€30 含 €4 预约费;美术馆 18:50 闭馆,入内直奔大卫像;实名票请带证件"
+      "notes": "Pass 48h:学院美术馆+巴杰罗博物馆(Museo del Bargello);学院美术馆入场窗口 17:15-17:30(10/2);持票人 ZHENGYANG JIN;Cod.Cliente 24189589;€30 含 €4 预约费;美术馆 18:50 闭馆,入内直奔大卫像;实名票请带证件",
+      "pages": [
+        {
+          "file": "accademia-t1-page-1.jpg",
+          "caption": "完整票面(Pass 48h 含巴杰罗)"
+        }
+      ]
     },
     {
       "id": "accademia-t2",
@@ -1412,7 +1496,7 @@
       "owner_ids": [
         "t2"
       ],
-      "barcode_type": "PDF417",
+      "barcode_type": "QR",
       "nominal": true,
       "id_required": true,
       "entry_window": 15,
@@ -1428,7 +1512,13 @@
           "caption": "Yongtong 的 PDF417 条码(票面顶部)"
         }
       ],
-      "notes": "Pass 48h:学院美术馆+巴杰罗博物馆(Museo del Bargello);学院美术馆入场窗口 17:15-17:30(10/2);持票人 XIE YONGTONG;Cod.Cliente 24189589;€30 含 €4 预约费;美术馆 18:50 闭馆,入内直奔大卫像;实名票请带证件"
+      "notes": "Pass 48h:学院美术馆+巴杰罗博物馆(Museo del Bargello);学院美术馆入场窗口 17:15-17:30(10/2);持票人 XIE YONGTONG;Cod.Cliente 24189589;€30 含 €4 预约费;美术馆 18:50 闭馆,入内直奔大卫像;实名票请带证件",
+      "pages": [
+        {
+          "file": "accademia-t2-page-1.jpg",
+          "caption": "完整票面(Pass 48h 含巴杰罗)"
+        }
+      ]
     },
     {
       "id": "accademia-t3",
@@ -1439,7 +1529,7 @@
       "owner_ids": [
         "t3"
       ],
-      "barcode_type": "PDF417",
+      "barcode_type": "QR",
       "nominal": true,
       "id_required": true,
       "entry_window": 15,
@@ -1455,7 +1545,13 @@
           "caption": "Mingxin 的 PDF417 条码(票面顶部)"
         }
       ],
-      "notes": "Pass 48h:学院美术馆+巴杰罗博物馆(Museo del Bargello);学院美术馆入场窗口 17:15-17:30(10/2);持票人 YUAN MINGXIN;Cod.Cliente 24189589;€30 含 €4 预约费;美术馆 18:50 闭馆,入内直奔大卫像;实名票请带证件"
+      "notes": "Pass 48h:学院美术馆+巴杰罗博物馆(Museo del Bargello);学院美术馆入场窗口 17:15-17:30(10/2);持票人 YUAN MINGXIN;Cod.Cliente 24189589;€30 含 €4 预约费;美术馆 18:50 闭馆,入内直奔大卫像;实名票请带证件",
+      "pages": [
+        {
+          "file": "accademia-t3-page-1.jpg",
+          "caption": "完整票面(Pass 48h 含巴杰罗)"
+        }
+      ]
     },
     {
       "id": "accademia-t4",
@@ -1466,7 +1562,7 @@
       "owner_ids": [
         "t4"
       ],
-      "barcode_type": "PDF417",
+      "barcode_type": "QR",
       "nominal": true,
       "id_required": true,
       "entry_window": 15,
@@ -1482,7 +1578,13 @@
           "caption": "Chiu Yan 的 PDF417 条码(票面顶部)"
         }
       ],
-      "notes": "Pass 48h:学院美术馆+巴杰罗博物馆(Museo del Bargello);学院美术馆入场窗口 17:15-17:30(10/2);持票人 CHIU YAN LUI;Cod.Cliente 24189589;€30 含 €4 预约费;美术馆 18:50 闭馆,入内直奔大卫像;实名票请带证件"
+      "notes": "Pass 48h:学院美术馆+巴杰罗博物馆(Museo del Bargello);学院美术馆入场窗口 17:15-17:30(10/2);持票人 CHIU YAN LUI;Cod.Cliente 24189589;€30 含 €4 预约费;美术馆 18:50 闭馆,入内直奔大卫像;实名票请带证件",
+      "pages": [
+        {
+          "file": "accademia-t4-page-1.jpg",
+          "caption": "完整票面(Pass 48h 含巴杰罗)"
+        }
+      ]
     },
     {
       "id": "uffizi-t1",
@@ -1493,7 +1595,7 @@
       "owner_ids": [
         "t1"
       ],
-      "barcode_type": "PDF417",
+      "barcode_type": "QR",
       "nominal": true,
       "id_required": true,
       "entry_window": null,
@@ -1509,7 +1611,13 @@
           "caption": "Zhengyang 的 PDF417 条码"
         }
       ],
-      "notes": "Passepartout 5 日票 €40:乌菲兹+皮蒂宫+波波里花园各 1 次;乌菲兹入场 10/2 11:30;首次使用后 5 日内有效(皮蒂/波波里可 10/2 下午用);持票人 ZHENGYANG JIN;实名票票证不符拒入;大件背包须寄存"
+      "notes": "Passepartout 5 日票 €40:乌菲兹+皮蒂宫+波波里花园各 1 次;乌菲兹入场 10/2 11:30;首次使用后 5 日内有效(皮蒂/波波里可 10/2 下午用);持票人 ZHENGYANG JIN;实名票票证不符拒入;大件背包须寄存",
+      "pages": [
+        {
+          "file": "uffizi-t1-page-1.jpg",
+          "caption": "完整票面(Passepartout 5 日通票含皮蒂+波波里)"
+        }
+      ]
     },
     {
       "id": "uffizi-t2",
@@ -1520,7 +1628,7 @@
       "owner_ids": [
         "t2"
       ],
-      "barcode_type": "PDF417",
+      "barcode_type": "QR",
       "nominal": true,
       "id_required": true,
       "entry_window": null,
@@ -1536,7 +1644,13 @@
           "caption": "Yongtong 的 PDF417 条码"
         }
       ],
-      "notes": "Passepartout 5 日票 €40:乌菲兹+皮蒂宫+波波里花园各 1 次;乌菲兹入场 10/2 11:30;首次使用后 5 日内有效(皮蒂/波波里可 10/2 下午用);持票人 XIE YONGTONG;实名票票证不符拒入;大件背包须寄存"
+      "notes": "Passepartout 5 日票 €40:乌菲兹+皮蒂宫+波波里花园各 1 次;乌菲兹入场 10/2 11:30;首次使用后 5 日内有效(皮蒂/波波里可 10/2 下午用);持票人 XIE YONGTONG;实名票票证不符拒入;大件背包须寄存",
+      "pages": [
+        {
+          "file": "uffizi-t2-page-1.jpg",
+          "caption": "完整票面(Passepartout 5 日通票含皮蒂+波波里)"
+        }
+      ]
     },
     {
       "id": "uffizi-t3",
@@ -1547,7 +1661,7 @@
       "owner_ids": [
         "t3"
       ],
-      "barcode_type": "PDF417",
+      "barcode_type": "QR",
       "nominal": true,
       "id_required": true,
       "entry_window": null,
@@ -1563,7 +1677,13 @@
           "caption": "Mingxin 的 PDF417 条码"
         }
       ],
-      "notes": "Passepartout 5 日票 €40:乌菲兹+皮蒂宫+波波里花园各 1 次;乌菲兹入场 10/2 11:30;首次使用后 5 日内有效(皮蒂/波波里可 10/2 下午用);持票人 YUAN MINGXIN;实名票票证不符拒入;大件背包须寄存"
+      "notes": "Passepartout 5 日票 €40:乌菲兹+皮蒂宫+波波里花园各 1 次;乌菲兹入场 10/2 11:30;首次使用后 5 日内有效(皮蒂/波波里可 10/2 下午用);持票人 YUAN MINGXIN;实名票票证不符拒入;大件背包须寄存",
+      "pages": [
+        {
+          "file": "uffizi-t3-page-1.jpg",
+          "caption": "完整票面(Passepartout 5 日通票含皮蒂+波波里)"
+        }
+      ]
     },
     {
       "id": "uffizi-t4",
@@ -1574,7 +1694,7 @@
       "owner_ids": [
         "t4"
       ],
-      "barcode_type": "PDF417",
+      "barcode_type": "QR",
       "nominal": true,
       "id_required": true,
       "entry_window": null,
@@ -1590,7 +1710,13 @@
           "caption": "Chiu Yan 的 PDF417 条码"
         }
       ],
-      "notes": "Passepartout 5 日票 €40:乌菲兹+皮蒂宫+波波里花园各 1 次;乌菲兹入场 10/2 11:30;首次使用后 5 日内有效(皮蒂/波波里可 10/2 下午用);持票人 CHIU YAN LUI;实名票票证不符拒入;大件背包须寄存"
+      "notes": "Passepartout 5 日票 €40:乌菲兹+皮蒂宫+波波里花园各 1 次;乌菲兹入场 10/2 11:30;首次使用后 5 日内有效(皮蒂/波波里可 10/2 下午用);持票人 CHIU YAN LUI;实名票票证不符拒入;大件背包须寄存",
+      "pages": [
+        {
+          "file": "uffizi-t4-page-1.jpg",
+          "caption": "完整票面(Passepartout 5 日通票含皮蒂+波波里)"
+        }
+      ]
     },
     {
       "id": "rental-recordgo",
@@ -1619,7 +1745,13 @@
           "caption": "Just Go Box 取车 QR(帕尔马机场 T0 层)"
         }
       ],
-      "notes": "订单 75/2026-89406,客户/主驾 Mingxin(取车需本人证件+信用卡);奔驰 V 级(PVAR 组);€135.39 已全付含 Total Comfort 全险+补充险,不限里程;满油取还:机场 10 公里内加满并保留加油小票,否则按 1/8 箱油+€24 手续费扣费;取车航站楼 Level 0 Just Go Box,还车机场停车场 Drop-offs 柜台;⚠ 中国驾照须配西语宣誓翻译认证件(租租车 App 在线生成、彩印即用,出发前打印 2 份)——无翻译件柜台可拒发车、出险保险可拒赔"
+      "notes": "订单 75/2026-89406,客户/主驾 Mingxin(取车需本人证件+信用卡);奔驰 V 级(PVAR 组);€135.39 已全付含 Total Comfort 全险+补充险,不限里程;满油取还:机场 10 公里内加满并保留加油小票,否则按 1/8 箱油+€24 手续费扣费;取车航站楼 Level 0 Just Go Box,还车机场停车场 Drop-offs 柜台;⚠ 中国驾照须配西语宣誓翻译认证件(租租车 App 在线生成、彩印即用,出发前打印 2 份)——无翻译件柜台可拒发车、出险保险可拒赔",
+      "pages": [
+        {
+          "file": "rental-recordgo-page-1.jpg",
+          "caption": "租车凭证整单(取还车/车型/保险条款)"
+        }
+      ]
     }
   ],
   "lodging": [
@@ -1914,8 +2046,15 @@
     {
       "id": "bc3",
       "category": "保险单",
-      "title": "申根旅行保险单(4 人)",
-      "detail": "待用户提供后补录"
+      "title": "平安境外旅行险保单(金正阳/谢永彤)",
+      "detail": "平安支付宝无忧保·境外旅行险(申根计划),保单号 1120…4958(完整号见保单图);保险期间 2026-09-23 00:00 至 2026-10-07 24:00(北京时间,覆盖全程含回程落地);医疗补偿(门急诊+住院,0 免赔/100% 赔付)¥100 万、医疗运送送返 ¥100 万、意外身故伤残 ¥100 万、旅行证件重置 ¥3 万、行李损失 ¥5000、航班延误每 4 小时 ¥300;24 小时救援 +86-755-95511;原件存 docs/保险/(用户 2026-09-22 提供);图含保单页+被保险人清单页",
+      "image": "misc-insurance-1.png"
+    },
+    {
+      "id": "bc3b",
+      "category": "保险单",
+      "title": "申根旅行保险单(Mingxin/Chiu Yan)",
+      "detail": "⚠ bc3 保单仅含金正阳/谢永彤 2 人;Mingxin、Chiu Yan 未在任何已入库保单中,待用户提供另单或出发前补购(用户 2026-09-22 确认待查)"
     },
     {
       "id": "bc4",
@@ -2040,6 +2179,11 @@
       "id": "em7",
       "label": "驻米兰总领馆领保",
       "value": "+39-3242616666"
+    },
+    {
+      "id": "em8",
+      "label": "平安保险 24h 全球救援(境外医疗)",
+      "value": "+86-755-95511"
     }
   ]
 }
