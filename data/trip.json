@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 21,
-    "generated_at": "2026-09-23T16:56:16+08:00",
+    "data_version": 22,
+    "generated_at": "2026-09-23T20:15:00+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -1164,7 +1164,7 @@
           "time": "全天",
           "name": "斗兽场+古罗马广场+帕拉蒂尼山",
           "type": "sight",
-          "summary": "官网抢票中(用户 9/20):目标竞技场地面(IL Monte.../Arena 层)或地下层(Underground/Belvedere)场次;抢到后发我入库",
+          "summary": "已出票:官网 Full Experience 地下层+竞技场(9/30 12:30 场次,4 人各一码,强实名带护照原件);古罗马广场+帕拉蒂诺山 9/29-10/1 任一日有效",
           "location": {
             "name": "Colosseo",
             "lat": 41.8902,
@@ -1223,7 +1223,13 @@
                 "cost": "€10-12"
               }
             ]
-          }
+          },
+          "ticket_ids": [
+            "colosseo-t1",
+            "colosseo-t2",
+            "colosseo-t3",
+            "colosseo-t4"
+          ]
         },
         {
           "id": "d08-i02",
@@ -2866,6 +2872,138 @@
         {
           "file": "rental-recordgo-page-1.jpg",
           "caption": "租车凭证整单(取还车/车型/保险条款)"
+        }
+      ]
+    },
+    {
+      "id": "colosseo-t1",
+      "name": "斗兽场·Full Experience 地下+竞技场(Zhengyang)",
+      "date": "2026-09-30",
+      "time": "12:30",
+      "type": "personal",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": null,
+      "late_policy": "迟到作废,斗兽场仅可预订时刻入场",
+      "order_no": "GPCON4GEZ5BP57A5",
+      "platform": "官网 ticketing.colosseo.it",
+      "batch": "GPCON4GEZ5BP57A5",
+      "barcode_type": "QR",
+      "owner_ids": [
+        "t1"
+      ],
+      "exchange_required": null,
+      "notes": "强实名:入场出示护照原件,姓名须与票一致;斗兽场 12:30 地下层场次,建议提前 20-30 分钟到检票口;Full Experience 含一层+二层+地下层+竞技场;票 2 天有效:古罗马广场+帕拉蒂诺山可在 9/29-10/1 任一日进入;大件包禁入(≤30×40cm,无寄存)",
+      "images": [
+        {
+          "file": "colosseo-t1-1.png",
+          "caption": "Zhengyang 的入场 QR",
+          "owner_id": "t1"
+        }
+      ],
+      "pages": [
+        {
+          "file": "colosseo-t1-page-1.jpg",
+          "caption": "完整票面(Full Experience 含地下层导览 8€)"
+        }
+      ]
+    },
+    {
+      "id": "colosseo-t2",
+      "name": "斗兽场·Full Experience 地下+竞技场(Yongtong)",
+      "date": "2026-09-30",
+      "time": "12:30",
+      "type": "personal",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": null,
+      "late_policy": "迟到作废,斗兽场仅可预订时刻入场",
+      "order_no": "GPCON4GEZ5BP57A5",
+      "platform": "官网 ticketing.colosseo.it",
+      "batch": "GPCON4GEZ5BP57A5",
+      "barcode_type": "QR",
+      "owner_ids": [
+        "t2"
+      ],
+      "exchange_required": null,
+      "notes": "强实名:入场出示护照原件,姓名须与票一致;斗兽场 12:30 地下层场次,建议提前 20-30 分钟到检票口;Full Experience 含一层+二层+地下层+竞技场;票 2 天有效:古罗马广场+帕拉蒂诺山可在 9/29-10/1 任一日进入;大件包禁入(≤30×40cm,无寄存)",
+      "images": [
+        {
+          "file": "colosseo-t2-1.png",
+          "caption": "Yongtong 的入场 QR",
+          "owner_id": "t2"
+        }
+      ],
+      "pages": [
+        {
+          "file": "colosseo-t2-page-1.jpg",
+          "caption": "完整票面(Full Experience 含地下层导览 8€)"
+        }
+      ]
+    },
+    {
+      "id": "colosseo-t3",
+      "name": "斗兽场·Full Experience 地下+竞技场(Mingxin)",
+      "date": "2026-09-30",
+      "time": "12:30",
+      "type": "personal",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": null,
+      "late_policy": "迟到作废,斗兽场仅可预订时刻入场",
+      "order_no": "GPCON4GEZ5BP57A5",
+      "platform": "官网 ticketing.colosseo.it",
+      "batch": "GPCON4GEZ5BP57A5",
+      "barcode_type": "QR",
+      "owner_ids": [
+        "t3"
+      ],
+      "exchange_required": null,
+      "notes": "强实名:入场出示护照原件,姓名须与票一致;斗兽场 12:30 地下层场次,建议提前 20-30 分钟到检票口;Full Experience 含一层+二层+地下层+竞技场;票 2 天有效:古罗马广场+帕拉蒂诺山可在 9/29-10/1 任一日进入;大件包禁入(≤30×40cm,无寄存)",
+      "images": [
+        {
+          "file": "colosseo-t3-1.png",
+          "caption": "Mingxin 的入场 QR",
+          "owner_id": "t3"
+        }
+      ],
+      "pages": [
+        {
+          "file": "colosseo-t3-page-1.jpg",
+          "caption": "完整票面(Full Experience 含地下层导览 8€)"
+        }
+      ]
+    },
+    {
+      "id": "colosseo-t4",
+      "name": "斗兽场·Full Experience 地下+竞技场(Chiu Yan)",
+      "date": "2026-09-30",
+      "time": "12:30",
+      "type": "personal",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": null,
+      "late_policy": "迟到作废,斗兽场仅可预订时刻入场",
+      "order_no": "GPCON4GEZ5BP57A5",
+      "platform": "官网 ticketing.colosseo.it",
+      "batch": "GPCON4GEZ5BP57A5",
+      "barcode_type": "QR",
+      "owner_ids": [
+        "t4"
+      ],
+      "exchange_required": null,
+      "notes": "强实名:入场出示护照原件,姓名须与票一致;斗兽场 12:30 地下层场次,建议提前 20-30 分钟到检票口;Full Experience 含一层+二层+地下层+竞技场;票 2 天有效:古罗马广场+帕拉蒂诺山可在 9/29-10/1 任一日进入;大件包禁入(≤30×40cm,无寄存);⚠ 票面姓名为\"YANLUI CHIU\"(姓前名后),与证件\"CHIU YAN LUI\"语序不同,现场沟通出示",
+      "images": [
+        {
+          "file": "colosseo-t4-1.png",
+          "caption": "Chiu Yan 的入场 QR",
+          "owner_id": "t4"
+        }
+      ],
+      "pages": [
+        {
+          "file": "colosseo-t4-page-1.jpg",
+          "caption": "完整票面(Full Experience 含地下层导览 8€)"
         }
       ]
     }
