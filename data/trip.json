@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 24,
-    "generated_at": "2026-09-23T21:34:25+08:00",
+    "data_version": 25,
+    "generated_at": "2026-09-23T22:10:05+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -193,7 +193,7 @@
             },
             {
               "title": "必看动线",
-              "text": "Escalera de Sabatini(大台阶)→Sala de Alabarderos(戟兵厅)→Salón del Trono(王座厅)→Salón de Gasparini(加斯帕里尼厅)→Comedor de Gala(宴会厅),一条线走完不回头,全程约 1-1.5 小时。"
+              "text": "Escalera de Sabatini(大台阶)→Sala de Alabarderos(戟兵厅)→Sala de Columnas(柱厅)→Salón de los Espejos(镜厅)→Gabinete de Porcelana(瓷厅)→Salón del Trono(王座厅)→Cámara de Carlos III(卡洛斯三世私室)→Salón de Gasparini(加斯帕里尼厅)→Comedor de Gala(宴会厅)→Sala de Música(音乐室),官方一条线走完不回头,全程约 1-1.5 小时。"
             },
             {
               "title": "王座厅",
