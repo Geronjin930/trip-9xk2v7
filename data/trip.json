@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 26,
-    "generated_at": "2026-09-23T22:25:31+08:00",
+    "data_version": 27,
+    "generated_at": "2026-09-23T22:34:19+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -189,7 +189,7 @@
           "visit_guide": [
             {
               "title": "购票与入口",
-              "text": "官网 tickets.patrimonionacional.es 选时段约 €14/人;2026-08 起入口改在 Almudena 大教堂一侧的新游客中心(散客/团队分口,含安检寄存);周一至周四 16:00-18:00 有免费时段但排长队——16:30 要进普拉多,直接买票更稳。"
+              "text": "官网 tickets.patrimonionacional.es 选时段约 €14/人;2026-08 起入口改在 Almudena 大教堂一侧的新游客中心(散客/团队分口,含安检寄存);周一至周四闭馆前两小时免费(夏令 17:00-19:00/冬季 16:00-18:00)但排长队——赶行程直接买票更稳。"
             },
             {
               "title": "动线已重排",
@@ -301,6 +301,10 @@
             {
               "title": "人间乐园",
               "text": "博施在西班牙叫 El Bosco:《人间乐园》(El jardín de las delicias)在零层,天堂-尘世-地狱三段,凑近看满是奇幻细节,全馆最耐看。"
+            },
+            {
+              "title": "2026新展陈",
+              "text": "2026-04 起 18 世纪厅重排(salas 85-94):戈雅挂毯画稿(cartones para tapiz,《阳伞》等)多年后首次成组集中展出,喜欢戈雅别错过。"
             },
             {
               "title": "提示",
@@ -1311,7 +1315,7 @@
             },
             {
               "title": "登穹顶",
-              "text": "cupola 售票处在教堂外右侧(约 €8 走 551 级/€10 电梯后仍需约 320 级);环形通道要弯腰走,顶上俯瞰钥匙形广场(Piazza San Pietro)。"
+              "text": "cupola 可现场购票(安检后门廊右侧)或官网 booking.basilicasanpietro.va 预订;2025 年底起约 €17(步行 551 级)/€22(电梯后仍需约 320 级);环形通道要弯腰走,顶上俯瞰钥匙形广场(Piazza San Pietro)。"
             },
             {
               "title": "地下墓穴",
@@ -1687,7 +1691,7 @@
           "visit_guide": [
             {
               "title": "免费入内",
-              "text": "大殿(Cattedrale di Santa Maria del Fiore)本体免费,队伍看着长、走得快;殿内看瓦萨里(Vasari)《末日审判》(Giudizio Universale)穹顶画+北侧大圆窗光斑。"
+              "text": "大殿(Cattedrale di Santa Maria del Fiore)本体免费(2026 年仍免费);游客入殿时段约 10:15-15:45、周日不开放,行程 10/2 周五不受影响;殿内看瓦萨里(Vasari)《末日审判》(Giudizio Universale)穹顶画+北侧大圆窗光斑。"
             },
             {
               "title": "大理石地面",
@@ -1764,7 +1768,7 @@
             },
             {
               "title": "波提切利厅",
-              "text": "Sala di Botticelli:《维纳斯的诞生》(Nascita di Venere)与《春》(Primavera)并列,乌菲兹的高光;人多,先直奔这里再回头补前面。"
+              "text": "Sala di Botticelli(2026-06 全新重开):《维纳斯的诞生》(Nascita di Venere)与《春》(Primavera)如今面对面相挂,文艺复兴灰墙新展陈;人多,先直奔这里再回头补前面。"
             },
             {
               "title": "别漏",
