@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 20,
-    "generated_at": "2026-09-23T00:06:46+08:00",
+    "data_version": 21,
+    "generated_at": "2026-09-23T16:56:16+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -108,7 +108,7 @@
           "type": "transport",
           "summary": "海南航空 HU727 · CKG T3 02:25 → MAD T1 08:55,4 人已出票(前夜广州→重庆段不在本行程内)",
           "details": "两段航班接驳。抵达当天直接开始市区游览,行李可先寄存酒店(入住 15:00 后)。",
-          "tips": "入境备好护照+回程机票+住宿订单;马德里与国内时差 6 小时(夏令时)",
+          "tips": "入境备好护照+回程机票+住宿订单;马德里与国内时差 6 小时(夏令时);落地进城:T1 乘地铁 L8→Nuevos Ministerios 转 L10→Plaza de España(约 35 分钟,机场补价后约 €5/人),或打车机场固定价约 €33/25-30 分钟,4 人一车更划算",
           "end_time": "08:55"
         },
         {
@@ -133,7 +133,19 @@
               "caption": "面包房之家立面壁画"
             }
           ],
-          "photo_note": "马约尔广场红墙+暗金壁画背景,白天顺光;红/酒红/墨绿系出片,白衬衫拍壁画也干净。熊雕像在太阳门广场,人多需排队凹造型"
+          "photo_note": "马约尔广场红墙+暗金壁画背景,白天顺光;红/酒红/墨绿系出片,白衬衫拍壁画也干净。熊雕像在太阳门广场,人多需排队凹造型",
+          "transfer": {
+            "from": "Colectia Stays Gran Vía(先寄存行李)",
+            "recommend": "walk",
+            "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 750,
+                "min": 10,
+                "note": "沿 Calle del Arenal 经 Sol 广场直行"
+              }
+            ]
+          }
         },
         {
           "id": "d01-i03",
@@ -161,7 +173,19 @@
               "caption": "阿尔穆德纳内部金色祭坛"
             }
           ],
-          "photo_note": "王宫白色立面+广场开阔,深色或饱和色显轮廓;内部不能拍照的区域注意标识。阿尔穆德纳内部蓝金穹顶仰拍很出片,避开大地色"
+          "photo_note": "王宫白色立面+广场开阔,深色或饱和色显轮廓;内部不能拍照的区域注意标识。阿尔穆德纳内部蓝金穹顶仰拍很出片,避开大地色",
+          "transfer": {
+            "from": "马约尔广场",
+            "recommend": "walk",
+            "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 800,
+                "min": 11,
+                "note": "沿 Calle de Bailén 上坡直行,先到阿尔穆德纳大教堂"
+              }
+            ]
+          }
         },
         {
           "id": "d01-i04",
@@ -194,7 +218,35 @@
               "caption": "展厅一隅"
             }
           ],
-          "photo_note": "馆内红墙金框+大理石,光偏暖偏暗;素色长裙/深色系与古典油画背景最融合;看展禁闪光,宫娥厅人多"
+          "photo_note": "馆内红墙金框+大理石,光偏暖偏暗;素色长裙/深色系与古典油画背景最融合;看展禁闪光,宫娥厅人多",
+          "transfer": {
+            "from": "马德里王宫",
+            "recommend": "taxi",
+            "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 2300,
+                "min": 30,
+                "note": "Calle Mayor→Sol→Carrera de San Jerónimo 一路直行"
+              },
+              {
+                "mode": "metro",
+                "line": "L2",
+                "board": "Ópera",
+                "alight": "Banco de España",
+                "min": 25,
+                "cost": "约€1.5-2/人",
+                "stops": 4,
+                "note": "含两端步行约 750 米,车上 4 站 10 分钟"
+              },
+              {
+                "mode": "taxi",
+                "min": 9,
+                "cost": "€7-8",
+                "note": "4 人一车,人均与地铁相当"
+              }
+            ]
+          }
         },
         {
           "id": "d01-i05",
@@ -208,7 +260,35 @@
             "lat": 40.4242,
             "lng": -3.7168
           },
-          "tips": "日落时段人多,提前占好机位"
+          "tips": "日落时段人多,提前占好机位",
+          "transfer": {
+            "from": "普拉多博物馆",
+            "recommend": "taxi",
+            "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 3000,
+                "min": 40,
+                "note": "经 Gran Vía 走过去,有缓坡"
+              },
+              {
+                "mode": "metro",
+                "line": "L2 转 L3",
+                "board": "Banco de España",
+                "alight": "Plaza de España",
+                "min": 25,
+                "cost": "约€1.5-2/人",
+                "stops": 5,
+                "note": "Sol 站内换乘 L3;出站步行 550 米上坡到神庙"
+              },
+              {
+                "mode": "taxi",
+                "min": 11,
+                "cost": "€8-9"
+              }
+            ],
+            "note": "看完日落约 20:40 回酒店:步行 1.3 公里/17 分钟(Gran Vía 直行),或打车约 €6"
+          }
         }
       ]
     },
@@ -241,7 +321,25 @@
           "end_time": "12:00",
           "name": "午餐:Santa Cruz 区",
           "type": "meal",
-          "summary": "10:39 到站后先到 Letoh Letoh 寄存行李,再前往 Santa Cruz 午餐"
+          "summary": "10:39 到站后先到 Letoh Letoh 寄存行李,再前往 Santa Cruz 午餐",
+          "transfer": {
+            "from": "塞维利亚 Santa Justa 车站",
+            "recommend": "taxi",
+            "modes": [
+              {
+                "mode": "taxi",
+                "min": 10,
+                "cost": "€8-9",
+                "note": "先打车到 Letoh Letoh 寄存行李;再步行 1.1 公里/15 分钟进 Santa Cruz 老城"
+              },
+              {
+                "mode": "walk",
+                "dist_m": 1600,
+                "min": 21,
+                "note": "全程步行,拖行李不推荐"
+              }
+            ]
+          }
         },
         {
           "id": "d02-i03",
@@ -278,7 +376,18 @@
               "caption": "内部金色主祭坛"
             }
           ],
-          "photo_note": "哥特内部高耸偏暗,金色主祭坛是绝佳背景,深色/金色系呼应;吉拉尔达塔登顶俯瞰全城,塔顶风大注意发型裙摆"
+          "photo_note": "哥特内部高耸偏暗,金色主祭坛是绝佳背景,深色/金色系呼应;吉拉尔达塔登顶俯瞰全城,塔顶风大注意发型裙摆",
+          "transfer": {
+            "from": "Santa Cruz 午餐",
+            "recommend": "walk",
+            "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 350,
+                "min": 5
+              }
+            ]
+          }
         },
         {
           "id": "d02-i04",
@@ -337,7 +446,19 @@
               "caption": "摩尔风格雕花拱门"
             }
           ],
-          "photo_note": "少女庭院蓝金瓷砖拱廊+倒影水池,蓝色系/白色最佳,全程最出片机位之一;花园绿植棕榈背景,大地色易融入,建议亮色"
+          "photo_note": "少女庭院蓝金瓷砖拱廊+倒影水池,蓝色系/白色最佳,全程最出片机位之一;花园绿植棕榈背景,大地色易融入,建议亮色",
+          "transfer": {
+            "from": "塞维利亚大教堂",
+            "recommend": "walk",
+            "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 450,
+                "min": 6,
+                "note": "狮子门(Puerta del León)就在大教堂出口广场旁"
+              }
+            ]
+          }
         },
         {
           "id": "d02-i06",
@@ -370,7 +491,19 @@
               "caption": "斗牛士与粉红斗篷"
             }
           ],
-          "photo_note": "黄沙场地+红砖拱廊看台,色彩对比强;红/白/黑经典西班牙配色;novillada 傍晚场光线偏暖,看台风大"
+          "photo_note": "黄沙场地+红砖拱廊看台,色彩对比强;红/白/黑经典西班牙配色;novillada 傍晚场光线偏暖,看台风大",
+          "transfer": {
+            "from": "塞维利亚王宫",
+            "recommend": "walk",
+            "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 1000,
+                "min": 13,
+                "note": "出王宫经 Puerta Jerez 沿河滨(Paseo de Cristóbal Colón)直行"
+              }
+            ]
+          }
         }
       ]
     },
@@ -399,6 +532,37 @@
             "name": "Novotel Barcelona City",
             "lat": 41.3966,
             "lng": 2.1977
+          },
+          "transfer": {
+            "from": "巴塞罗那 T2 机场",
+            "recommend": "taxi",
+            "modes": [
+              {
+                "mode": "taxi",
+                "min": 28,
+                "cost": "€30-35",
+                "note": "4 人一车+4 件托运,最省事"
+              },
+              {
+                "mode": "train",
+                "line": "R2 Nord",
+                "board": "Aeroport T2",
+                "alight": "Passeig de Gràcia",
+                "min": 27,
+                "cost": "约€4.5/人",
+                "note": "下车后打车约 €7/7 分钟到酒店"
+              },
+              {
+                "mode": "bus",
+                "line": "Aerobus A2",
+                "board": "T2",
+                "alight": "Plaça de Catalunya",
+                "min": 35,
+                "cost": "€7.3/人",
+                "note": "再转地铁 L1 至 Glòries+步行 6 分钟"
+              }
+            ],
+            "note": "12:05 落地,取完行李约 12:30 出发"
           }
         },
         {
@@ -433,7 +597,34 @@
               "caption": "哥特区窄巷"
             }
           ],
-          "photo_note": "兰布拉林荫光斑好看;哥特区窄巷石墙偏暗,白/亮色对比强;博盖利亚市场彩色摊位超上镜,顺路即可拍"
+          "photo_note": "兰布拉林荫光斑好看;哥特区窄巷石墙偏暗,白/亮色对比强;博盖利亚市场彩色摊位超上镜,顺路即可拍",
+          "transfer": {
+            "from": "Novotel Barcelona City",
+            "recommend": "metro",
+            "modes": [
+              {
+                "mode": "metro",
+                "line": "L1",
+                "board": "Glòries",
+                "alight": "Catalunya",
+                "min": 15,
+                "cost": "€2.55/人",
+                "stops": 4,
+                "note": "含到站步行约 350 米"
+              },
+              {
+                "mode": "walk",
+                "dist_m": 3300,
+                "min": 45,
+                "note": "不推荐"
+              },
+              {
+                "mode": "taxi",
+                "min": 9,
+                "cost": "€9-10"
+              }
+            ]
+          }
         },
         {
           "id": "d03-i04",
@@ -446,6 +637,25 @@
             "name": "Port Olímpic",
             "lat": 41.3866,
             "lng": 2.1949
+          },
+          "transfer": {
+            "from": "哥特区(大教堂)",
+            "recommend": "taxi",
+            "modes": [
+              {
+                "mode": "taxi",
+                "min": 9,
+                "cost": "€8-10",
+                "note": "17:30 出发,9 分钟车程"
+              },
+              {
+                "mode": "walk",
+                "dist_m": 2800,
+                "min": 37,
+                "note": "沿兰布拉大道向南到哥伦布塔,再沿海滨向东"
+              }
+            ],
+            "note": "晚餐后回 Novotel:海滨步道步行 1.5 公里/20 分钟,或打车 €7-8"
           }
         }
       ]
@@ -485,7 +695,35 @@
               "caption": "高迪风格门厅"
             }
           ],
-          "photo_note": "屋顶石浪烟囱+黄昏天际线,拍剪影穿深色或纯白都好;内部曲线走廊乳白色系,柔和光"
+          "photo_note": "屋顶石浪烟囱+黄昏天际线,拍剪影穿深色或纯白都好;内部曲线走廊乳白色系,柔和光",
+          "transfer": {
+            "from": "Novotel Barcelona City",
+            "recommend": "taxi",
+            "modes": [
+              {
+                "mode": "taxi",
+                "min": 12,
+                "cost": "€9-11",
+                "note": "早高峰留裕量,赶 08:30 中文导览早场"
+              },
+              {
+                "mode": "metro",
+                "line": "L1 转 L4",
+                "board": "Glòries",
+                "alight": "Verdaguer",
+                "min": 35,
+                "cost": "€2.55/人",
+                "stops": 5,
+                "note": "Urquinaona 站内换乘 L4;出站步行 550 米"
+              },
+              {
+                "mode": "walk",
+                "dist_m": 3900,
+                "min": 51,
+                "note": "不推荐"
+              }
+            ]
+          }
         },
         {
           "id": "d04-i02",
@@ -533,7 +771,34 @@
               "caption": "夜景航拍"
             }
           ],
-          "photo_note": "内部彩窗光柱:上午偏蓝冷、傍晚偏金橙;穿纯白/黑色让光线当主角最出片;仰拍穹顶人像易逆光;外观塔尖可拍全景"
+          "photo_note": "内部彩窗光柱:上午偏蓝冷、傍晚偏金橙;穿纯白/黑色让光线当主角最出片;仰拍穹顶人像易逆光;外观塔尖可拍全景",
+          "transfer": {
+            "from": "米拉之家",
+            "recommend": "walk",
+            "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 1800,
+                "min": 24,
+                "note": "沿 Carrer de Provença 直行即到,顺路看恩典区街景"
+              },
+              {
+                "mode": "metro",
+                "line": "L5",
+                "board": "Diagonal",
+                "alight": "Sagrada Família",
+                "min": 20,
+                "cost": "€2.55/人",
+                "stops": 2,
+                "note": "含两端步行约 900 米"
+              },
+              {
+                "mode": "taxi",
+                "min": 7,
+                "cost": "€7-8"
+              }
+            ]
+          }
         },
         {
           "id": "d04-i03",
@@ -560,7 +825,24 @@
               "caption": "红砖主楼与彩瓷圆顶"
             }
           ],
-          "photo_note": "红砖+彩色瓷砖圆顶,蓝白花砖与天色呼应,亮蓝/白色最搭;庭院游人少,好拍"
+          "photo_note": "红砖+彩色瓷砖圆顶,蓝白花砖与天色呼应,亮蓝/白色最搭;庭院游人少,好拍",
+          "transfer": {
+            "from": "圣家堂(午餐后)",
+            "recommend": "walk",
+            "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 1250,
+                "min": 17,
+                "note": "沿 Avinguda de Gaudí 高迪大道直行,一路马赛克路灯座"
+              },
+              {
+                "mode": "taxi",
+                "min": 6,
+                "cost": "€6-7"
+              }
+            ]
+          }
         },
         {
           "id": "d04-i05",
@@ -599,7 +881,35 @@
               "caption": "夜晚外立面投影"
             }
           ],
-          "photo_note": "外观碎瓷马赛克蓝绿渐变,蓝绿系/白色呼应最稳;内部天井蓝色由浅到深向上渐变,避免全身蓝融入背景"
+          "photo_note": "外观碎瓷马赛克蓝绿渐变,蓝绿系/白色呼应最稳;内部天井蓝色由浅到深向上渐变,避免全身蓝融入背景",
+          "transfer": {
+            "from": "圣十字圣保罗医院",
+            "recommend": "metro",
+            "modes": [
+              {
+                "mode": "metro",
+                "line": "L5",
+                "board": "Dos de Maig",
+                "alight": "Verdaguer",
+                "min": 20,
+                "cost": "€2.55/人",
+                "stops": 2,
+                "note": "出站步行 600 米"
+              },
+              {
+                "mode": "walk",
+                "dist_m": 3100,
+                "min": 41,
+                "note": "原路经圣家堂返回"
+              },
+              {
+                "mode": "taxi",
+                "min": 10,
+                "cost": "€8-9"
+              }
+            ],
+            "note": "晚餐后回 Novotel:打车约 €9-10/10 分钟,或地铁 L1 Urquinaona→Glòries+步行 8 分钟"
+          }
         },
         {
           "id": "d04-i07",
@@ -670,7 +980,7 @@
           "type": "transport",
           "summary": "维兹 W46232 · PMI 17:25 → FCO 19:10,4 人已出票",
           "details": "⚠ Home Alex 入住时段 13:00-22:00,时段外到店加收 30 欧(最晚 01:00);FCO 进城 Leonardo Express 约 32 分钟 + 市内接驳,争取 21:30 前到店。",
-          "tips": "推荐官方 App 提前填好入境信息"
+          "tips": "推荐官方 App 提前填好入境信息;落地进城:Leonardo Express 机场→Termini 32 分钟/€14/人+步行 8 分钟到 Home Alex,或打车固定价约 €50/40 分钟(4 人一车含行李,晚班落地推荐)"
         }
       ]
     },
@@ -709,7 +1019,29 @@
               "caption": "天顶画《创造亚当》"
             }
           ],
-          "photo_note": "松果庭院橙墙青铜雕塑出片;西斯廷礼拜堂内部禁止拍照(图仅供行前预览),看展穿搭深色端庄;地图廊金顶华丽"
+          "photo_note": "松果庭院橙墙青铜雕塑出片;西斯廷礼拜堂内部禁止拍照(图仅供行前预览),看展穿搭深色端庄;地图廊金顶华丽",
+          "transfer": {
+            "from": "Home Alex(酒店)",
+            "recommend": "metro",
+            "modes": [
+              {
+                "mode": "metro",
+                "line": "A线",
+                "board": "Termini",
+                "alight": "Ottaviano(San Pietro)",
+                "min": 30,
+                "cost": "€1.5/人",
+                "stops": 6,
+                "note": "酒店步行 8 分钟到 Termini,乘 Battistini 方向 6 站;出站步行 650 米/8 分钟到 Viale Vaticano 入口"
+              },
+              {
+                "mode": "taxi",
+                "min": 18,
+                "cost": "€13-16",
+                "note": "4 人一车,人均约 €4"
+              }
+            ]
+          }
         },
         {
           "id": "d07-i02",
@@ -745,7 +1077,19 @@
               "caption": "青铜华盖与主祭坛"
             }
           ],
-          "photo_note": "教堂内部暖金+大理石白,避开大地色;广场柱廊开阔逆光多,顺光机位在柱廊下;登穹顶楼梯窄,舒适鞋"
+          "photo_note": "教堂内部暖金+大理石白,避开大地色;广场柱廊开阔逆光多,顺光机位在柱廊下;登穹顶楼梯窄,舒适鞋",
+          "transfer": {
+            "from": "梵蒂冈博物馆",
+            "recommend": "walk",
+            "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 600,
+                "min": 8,
+                "note": "沿 Viale Vaticano→Porta Angelica 绕城墙到圣彼得广场右侧柱廊"
+              }
+            ]
+          }
         },
         {
           "id": "d07-i03",
@@ -763,7 +1107,19 @@
               "caption": "圣天使堡夜景"
             }
           ],
-          "photo_note": "城堡夜景灯光+桥上天使雕像剪影,蓝调时刻最出片;傍晚台伯河边风大,备外套"
+          "photo_note": "城堡夜景灯光+桥上天使雕像剪影,蓝调时刻最出片;傍晚台伯河边风大,备外套",
+          "transfer": {
+            "from": "圣彼得大教堂",
+            "recommend": "walk",
+            "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 1300,
+                "min": 17,
+                "note": "Via della Conciliazione 直行过圣天使桥"
+              }
+            ]
+          }
         },
         {
           "id": "d07-i04",
@@ -775,6 +1131,25 @@
             "name": "Pantheon, Roma",
             "lat": 41.8986,
             "lng": 12.4768
+          },
+          "transfer": {
+            "from": "圣天使堡",
+            "recommend": "walk",
+            "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 1300,
+                "min": 17,
+                "note": "经 Corso Vittorio Emanuele II 直行到万神殿"
+              },
+              {
+                "mode": "taxi",
+                "min": 5,
+                "cost": "€6-7",
+                "note": "直达万神殿下车"
+              }
+            ],
+            "note": "万神殿→纳沃纳广场 400 米/5 分钟;→西班牙台阶 1.1 公里/15 分钟;回酒店:地铁 A 线 Spagna→Termini 3 站+步行 8 分钟,或打车 €10-12"
           }
         }
       ]
@@ -822,7 +1197,33 @@
               "caption": "遗址柱廊与游人"
             }
           ],
-          "photo_note": "千年石遗址米黄/土褐色调,红裙/饱和色对比最强(经典游客照位);地面碎石坡道,务必舒适鞋;帕拉蒂尼山远眺斗兽场机位人多需等"
+          "photo_note": "千年石遗址米黄/土褐色调,红裙/饱和色对比最强(经典游客照位);地面碎石坡道,务必舒适鞋;帕拉蒂尼山远眺斗兽场机位人多需等",
+          "transfer": {
+            "from": "Home Alex(酒店)",
+            "recommend": "metro",
+            "modes": [
+              {
+                "mode": "metro",
+                "line": "B线",
+                "board": "Castro Pretorio",
+                "alight": "Colosseo",
+                "min": 12,
+                "cost": "€1.5/人",
+                "stops": 3,
+                "note": "酒店步行 5 分钟到站,3 站 5 分钟;出站即斗兽场"
+              },
+              {
+                "mode": "walk",
+                "dist_m": 2400,
+                "min": 31
+              },
+              {
+                "mode": "taxi",
+                "min": 10,
+                "cost": "€10-12"
+              }
+            ]
+          }
         },
         {
           "id": "d08-i02",
@@ -834,6 +1235,25 @@
             "name": "Trevi Fountain",
             "lat": 41.9009,
             "lng": 12.4833
+          },
+          "transfer": {
+            "from": "斗兽场(古罗马广场)",
+            "recommend": "walk",
+            "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 1800,
+                "min": 24,
+                "note": "经古罗马广场西侧→真理之口"
+              },
+              {
+                "mode": "taxi",
+                "min": 6,
+                "cost": "€7-8",
+                "note": "直接送到特雷维喷泉"
+              }
+            ],
+            "note": "真理之口→特雷维喷泉 1.8 公里/24 分钟;回酒店:步行 1.9 公里,或地铁 A 线 Barberini→Termini+步行 8 分钟"
           }
         }
       ]
@@ -896,7 +1316,35 @@
               "caption": "大教堂内部马赛克穹顶"
             }
           ],
-          "photo_note": "白色大理石+绿草坪,亮色/红色最跳;经典推塔照在草坪取角度,上午人少;洗礼堂蓝天白云作背景也干净"
+          "photo_note": "白色大理石+绿草坪,亮色/红色最跳;经典推塔照在草坪取角度,上午人少;洗礼堂蓝天白云作背景也干净",
+          "transfer": {
+            "from": "比萨 Centrale 车站",
+            "recommend": "taxi",
+            "modes": [
+              {
+                "mode": "taxi",
+                "min": 8,
+                "cost": "€8-10",
+                "note": "4 人一车直达奇迹广场"
+              },
+              {
+                "mode": "bus",
+                "line": "LAM 红线",
+                "board": "Pisa Centrale",
+                "alight": "Torre(Piazza dei Miracoli)",
+                "min": 10,
+                "cost": "约€1.5/人",
+                "note": "约 10 分钟一班"
+              },
+              {
+                "mode": "walk",
+                "dist_m": 2000,
+                "min": 26,
+                "note": "经 Via Roma 老城步行街"
+              }
+            ],
+            "note": "返程同路;回程火车前留 15 分钟余量"
+          }
         },
         {
           "id": "d09-i04",
@@ -904,7 +1352,25 @@
           "end_time": "21:00",
           "name": "入住 Casa di Giotto",
           "type": "free",
-          "summary": "入住 16:00-21:00;不可退款"
+          "summary": "入住 16:00-21:00;不可退款",
+          "transfer": {
+            "from": "Firenze S.M.N. 车站",
+            "recommend": "taxi",
+            "modes": [
+              {
+                "mode": "taxi",
+                "min": 12,
+                "cost": "€10-12",
+                "note": "4 人+行李直达 Casa di Giotto(Via Zanardelli 9)"
+              },
+              {
+                "mode": "walk",
+                "dist_m": 2600,
+                "min": 34,
+                "note": "经 Via Nazionale→Piazza della Libertà,拖行李不推荐"
+              }
+            ]
+          }
         }
       ]
     },
@@ -940,7 +1406,24 @@
               "caption": "立面仰拍"
             }
           ],
-          "photo_note": "白绿粉三色大理石立面,粉/白/绿色系都搭;登穹顶 463 级楼梯窄且陡,裤装+运动鞋为宜,途中可仰拍末日审判壁画"
+          "photo_note": "白绿粉三色大理石立面,粉/白/绿色系都搭;登穹顶 463 级楼梯窄且陡,裤装+运动鞋为宜,途中可仰拍末日审判壁画",
+          "transfer": {
+            "from": "Casa di Giotto(酒店)",
+            "recommend": "walk",
+            "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 1400,
+                "min": 18,
+                "note": "经 Piazza Savonarola→San Marco 广场→大教堂"
+              },
+              {
+                "mode": "taxi",
+                "min": 6,
+                "cost": "€7-8"
+              }
+            ]
+          }
         },
         {
           "id": "d10-i02",
@@ -975,7 +1458,19 @@
               "caption": "天花壁画走廊"
             }
           ],
-          "photo_note": "红墙金框+天花壁画走廊,暖色调浓郁,深绿/酒红/黑色高级;靠窗看老桥的机位光最好"
+          "photo_note": "红墙金框+天花壁画走廊,暖色调浓郁,深绿/酒红/黑色高级;靠窗看老桥的机位光最好",
+          "transfer": {
+            "from": "圣母百花大教堂",
+            "recommend": "walk",
+            "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 750,
+                "min": 10,
+                "note": "Via dei Calzaiuoli 步行街直行"
+              }
+            ]
+          }
         },
         {
           "id": "d10-i05",
@@ -989,7 +1484,19 @@
           },
           "end_time": "16:50",
           "summary": "凭乌菲兹 Passepartout 免费入场(时间紧可选其一:宫殿或花园)",
-          "tips": "乌菲兹出来快速午餐后过阿诺河;17:00 前动身步行回学院美术馆(过桥约 20 分钟)"
+          "tips": "乌菲兹出来快速午餐后过阿诺河;17:00 前动身步行回学院美术馆(过桥约 20 分钟)",
+          "transfer": {
+            "from": "乌菲兹美术馆",
+            "recommend": "walk",
+            "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 700,
+                "min": 9,
+                "note": "过老桥 Ponte Vecchio 即到"
+              }
+            ]
+          }
         },
         {
           "id": "d10-i01",
@@ -1020,7 +1527,25 @@
               "caption": "领主广场大卫复制品"
             }
           ],
-          "photo_note": "大卫像穹顶大厅白色石膏色调,素色简约穿搭呼应文艺复兴气质;馆内禁闪光、人多位窄,轻装"
+          "photo_note": "大卫像穹顶大厅白色石膏色调,素色简约穿搭呼应文艺复兴气质;馆内禁闪光、人多位窄,轻装",
+          "transfer": {
+            "from": "皮蒂宫",
+            "recommend": "taxi",
+            "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 1850,
+                "min": 25,
+                "note": "回程过老桥经 Via dei Neri"
+              },
+              {
+                "mode": "taxi",
+                "min": 7,
+                "cost": "€8-9",
+                "note": "赶 17:15-17:30 入场窗口,出宫即走正合适"
+              }
+            ]
+          }
         },
         {
           "id": "d10-i04",
@@ -1033,7 +1558,26 @@
             "lat": 43.7634,
             "lng": 11.263
           },
-          "end_time": "20:30"
+          "end_time": "20:30",
+          "transfer": {
+            "from": "学院美术馆",
+            "recommend": "taxi",
+            "modes": [
+              {
+                "mode": "taxi",
+                "min": 10,
+                "cost": "€9-11",
+                "note": "直达山顶看 18:55 日落"
+              },
+              {
+                "mode": "walk",
+                "dist_m": 2400,
+                "min": 35,
+                "note": "先经老桥(16 分钟),再 San Niccolò 台阶上山顶(18 分钟),赶不上日落则选打车"
+              }
+            ],
+            "note": "日落后下山步行约 20 分钟,过桥即老城"
+          }
         }
       ]
     },
@@ -1088,7 +1632,32 @@
               "caption": "门洞水巷"
             }
           ],
-          "photo_note": "广场建筑暖金褐色,教堂立面金色马赛克,深色/金色呼应;水巷贡多拉蓝绿水+暖墙,白/红都出片;清晨广场人少光柔"
+          "photo_note": "广场建筑暖金褐色,教堂立面金色马赛克,深色/金色呼应;水巷贡多拉蓝绿水+暖墙,白/红都出片;清晨广场人少光柔",
+          "transfer": {
+            "from": "CX Venice Mestre(寄存行李后)",
+            "recommend": "train",
+            "modes": [
+              {
+                "mode": "train",
+                "line": "区间火车",
+                "board": "Venezia Mestre",
+                "alight": "Venezia Santa Lucia",
+                "min": 40,
+                "cost": "约€1.5/人",
+                "note": "火车 10 分钟班次密集随到随走;出站跟指示牌步行 2 公里/28 分钟到圣马可"
+              },
+              {
+                "mode": "boat",
+                "line": "1/2 号线",
+                "board": "Ferrovia",
+                "alight": "San Marco Vallaresso",
+                "min": 35,
+                "cost": "€9.5/人",
+                "note": "火车站前码头上船,大运河看风景"
+              }
+            ],
+            "note": "主岛全靠步行;若当天还要去穆拉诺(再乘 2 程船),可考虑 24 小时船票 €25/人"
+          }
         },
         {
           "id": "d11-i03",
@@ -1119,7 +1688,23 @@
               "caption": "玻璃制品橱窗"
             }
           ],
-          "photo_note": "玻璃岛以蓝色玻璃器皿与海天色著称,亮色 casual 风;运河边彩色房屋作背景,白/黄最跳"
+          "photo_note": "玻璃岛以蓝色玻璃器皿与海天色著称,亮色 casual 风;运河边彩色房屋作背景,白/黄最跳",
+          "transfer": {
+            "from": "圣马可广场",
+            "recommend": "boat",
+            "modes": [
+              {
+                "mode": "boat",
+                "line": "4.1/4.2",
+                "board": "San Zaccaria",
+                "alight": "Murano Colonna",
+                "min": 20,
+                "cost": "€9.5/人",
+                "note": "圣马可东侧码头上船,约 20 分钟直达玻璃岛"
+              }
+            ],
+            "note": "回程:4.1/4.2→Fondamente Nove(9 分钟),步行 12 分钟回火车站,乘区间车回 Mestre"
+          }
         }
       ]
     },
@@ -1141,7 +1726,29 @@
           "end_time": "17:30",
           "name": "入住:Walk to Duomo 公寓",
           "type": "free",
-          "summary": "Via dell'Unione 4,近 Duomo;确认号 5210.508.440(PIN 9957)"
+          "summary": "Via dell'Unione 4,近 Duomo;确认号 5210.508.440(PIN 9957)",
+          "transfer": {
+            "from": "Milano Centrale 车站",
+            "recommend": "taxi",
+            "modes": [
+              {
+                "mode": "taxi",
+                "min": 13,
+                "cost": "€12-15",
+                "note": "4 人+行李直达公寓门口(Via dell'Unione 4)"
+              },
+              {
+                "mode": "metro",
+                "line": "M3",
+                "board": "Centrale FS",
+                "alight": "Duomo",
+                "min": 15,
+                "cost": "€2.2/人",
+                "stops": 4,
+                "note": "4 站 7 分钟;出站步行 350 米"
+              }
+            ]
+          }
         }
       ]
     },
@@ -1186,7 +1793,18 @@
               "caption": "长廊内景"
             }
           ],
-          "photo_note": "白色哥特尖塔林立,黑/白/红色在教堂前都经典;屋顶步道时装周氛围感,防风;长廊金色玻璃穹顶+奢侈品牌橱窗,黑色优雅最搭"
+          "photo_note": "白色哥特尖塔林立,黑/白/红色在教堂前都经典;屋顶步道时装周氛围感,防风;长廊金色玻璃穹顶+奢侈品牌橱窗,黑色优雅最搭",
+          "transfer": {
+            "from": "公寓(Walk to Duomo)",
+            "recommend": "walk",
+            "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 300,
+                "min": 4
+              }
+            ]
+          }
         },
         {
           "id": "d13-i02",
@@ -1210,7 +1828,34 @@
               "caption": "《最后的晚餐》壁画(预览)"
             }
           ],
-          "photo_note": "《最后的晚餐》湿壁画偏暗偏黄,参观限时约15分钟且不可拍照(图仅供行前预览);教堂红砖外观街拍简洁"
+          "photo_note": "《最后的晚餐》湿壁画偏暗偏黄,参观限时约15分钟且不可拍照(图仅供行前预览);教堂红砖外观街拍简洁",
+          "transfer": {
+            "from": "米兰大教堂",
+            "recommend": "metro",
+            "modes": [
+              {
+                "mode": "metro",
+                "line": "M1",
+                "board": "Duomo",
+                "alight": "Conciliazione",
+                "min": 18,
+                "cost": "€2.2/人",
+                "stops": 3,
+                "note": "出站步行 400 米;强实名定时场次,地铁最准时"
+              },
+              {
+                "mode": "walk",
+                "dist_m": 1900,
+                "min": 25,
+                "note": "经 Via Dante 步行街一路直行,时间充裕可选"
+              },
+              {
+                "mode": "taxi",
+                "min": 8,
+                "cost": "€8-9"
+              }
+            ]
+          }
         },
         {
           "id": "d13-i03",
@@ -1240,7 +1885,19 @@
               "caption": "和平门与绿荫"
             }
           ],
-          "photo_note": "红砖城堡+绿荫,大地色/白色简洁出片;和平门新古典白色配绿植背景,亮色对比"
+          "photo_note": "红砖城堡+绿荫,大地色/白色简洁出片;和平门新古典白色配绿植背景,亮色对比",
+          "transfer": {
+            "from": "圣玛利亚感恩教堂",
+            "recommend": "walk",
+            "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 1150,
+                "min": 15,
+                "note": "经 Corso Magenta→Sempione 公园南门"
+              }
+            ]
+          }
         },
         {
           "id": "d13-i04",
@@ -1249,6 +1906,19 @@
           "type": "free",
           "location": {
             "name": "Pinacoteca di Brera"
+          },
+          "transfer": {
+            "from": "斯福尔扎城堡",
+            "recommend": "walk",
+            "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 750,
+                "min": 10,
+                "note": "出城堡东门经 Via Brera 艺术街区"
+              }
+            ],
+            "note": "斯卡拉歌剧院→回公寓 800 米/10 分钟"
           }
         }
       ]
@@ -1271,7 +1941,29 @@
           "time": "全天",
           "name": "送机:酒店→米兰马尔彭萨机场(MXP)",
           "type": "transport",
-          "summary": "方式待补;建议 10:30 前出发(国际段值机截止早)"
+          "summary": "方式待补;建议 10:30 前出发(国际段值机截止早)",
+          "transfer": {
+            "from": "公寓(Walk to Duomo)",
+            "recommend": "train",
+            "modes": [
+              {
+                "mode": "train",
+                "line": "Malpensa Express",
+                "board": "Milano Cadorna",
+                "alight": "Malpensa T1",
+                "min": 37,
+                "cost": "€13/人",
+                "note": "M1 Duomo→Cadorna 2 站转乘;每 30 分钟一班,建议乘 10:00-10:30 班次;从 Centrale 发车则 52 分钟"
+              },
+              {
+                "mode": "taxi",
+                "min": 45,
+                "cost": "固定价约€105",
+                "note": "4 人一车含全部行李,门到门"
+              }
+            ],
+            "note": "10:30 前出发(国际段值机截止早);退税单先海关盖章再托运"
+          }
         },
         {
           "id": "d14-i03",
