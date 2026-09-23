@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 25,
-    "generated_at": "2026-09-23T22:10:05+08:00",
+    "data_version": 26,
+    "generated_at": "2026-09-23T22:25:31+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -188,12 +188,16 @@
           },
           "visit_guide": [
             {
-              "title": "购票",
-              "text": "官网 tickets.patrimonionacional.es 选时段约 €14/人,免排队直接扫手机;周一至周四 16:00-18:00 有免费时段(entrada gratuita)但排长队——16:30 要进普拉多,直接买票更稳。"
+              "title": "购票与入口",
+              "text": "官网 tickets.patrimonionacional.es 选时段约 €14/人;2026-08 起入口改在 Almudena 大教堂一侧的新游客中心(散客/团队分口,含安检寄存);周一至周四 16:00-18:00 有免费时段但排长队——16:30 要进普拉多,直接买票更稳。"
             },
             {
-              "title": "必看动线",
-              "text": "Escalera de Sabatini(大台阶)→Sala de Alabarderos(戟兵厅)→Sala de Columnas(柱厅)→Salón de los Espejos(镜厅)→Gabinete de Porcelana(瓷厅)→Salón del Trono(王座厅)→Cámara de Carlos III(卡洛斯三世私室)→Salón de Gasparini(加斯帕里尼厅)→Comedor de Gala(宴会厅)→Sala de Música(音乐室),官方一条线走完不回头,全程约 1-1.5 小时。"
+              "title": "动线已重排",
+              "text": "2025-03 并入圣器室(Antesacristía/Sacristía)、2025-09 新开卡洛斯三世办公室『细木厅』(Gabinete de Maderas Finas,西南翼)后,官方动线重排,方向与网络老攻略相反——以现场模型与 1-22 号地面指引为准,大台阶上后沿回廊单向一圈。"
+            },
+            {
+              "title": "必看五厅",
+              "text": "环形一圈五间核心一个不落:Salón del Trono(王座厅)、Salón de Gasparini(加斯帕里尼厅)、Comedor de Gala(宴会厅)、Sala de Música(音乐室,斯特拉迪瓦里名琴)、Gabinete de Maderas Finas(细木厅);全程约 1-1.5 小时。"
             },
             {
               "title": "王座厅",
@@ -205,7 +209,7 @@
             },
             {
               "title": "斯特拉迪瓦里",
-              "text": "Sala de Música(音乐室)陈列的成套 Stradivarius 名琴『帕拉蒂诺四重奏』世界罕见,多数攻略会漏掉。"
+              "text": "成套 Stradivarius 名琴『帕拉蒂诺四重奏』(音乐室 Sala de Música 一带,近皇家礼拜堂 Capilla Real),世界罕见,多数攻略会漏掉。"
             },
             {
               "title": "武器库与药房",
