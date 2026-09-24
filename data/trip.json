@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 25,
-    "generated_at": "2026-09-23T22:20:00+08:00",
+    "data_version": 26,
+    "generated_at": "2026-09-23T22:35:00+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -446,7 +446,7 @@
           "ticket_ids": [
             "cathedral-sevilla-group"
           ],
-          "tips": "12:05=开始登吉拉尔达塔时间,参观必须从登塔开始,不可重新入场;4 人共用一条入场 QR(全单一码,票详情亮码);含救世主教堂(教堂旁 5 分钟,时间紧可放弃);未带证件不退款",
+          "tips": "12:05=开始登吉拉尔达塔时间,参观必须从登塔开始,不可重新入场;4 人共用一条入场 QR(全单一码,票详情亮码);含救世主教堂(教堂旁 5 分钟,时间紧可放弃);未带证件不退款;地址:Avenida de la Constitución s/n, 41001 Sevilla(王宫正对面,电话 954 214 971)",
           "images": [
             {
               "file": "d02-i03-1.webp",
