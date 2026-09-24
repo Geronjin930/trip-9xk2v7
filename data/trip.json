@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 24,
-    "generated_at": "2026-09-23T21:50:00+08:00",
+    "data_version": 25,
+    "generated_at": "2026-09-23T22:20:00+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -436,7 +436,7 @@
           "end_time": "13:45",
           "name": "塞维利亚大教堂·含吉拉尔达塔",
           "type": "sight",
-          "summary": "12:05 入场,从吉拉尔达塔开始参观",
+          "summary": "12:05 从吉拉尔达塔开始(塔约 40-50 分钟)→大教堂约 13:00-14:00→往王宫(14:15 起可入场)",
           "details": "套票含救世主教堂(Church of El Salvador)。参观必须先登吉拉尔达塔(票面时间即登塔时间);不可重新入场。",
           "location": {
             "name": "Catedral de Sevilla",
@@ -446,7 +446,7 @@
           "ticket_ids": [
             "cathedral-sevilla-group"
           ],
-          "tips": "4 人共用一条 PDF417 条码,整组一起入场;未带证件不退款",
+          "tips": "12:05=开始登吉拉尔达塔时间,参观必须从登塔开始,不可重新入场;4 人共用一条入场 QR(全单一码,票详情亮码);含救世主教堂(教堂旁 5 分钟,时间紧可放弃);未带证件不退款",
           "images": [
             {
               "file": "d02-i03-1.webp",
