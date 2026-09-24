@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 27,
-    "generated_at": "2026-09-23T22:34:19+08:00",
+    "data_version": 23,
+    "generated_at": "2026-09-23T21:05:00+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -2628,7 +2628,7 @@
       "owner_ids": [
         "t1"
       ],
-      "barcode_type": "QR",
+      "barcode_type": "Aztec",
       "nominal": true,
       "id_required": true,
       "entry_window": null,
@@ -2641,15 +2641,16 @@
         {
           "file": "renfe-ave-t1-1.png",
           "owner_id": "t1",
-          "caption": "Zhengyang 的登车 QR(票面右上)"
-        },
-        {
-          "file": "renfe-ave-t1-2.jpg",
-          "owner_id": "t1",
-          "caption": "完整票面:车厢5 座位5D · 票号 7345102091666"
+          "caption": "Zhengyang 的登车 Aztec 码(过闸扫描)"
         }
       ],
-      "notes": "AVE 02080 标准舱;马德里 Atocha 08:00 → 塞维利亚 Santa Justa 10:39;票号 7345102091666;马德里市内 Cercanías 接驳码 SXCDM"
+      "notes": "AVE 02080 标准舱;马德里 Atocha 08:00 → 塞维利亚 Santa Justa 10:39;票号 7345102091666;马德里市内 Cercanías 接驳码 SXCDM;Renfe 闸机扫 Aztec 码(2026-09-23 用户收到的电子票确认此码);顶部 QR 亦同票号可用",
+      "pages": [
+        {
+          "file": "renfe-ave-t1-2.jpg",
+          "caption": "完整票面:车厢5 座位5D · 票号 7345102091666"
+        }
+      ]
     },
     {
       "id": "renfe-ave-t2",
@@ -2660,7 +2661,7 @@
       "owner_ids": [
         "t2"
       ],
-      "barcode_type": "QR",
+      "barcode_type": "Aztec",
       "nominal": true,
       "id_required": true,
       "entry_window": null,
@@ -2673,15 +2674,16 @@
         {
           "file": "renfe-ave-t2-1.png",
           "owner_id": "t2",
-          "caption": "Yongtong 的登车 QR(票面右上)"
-        },
-        {
-          "file": "renfe-ave-t2-2.jpg",
-          "owner_id": "t2",
-          "caption": "完整票面:车厢5 座位5C · 票号 7345102091674"
+          "caption": "Yongtong 的登车 Aztec 码(过闸扫描)"
         }
       ],
-      "notes": "AVE 02080 标准舱;马德里 Atocha 08:00 → 塞维利亚 Santa Justa 10:39;票号 7345102091674;马德里市内 Cercanías 接驳码 PCT7P"
+      "notes": "AVE 02080 标准舱;马德里 Atocha 08:00 → 塞维利亚 Santa Justa 10:39;票号 7345102091674;马德里市内 Cercanías 接驳码 PCT7P;Renfe 闸机扫 Aztec 码(2026-09-23 用户收到的电子票确认此码);顶部 QR 亦同票号可用",
+      "pages": [
+        {
+          "file": "renfe-ave-t2-2.jpg",
+          "caption": "完整票面:车厢5 座位5C · 票号 7345102091674"
+        }
+      ]
     },
     {
       "id": "renfe-ave-t3",
@@ -2692,7 +2694,7 @@
       "owner_ids": [
         "t3"
       ],
-      "barcode_type": "QR",
+      "barcode_type": "Aztec",
       "nominal": true,
       "id_required": true,
       "entry_window": null,
@@ -2705,15 +2707,16 @@
         {
           "file": "renfe-ave-t3-1.png",
           "owner_id": "t3",
-          "caption": "Mingxin 的登车 QR(票面右上)"
-        },
-        {
-          "file": "renfe-ave-t3-2.jpg",
-          "owner_id": "t3",
-          "caption": "完整票面:车厢5 座位5A · 票号 7345102091641"
+          "caption": "Mingxin 的登车 Aztec 码(过闸扫描)"
         }
       ],
-      "notes": "AVE 02080 标准舱;马德里 Atocha 08:00 → 塞维利亚 Santa Justa 10:39;票号 7345102091641;马德里市内 Cercanías 接驳码 VYSC9"
+      "notes": "AVE 02080 标准舱;马德里 Atocha 08:00 → 塞维利亚 Santa Justa 10:39;票号 7345102091641;马德里市内 Cercanías 接驳码 VYSC9;Renfe 闸机扫 Aztec 码(2026-09-23 用户收到的电子票确认此码);顶部 QR 亦同票号可用",
+      "pages": [
+        {
+          "file": "renfe-ave-t3-2.jpg",
+          "caption": "完整票面:车厢5 座位5A · 票号 7345102091641"
+        }
+      ]
     },
     {
       "id": "renfe-ave-t4",
@@ -2724,7 +2727,7 @@
       "owner_ids": [
         "t4"
       ],
-      "barcode_type": "QR",
+      "barcode_type": "Aztec",
       "nominal": true,
       "id_required": true,
       "entry_window": null,
@@ -2737,15 +2740,16 @@
         {
           "file": "renfe-ave-t4-1.png",
           "owner_id": "t4",
-          "caption": "Chiu Yan 的登车 QR(票面右上)"
-        },
-        {
-          "file": "renfe-ave-t4-2.jpg",
-          "owner_id": "t4",
-          "caption": "完整票面:车厢5 座位5B · 票号 7345102091658"
+          "caption": "Chiu Yan 的登车 Aztec 码(过闸扫描)"
         }
       ],
-      "notes": "AVE 02080 标准舱;马德里 Atocha 08:00 → 塞维利亚 Santa Justa 10:39;票号 7345102091658;马德里市内 Cercanías 接驳码 22G24"
+      "notes": "AVE 02080 标准舱;马德里 Atocha 08:00 → 塞维利亚 Santa Justa 10:39;票号 7345102091658;马德里市内 Cercanías 接驳码 22G24;Renfe 闸机扫 Aztec 码(2026-09-23 用户收到的电子票确认此码);顶部 QR 亦同票号可用",
+      "pages": [
+        {
+          "file": "renfe-ave-t4-2.jpg",
+          "caption": "完整票面:车厢5 座位5B · 票号 7345102091658"
+        }
+      ]
     },
     {
       "id": "pedrera-group",
