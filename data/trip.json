@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 26,
-    "generated_at": "2026-09-23T22:35:00+08:00",
+    "data_version": 27,
+    "generated_at": "2026-09-25T03:55:00+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -669,8 +669,30 @@
           "end_time": "12:05",
           "name": "航班:塞维利亚→巴塞罗那",
           "type": "transport",
-          "summary": "瑞安 FR1164 · SVQ 10:25 → BCN T2 12:05,4 人已出票",
-          "tips": "必须提前在线值机;仅随身小包+20kg 托运;建议提前 2.5-3 小时到机场"
+          "summary": "瑞安 FR1164 · SVQ 10:25 → BCN T2 12:05;今晚在线值机!明早 08:15 出门(两辆出租约 €52)",
+          "tips": "今晚必做在线值机(去哪儿订单或 Ryanair App;免费值机窗口明早 08:25 关闭,机场补办 €55/人);托运截止 09:45(起飞前 40 分),登机口 09:55 关;随身仅 40×20×25 小包,20kg 托运每人一件;落地 BCN T2",
+          "transfer": {
+            "from": "Letoh Letoh Sevilla(C. Rioja 14)",
+            "recommend": "taxi",
+            "modes": [
+              {
+                "mode": "taxi",
+                "min": 22,
+                "cost": "€26/车 × 2车 ≈ €52",
+                "note": "4 人+4 件 20kg 大箱一辆轿车装不下,叫两辆(工作日 7-21 点一口价 €26/车,约 10km);请前台提前叫车"
+              },
+              {
+                "mode": "bus",
+                "line": "EA 机场线",
+                "board": "Prado de San Sebastián",
+                "alight": "Aeropuerto SVQ",
+                "min": 35,
+                "cost": "€4/人",
+                "note": "站点距酒店 1.6km 还得先打车,带行李不推荐"
+              }
+            ],
+            "note": "周五早高峰,建议 08:15 出门,08:40 前到机场"
+          }
         },
         {
           "id": "d03-i02",
