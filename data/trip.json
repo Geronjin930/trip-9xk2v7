@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 23,
-    "generated_at": "2026-09-23T21:05:00+08:00",
+    "data_version": 24,
+    "generated_at": "2026-09-23T21:50:00+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -378,6 +378,31 @@
             "renfe-ave-t3",
             "renfe-ave-t4"
           ]
+        },
+        {
+          "id": "d02-i07",
+          "time": "10:50",
+          "name": "Letoh Letoh Sevilla·寄存行李",
+          "type": "free",
+          "summary": "AVE 10:39 抵圣胡斯塔站,先到酒店寄存行李(正式入住通常 15:00 起,前台免费寄存),再往 Santa Cruz 午餐;退房次日 9/25 赶 10:25 航班,行李可再次寄存",
+          "transfer": {
+            "from": "圣胡斯塔车站(Santa Justa)",
+            "recommend": "taxi",
+            "modes": [
+              {
+                "mode": "taxi",
+                "min": 8,
+                "cost": "€6-8",
+                "note": "4 人+行李直达 C. Rioja 14 门口,约 1.8 km"
+              },
+              {
+                "mode": "walk",
+                "dist_m": 1800,
+                "min": 23,
+                "note": "约 1.8 km 直线进城,拖行李约 25 分钟不推荐"
+              }
+            ]
+          }
         },
         {
           "id": "d02-i02",
@@ -3361,7 +3386,8 @@
       "address": "Gran Vía 15, Centro, Madrid",
       "confirmation_no": "1128149815905831",
       "phone": "+34 636 333 580",
-      "notes": "入住 15:00-23:30(非 24 小时前台);⚠ 代理商确认函仅含 Yongtong/Mingxin 两人(订单 454538630242),另两人第二张订单待核实"
+      "notes": "入住 15:00-23:30(非 24 小时前台);⚠ 代理商确认函仅含 Yongtong/Mingxin 两人(订单 454538630242),另两人第二张订单待核实",
+      "confirmation_image": "misc-lod1-1.png"
     },
     {
       "id": "lod2",
@@ -3373,7 +3399,8 @@
       "address": "C. Rioja 14, Casco Antiguo, Sevilla",
       "confirmation_no": "1128149816050844",
       "phone": "+34 913 437 882",
-      "notes": "入住 14:00-次日 00:00;⚠ 代理商确认函仅含 Yongtong/Mingxin 两人(订单 454538035075),另两人第二张订单待核实"
+      "notes": "入住 14:00-次日 00:00;⚠ 代理商确认函仅含 Yongtong/Mingxin 两人(订单 454538035075),另两人第二张订单待核实",
+      "confirmation_image": "misc-lod2-1.png"
     },
     {
       "id": "lod3",
@@ -3390,7 +3417,8 @@
         "lat": 41.3966,
         "lng": 2.1977
       },
-      "notes": "Booking.com 2 间客房,PIN 2989;14:00 起入住;9/27 12:00 前离店"
+      "notes": "Booking.com 2 间客房,PIN 2989;14:00 起入住;9/27 12:00 前离店",
+      "confirmation_image": "misc-lod3-1.png"
     },
     {
       "id": "lod4",
@@ -3402,7 +3430,8 @@
       "address": "Camí Vell de la Victòria, Alcúdia, Mallorca",
       "confirmation_no": "4032169",
       "phone": "+34 971 545 143",
-      "notes": "15:00 后入住;⚠ 到店另付城市税 102.76 元;⚠ 代理商确认函仅含 Yongtong/Chiu Yan 两人(订单 454539616817)"
+      "notes": "15:00 后入住;⚠ 到店另付城市税 102.76 元;⚠ 代理商确认函仅含 Yongtong/Chiu Yan 两人(订单 454539616817)",
+      "confirmation_image": "misc-lod4-1.png"
     },
     {
       "id": "lod5",
@@ -3414,7 +3443,8 @@
       "address": "Via Foscolo 10, 00185 Roma",
       "confirmation_no": "5544.593.076",
       "phone": "+39 339 278 2075",
-      "notes": "入住 13:00-22:00;10/1 09:30-10:00 退房;⚠ 时段外到店加收 30 欧;⚠ 不可退款订单;✅ 确认函核实为 3 晚(城市税×3晚),已修正原 9/30 退房之误,9/30 缺晚问题解决"
+      "notes": "入住 13:00-22:00;10/1 09:30-10:00 退房;⚠ 时段外到店加收 30 欧;⚠ 不可退款订单;✅ 确认函核实为 3 晚(城市税×3晚),已修正原 9/30 退房之误,9/30 缺晚问题解决",
+      "confirmation_image": "misc-lod5-1.png"
     },
     {
       "id": "lod6",
@@ -3426,7 +3456,8 @@
       "address": "Via Giuseppe Zanardelli 9, 50136 Firenze",
       "confirmation_no": "6067.604.829",
       "phone": "+39 335 597 7676",
-      "notes": "入住 16:00-21:00;10/3 05:00-10:00 退房;⚠ 不可退款;Booking.com PIN 3573"
+      "notes": "入住 16:00-21:00;10/3 05:00-10:00 退房;⚠ 不可退款;Booking.com PIN 3573",
+      "confirmation_image": "misc-lod6-1.png"
     },
     {
       "id": "lod7",
@@ -3438,7 +3469,8 @@
       "address": "Via Ca' Marcello 15, Mestre, Venezia",
       "confirmation_no": "EXP-2524807139 / EXP-2524807143",
       "phone": "+39 041 099 5329",
-      "notes": "入住 15:00-次日 00:00;⚠ 到店另付城市税;⚠ 代理商订单 454539225317,确认函仅含 Yongtong/Chiu Yan 两人"
+      "notes": "入住 15:00-次日 00:00;⚠ 到店另付城市税;⚠ 代理商订单 454539225317,确认函仅含 Yongtong/Chiu Yan 两人",
+      "confirmation_image": "misc-lod7-1.png"
     },
     {
       "id": "lod9",
@@ -3450,7 +3482,8 @@
       "address": "Via dell'Unione 4, 20122 Milano",
       "confirmation_no": "5210.508.440",
       "phone": "+39 375 529 9457",
-      "notes": "米兰两晚(10/4-10/6)正式订单(QUO Milano 已取消,以本单为准);入住 16:00-00:00,退房 11:00 前;4 人两卧含厨房;到店 EUR 支付约 €732.22(含 €60 清洁费),城市税另计约 €583(CNY);地址近 Duomo,步行可达大教堂;⚠ 10/6 航班 12:45 起飞,须约 09:00 提前退房(ph19 邮件含确认项);⚠ 公寓无前台,10/4 中午早到若房东不收行李,备选 Duomo 附近 Radical Storage(约 €5-6/件/天)或 Milano Centrale 车站寄存(ph19/ph20 模板)"
+      "notes": "米兰两晚(10/4-10/6)正式订单(QUO Milano 已取消,以本单为准);入住 16:00-00:00,退房 11:00 前;4 人两卧含厨房;到店 EUR 支付约 €732.22(含 €60 清洁费),城市税另计约 €583(CNY);地址近 Duomo,步行可达大教堂;⚠ 10/6 航班 12:45 起飞,须约 09:00 提前退房(ph19 邮件含确认项);⚠ 公寓无前台,10/4 中午早到若房东不收行李,备选 Duomo 附近 Radical Storage(约 €5-6/件/天)或 Milano Centrale 车站寄存(ph19/ph20 模板)",
+      "confirmation_image": "misc-lod9-1.png"
     }
   ],
   "transport": [
