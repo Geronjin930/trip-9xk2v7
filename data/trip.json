@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 32,
-    "generated_at": "2026-09-25T20:05:00+08:00",
+    "data_version": 33,
+    "generated_at": "2026-09-25T20:38:25+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -746,12 +746,64 @@
           "tips": "出租车为计价器浮动价(最低约€21 含机场附加费,至酒店约€30-40/车);巴塞防盗要点:包身前背、手机不搁餐桌、露台包别挂椅背、地铁关门瞬间防抢手机、不理会\"请愿板/帮你擦鸟屎\"式搭讪(同伙趁乱下手);交通卡说明:已持一张 T-mobilitat(内含 T-usual 个人 30 天无限次票,从首次刷卡起连续 30 天有效,仅限卡背打印证件号的本人使用,查票需出示该护照,不可 4 人共用);另外 3 人建议合买 1 张 T-casual(€13/10 次,单次单人但可不记名轮流用)或单程 €2.9;拍卡位置:地铁闸机/公交车门读卡器的圆形感应区,绿灯即成功;有效期与余次可在任何地铁售票机拍卡查询;⚠ 机场地铁 L9 Sud 站不收常规票需单独购票,R2 Nord 火车通常按 1 区正常覆盖(以闸机提示为准)"
         },
         {
+          "id": "d03-i03",
+          "time": "14:15",
+          "end_time": "15:45",
+          "name": "午餐:Tuscania Food & Wine",
+          "type": "meal",
+          "summary": "圣家堂旁家庭经营托斯卡纳餐厅(Carrer de Mallorca 434)",
+          "details": "家族经营的意大利/托斯卡纳餐厅,距圣家堂步行 2 分钟;饭后出门沿 Mallorca 街朝教堂塔尖方向走,直接衔接下午行程",
+          "location": {
+            "name": "Tuscania Food & Wine",
+            "lat": 41.4041,
+            "lng": 2.1765
+          },
+          "tips": "地址 Carrer de Mallorca 434,教堂南侧同一条街;周五午餐高峰出餐稍慢,留足 1.5 小时",
+          "transfer": {
+            "from": "Novotel Barcelona City",
+            "recommend": "taxi",
+            "modes": [
+              {
+                "mode": "taxi",
+                "min": 8,
+                "cost": "€6-8",
+                "note": "约 2 公里,跟司机说 \"Mallorca 434, Sagrada Família\""
+              },
+              {
+                "mode": "metro",
+                "line": "L1",
+                "board": "Glòries",
+                "alight": "Marina",
+                "min": 20,
+                "cost": "€2.55/人",
+                "stops": 1,
+                "note": "1 站到 Marina,出站沿 Marina 街向北步行约 700 米/9 分钟到教堂南街口"
+              }
+            ]
+          }
+        },
+        {
+          "id": "d03-i04",
+          "time": "15:45",
+          "end_time": "16:05",
+          "name": "圣家堂外观(顺路踩点)",
+          "type": "free",
+          "summary": "免费看两座立面,顺路认明天 11:15 的 Marina 街入口",
+          "details": "沿 Mallorca 街走到 Marina 路口=诞生立面(高迪生前唯一完成的一面,明天入口就在这条街);再沿教堂绕到西侧 Sardenya 路口=受难立面;地铁站(L2/L5)入口在 Mallorca/Sardenya 一带,认蓝色 M 标志",
+          "location": {
+            "name": "Basílica de la Sagrada Família(外观)",
+            "lat": 41.4036,
+            "lng": 2.1744
+          },
+          "tips": "今天不进内不排队;明天 11:15 General 票从 Marina 街入口进,今天认个门明天不慌"
+        },
+        {
           "id": "d03-i05",
-          "time": "14:45",
-          "end_time": "15:10",
+          "time": "16:05",
+          "end_time": "16:30",
           "name": "加泰罗尼亚广场",
           "type": "free",
-          "summary": "行程第一站:城市中心大广场",
+          "summary": "老城区漫步第一站:城市中心大广场",
           "details": "兰布拉大道北端起点,鸽子与人群,快速经过即可",
           "location": {
             "name": "Plaça de Catalunya",
@@ -760,41 +812,42 @@
           },
           "tips": "巴塞扒手第一高发区:背包前背、手机别放桌面;警惕\"请愿板\"与\"鸟粪/泼水帮你擦\"骗局;地铁关门瞬间谨防抢手机",
           "transfer": {
-            "from": "Novotel Barcelona City",
+            "from": "Tuscania Food & Wine(Mallorca 434)",
             "recommend": "metro",
             "modes": [
               {
                 "mode": "metro",
-                "line": "L1",
-                "board": "Glòries",
-                "alight": "Catalunya",
-                "min": 15,
+                "line": "L2",
+                "board": "Sagrada Família",
+                "alight": "Passeig de Gràcia",
+                "min": 20,
                 "cost": "€2.55/人",
-                "stops": 4,
-                "note": "含到站步行约 350 米"
-              },
-              {
-                "mode": "walk",
-                "dist_m": 3300,
-                "min": 45,
-                "note": "不推荐"
+                "stops": 3,
+                "note": "往 Paral·lel 方向 3 站(经 Monumental/Tetuan);出站沿格拉西亚大道朝下坡人流方向步行 10 分钟到广场,顺路看巴特罗之家外观(明天 17:30 入内);T-usual 拍卡,另 3 人 T-casual 轮拍或买单程"
               },
               {
                 "mode": "taxi",
-                "min": 9,
-                "cost": "€9-10"
+                "min": 15,
+                "cost": "€11-13",
+                "note": "跟司机说 \"Plaça de Catalunya\",4 人一辆"
+              },
+              {
+                "mode": "walk",
+                "dist_m": 2900,
+                "min": 40,
+                "note": "不推荐"
               }
             ]
           }
         },
         {
           "id": "d03-i06",
-          "time": "15:10",
-          "end_time": "16:20",
+          "time": "16:30",
+          "end_time": "17:30",
           "name": "兰布拉大道+博盖利亚市场",
           "type": "sight",
           "summary": "林荫步道南行约 1 公里,顺路市场",
-          "details": "博盖利亚市场入口在兰布拉西侧:果汁/火腿/糖果摊",
+          "details": "博盖利亚市场入口在兰布拉西侧:果汁/火腿/糖果摊(17 点后部分摊位收摊,赶早)",
           "location": {
             "name": "Mercat de la Boqueria",
             "lat": 41.3817,
@@ -819,12 +872,12 @@
         },
         {
           "id": "d03-i07",
-          "time": "16:20",
-          "end_time": "17:30",
+          "time": "17:30",
+          "end_time": "18:45",
           "name": "哥特区+巴塞罗那大教堂",
           "type": "sight",
           "summary": "市场西侧拐进哥特区窄巷到大教堂",
-          "details": "石板窄巷绕到大教堂正立面,门前广场有鹅庭院",
+          "details": "兰布拉拐 Ferran 街向西进窄巷→圣若梅广场→Bisbe 街石桥→大教堂正立面,门前广场有鹅庭院",
           "location": {
             "name": "Catedral de Barcelona",
             "lat": 41.3839,
@@ -841,12 +894,12 @@
         },
         {
           "id": "d03-i08",
-          "time": "18:15",
-          "end_time": "19:15",
+          "time": "18:45",
+          "end_time": "19:55",
           "name": "奥林匹克港",
           "type": "free",
-          "summary": "打车去海边先到奥林匹克港(约 9 分钟)",
-          "details": "双塔+帆船码头,沿海滨步道向西去 Barceloneta",
+          "summary": "打车到奥林匹克港,沿海滨走到 Barceloneta 沙滩看 19:47 日落",
+          "details": "双塔+帆船码头,沿海滨步道向西走到 Barceloneta 沙滩;19:47 日落,站沙滩上面朝海看",
           "location": {
             "name": "Port Olímpic",
             "lat": 41.3866,
@@ -860,7 +913,7 @@
                 "mode": "taxi",
                 "min": 9,
                 "cost": "€8-10",
-                "note": "17:30 出发,9 分钟车程"
+                "note": "18:45 出发,9 分钟车程"
               },
               {
                 "mode": "walk",
@@ -873,18 +926,18 @@
         },
         {
           "id": "d03-i09",
-          "time": "19:15",
-          "end_time": "20:45",
+          "time": "20:00",
+          "end_time": "21:30",
           "name": "Barceloneta 海滨晚餐",
           "type": "meal",
-          "summary": "海滨餐厅晚餐;19:47 日落",
+          "summary": "海滨餐厅晚餐(看完日落入座,20:00 正是西班牙饭点)",
           "details": "海滩沿线餐厅密集:海鲜饭/Sangría;日落时在沙滩或露台",
           "location": {
             "name": "Platja de la Barceloneta",
             "lat": 41.3792,
             "lng": 2.1919
           },
-          "tips": "沙滩餐厅露台位紧俏,19 点前到店稳妥;沙滩与露台是顺包高发点:包放腿间夹住、别挂椅背,手机别搁桌面;餐后回 Novotel:海滨步道步行 1.5 公里/20 分钟或打车 €7-8"
+          "tips": "周五晚露台位紧俏,看 menu 价再坐;沙滩与露台是顺包高发点:包放腿间夹住、别挂椅背,手机别搁桌面;餐后回 Novotel:打车 €8-10 约 10 分钟(说 \"Novotel, Glòries\")或地铁 L4 Barceloneta→Urquinaona 换 L1→Glòries(约 25 分钟含步行 350 米),夜间建议打车"
         }
       ]
     },
