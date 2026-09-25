@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 28,
-    "generated_at": "2026-09-25T14:35:00+08:00",
+    "data_version": 29,
+    "generated_at": "2026-09-25T15:15:00+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -692,7 +692,13 @@
               }
             ],
             "note": "周五早高峰,建议 08:15 出门,08:40 前到机场"
-          }
+          },
+          "ticket_ids": [
+            "fr1164-t1",
+            "fr1164-t2",
+            "fr1164-t3",
+            "fr1164-t4"
+          ]
         },
         {
           "id": "d03-i02",
@@ -739,38 +745,19 @@
           }
         },
         {
-          "id": "d03-i03",
+          "id": "d03-i05",
           "time": "14:45",
-          "end_time": "17:30",
-          "name": "加泰罗尼亚广场→兰布拉→哥特区大教堂",
-          "type": "sight",
-          "summary": "14:45 广场;15:15 兰布拉+波盖利亚市场;15:45 哥特区",
-          "details": "沿兰布拉大道向南到波盖利亚市场,再拐进哥特区窄巷到巴塞罗那大教堂。",
+          "end_time": "15:10",
+          "name": "加泰罗尼亚广场",
+          "type": "free",
+          "summary": "行程第一站:城市中心大广场",
+          "details": "兰布拉大道北端起点,鸽子与人群,快速经过即可",
           "location": {
             "name": "Plaça de Catalunya",
             "lat": 41.3874,
             "lng": 2.1686
           },
-          "tips": "兰布拉沿线注意扒手",
-          "images": [
-            {
-              "file": "d03-i03-1.webp",
-              "caption": "兰布拉大道人流"
-            },
-            {
-              "file": "d03-i03-2.webp",
-              "caption": "兰布拉林荫街景"
-            },
-            {
-              "file": "d03-i03-3.webp",
-              "caption": "博盖利亚市场入口"
-            },
-            {
-              "file": "d03-i03-4.webp",
-              "caption": "哥特区窄巷"
-            }
-          ],
-          "photo_note": "兰布拉林荫光斑好看;哥特区窄巷石墙偏暗,白/亮色对比强;博盖利亚市场彩色摊位超上镜,顺路即可拍",
+          "tips": "广场周边扒手高发,背包前背",
           "transfer": {
             "from": "Novotel Barcelona City",
             "recommend": "metro",
@@ -800,12 +787,65 @@
           }
         },
         {
-          "id": "d03-i04",
+          "id": "d03-i06",
+          "time": "15:10",
+          "end_time": "16:20",
+          "name": "兰布拉大道+博盖利亚市场",
+          "type": "sight",
+          "summary": "林荫步道南行约 1 公里,顺路市场",
+          "details": "博盖利亚市场入口在兰布拉西侧:果汁/火腿/糖果摊",
+          "location": {
+            "name": "Mercat de la Boqueria",
+            "lat": 41.3817,
+            "lng": 2.1717
+          },
+          "tips": "兰布拉沿线扒手高发;市场地面湿滑",
+          "images": [
+            {
+              "file": "d03-i06-1.webp",
+              "caption": "兰布拉大道人流"
+            },
+            {
+              "file": "d03-i06-2.webp",
+              "caption": "兰布拉林荫街景"
+            },
+            {
+              "file": "d03-i06-3.webp",
+              "caption": "博盖利亚市场入口"
+            }
+          ],
+          "photo_note": "兰布拉林荫光斑好看;博盖利亚市场彩色摊位超上镜,顺路即可拍"
+        },
+        {
+          "id": "d03-i07",
+          "time": "16:20",
+          "end_time": "17:30",
+          "name": "哥特区+巴塞罗那大教堂",
+          "type": "sight",
+          "summary": "市场西侧拐进哥特区窄巷到大教堂",
+          "details": "石板窄巷绕到大教堂正立面,门前广场有鹅庭院",
+          "location": {
+            "name": "Catedral de Barcelona",
+            "lat": 41.3839,
+            "lng": 2.1764
+          },
+          "tips": "免费入场有时段与着装要求,外观+广场即可;窄巷注意扒手",
+          "images": [
+            {
+              "file": "d03-i07-1.webp",
+              "caption": "哥特区窄巷"
+            }
+          ],
+          "photo_note": "哥特区窄巷石墙偏暗,白/亮色对比强"
+        },
+        {
+          "id": "d03-i08",
           "time": "18:15",
-          "end_time": "20:45",
-          "name": "奥林匹克港+Barceloneta 晚餐",
-          "type": "meal",
-          "summary": "17:30 打车去海边(约 9 分钟);19:47 日落",
+          "end_time": "19:15",
+          "name": "奥林匹克港",
+          "type": "free",
+          "summary": "打车去海边先到奥林匹克港(约 9 分钟)",
+          "details": "双塔+帆船码头,沿海滨步道向西去 Barceloneta",
           "location": {
             "name": "Port Olímpic",
             "lat": 41.3866,
@@ -827,9 +867,23 @@
                 "min": 37,
                 "note": "沿兰布拉大道向南到哥伦布塔,再沿海滨向东"
               }
-            ],
-            "note": "晚餐后回 Novotel:海滨步道步行 1.5 公里/20 分钟,或打车 €7-8"
+            ]
           }
+        },
+        {
+          "id": "d03-i09",
+          "time": "19:15",
+          "end_time": "20:45",
+          "name": "Barceloneta 海滨晚餐",
+          "type": "meal",
+          "summary": "海滨餐厅晚餐;19:47 日落",
+          "details": "海滩沿线餐厅密集:海鲜饭/Sangría;日落时在沙滩或露台",
+          "location": {
+            "name": "Platja de la Barceloneta",
+            "lat": 41.3792,
+            "lng": 2.1919
+          },
+          "tips": "沙滩餐厅露台位紧俏,19 点前到店稳妥;餐后回 Novotel:海滨步道步行 1.5 公里/20 分钟或打车 €7-8"
         }
       ]
     },
@@ -1405,16 +1459,18 @@
           }
         },
         {
-          "id": "d07-i04",
+          "id": "d07-i05",
           "time": "全天",
-          "name": "万神殿→纳沃纳广场→西班牙台阶",
+          "name": "万神殿",
           "type": "free",
-          "summary": "老城步行串线",
+          "summary": "老城步行串线首站",
+          "details": "古罗马穹顶杰作(直径 43 米穹顶孔洞采光),拉斐尔长眠于此",
           "location": {
             "name": "Pantheon, Roma",
             "lat": 41.8986,
             "lng": 12.4768
           },
+          "tips": "现场购票入场(成人 €5,扫码或柜台);排队通常不长",
           "transfer": {
             "from": "圣天使堡",
             "recommend": "walk",
@@ -1431,9 +1487,36 @@
                 "cost": "€6-7",
                 "note": "直达万神殿下车"
               }
-            ],
-            "note": "万神殿→纳沃纳广场 400 米/5 分钟;→西班牙台阶 1.1 公里/15 分钟;回酒店:地铁 A 线 Spagna→Termini 3 站+步行 8 分钟,或打车 €10-12"
+            ]
           }
+        },
+        {
+          "id": "d07-i06",
+          "time": "全天",
+          "name": "纳沃纳广场",
+          "type": "free",
+          "summary": "贝尼尼四河喷泉广场",
+          "details": "四河喷泉+圣依搦斯蒙难堂;广场咖啡馆歇脚",
+          "location": {
+            "name": "Piazza Navona",
+            "lat": 41.8989,
+            "lng": 12.4731
+          },
+          "tips": "万神殿→纳沃纳 400 米/5 分钟;广场画像师/纪念品摊多"
+        },
+        {
+          "id": "d07-i07",
+          "time": "全天",
+          "name": "西班牙台阶",
+          "type": "free",
+          "summary": "台阶+山顶圣三一教堂",
+          "details": "纳沃纳→台阶 1.1 公里/15 分钟(经科尔索大道)",
+          "location": {
+            "name": "Piazza di Spagna",
+            "lat": 41.9057,
+            "lng": 12.4827
+          },
+          "tips": "台阶禁止坐卧(有罚款风险),拍照即走;回酒店:地铁 A 线 Spagna→Termini 3 站+步行 8 分钟,或打车 €10-12"
         }
       ]
     },
@@ -1443,44 +1526,34 @@
       "title": "古罗马日(宿罗马,次日晨退房)",
       "items": [
         {
-          "id": "d08-i01",
-          "time": "全天",
-          "name": "斗兽场+古罗马广场+帕拉蒂尼山",
+          "id": "d08-i03",
+          "time": "12:30",
+          "end_time": "14:15",
+          "name": "斗兽场",
           "type": "sight",
-          "summary": "已出票:官网 Full Experience 地下层+竞技场(9/30 12:30 场次,4 人各一码,强实名带护照原件);古罗马广场+帕拉蒂诺山 9/29-10/1 任一日有效",
+          "summary": "已出票:Full Experience 地下层+竞技场 12:30 场次,4 人各一码强实名带护照原件",
+          "details": "一层+二层+竞技场地面(arena)+地下层全程约 1.5-2 小时;东侧拱窗正对君士坦丁凯旋门",
           "location": {
             "name": "Colosseo",
             "lat": 41.8902,
             "lng": 12.4922
           },
-          "tips": "斗兽场实名票须带护照原件入场",
+          "tips": "实名票须带护照原件;提前 20-30 分钟到检票口",
           "images": [
             {
-              "file": "d08-i01-1.webp",
+              "file": "d08-i03-1.webp",
               "caption": "斗兽场全景"
             },
             {
-              "file": "d08-i01-2.webp",
+              "file": "d08-i03-2.webp",
               "caption": "斗兽场拱门内景"
             },
             {
-              "file": "d08-i01-3.webp",
+              "file": "d08-i03-3.webp",
               "caption": "绿树环绕的斗兽场"
-            },
-            {
-              "file": "d08-i01-4.webp",
-              "caption": "古罗马广场遗迹全景"
-            },
-            {
-              "file": "d08-i01-5.webp",
-              "caption": "红砖遗址"
-            },
-            {
-              "file": "d08-i01-6.webp",
-              "caption": "遗址柱廊与游人"
             }
           ],
-          "photo_note": "千年石遗址米黄/土褐色调,红裙/饱和色对比最强(经典游客照位);地面碎石坡道,务必舒适鞋;帕拉蒂尼山远眺斗兽场机位人多需等",
+          "photo_note": "千年石遗址米黄/土褐色调,红裙/饱和色对比最强(经典游客照位)",
           "transfer": {
             "from": "Home Alex(酒店)",
             "recommend": "metro",
@@ -1529,7 +1602,39 @@
             {
               "title": "二层展廊",
               "text": "环形看修复前后对比与罗马混凝土建造史;东侧拱窗正对君士坦丁凯旋门(Arco di Costantino),机位别错过。"
+            }
+          ]
+        },
+        {
+          "id": "d08-i04",
+          "time": "14:15",
+          "end_time": "16:30",
+          "name": "古罗马广场+帕拉蒂尼山",
+          "type": "sight",
+          "summary": "同一张 Full Experience 票含古罗马广场+帕拉蒂尼山(9/29-10/1 任一日有效)",
+          "details": "从斗兽场检票口旁入口进广场,沿圣道(Via Sacra)一路走到帕拉蒂尼山俯瞰",
+          "location": {
+            "name": "Foro Romano",
+            "lat": 41.8925,
+            "lng": 12.4853
+          },
+          "tips": "凭斗兽场同一张票入场;碎石坡道务必舒适鞋",
+          "images": [
+            {
+              "file": "d08-i04-1.webp",
+              "caption": "古罗马广场遗迹全景"
             },
+            {
+              "file": "d08-i04-2.webp",
+              "caption": "红砖遗址"
+            },
+            {
+              "file": "d08-i04-3.webp",
+              "caption": "遗址柱廊与游人"
+            }
+          ],
+          "photo_note": "地面碎石坡道,务必舒适鞋;帕拉蒂尼山远眺斗兽场机位人多需等",
+          "visit_guide": [
             {
               "title": "两天有效",
               "text": "古罗马广场(Foro Romano)+帕拉蒂诺山(Palatino)9/29-10/1 任一天可进;建议当天下午顺走,从广场圣道(Via Sacra)下山出口正好接回市区。"
@@ -1537,16 +1642,18 @@
           ]
         },
         {
-          "id": "d08-i02",
+          "id": "d08-i05",
           "time": "全天",
-          "name": "真理之口+特雷维喷泉",
+          "name": "真理之口",
           "type": "free",
-          "summary": "顺线打卡;许愿池晚间亮灯",
+          "summary": "顺线打卡(排队拍照约 15-30 分钟)",
+          "details": "科斯梅丁圣玛利亚教堂门廊的石雕面具",
           "location": {
-            "name": "Trevi Fountain",
-            "lat": 41.9009,
-            "lng": 12.4833
+            "name": "Bocca della Verità",
+            "lat": 41.8885,
+            "lng": 12.4828
           },
+          "tips": "插手拍照免费但需排队;开放时间以教堂门廊现场公示为准",
           "transfer": {
             "from": "斗兽场(古罗马广场)",
             "recommend": "walk",
@@ -1560,12 +1667,24 @@
               {
                 "mode": "taxi",
                 "min": 6,
-                "cost": "€7-8",
-                "note": "直接送到特雷维喷泉"
+                "cost": "€7-8"
               }
-            ],
-            "note": "真理之口→特雷维喷泉 1.8 公里/24 分钟;回酒店:步行 1.9 公里,或地铁 A 线 Barberini→Termini+步行 8 分钟"
+            ]
           }
+        },
+        {
+          "id": "d08-i06",
+          "time": "全天",
+          "name": "特雷维喷泉",
+          "type": "free",
+          "summary": "许愿池;晚间亮灯最美",
+          "details": "巴洛克喷泉+海神宫立面",
+          "location": {
+            "name": "Trevi Fountain",
+            "lat": 41.9009,
+            "lng": 12.4833
+          },
+          "tips": "真理之口→特雷维 1.8 公里/24 分钟;人多扒手多;背对喷泉右肩抛硬币许愿;回酒店:步行 1.9 公里或地铁 A 线 Barberini→Termini+步行 8 分钟"
         }
       ]
     },
@@ -1922,34 +2041,62 @@
         },
         {
           "id": "d10-i04",
-          "time": "18:45",
-          "name": "老桥+米开朗琪罗广场",
+          "time": "18:30",
+          "end_time": "18:50",
+          "name": "老桥(Ponte Vecchio)",
           "type": "free",
-          "summary": "学院美术馆出来经老桥;米开朗琪罗广场看日落(10 月初日落约 18:55)",
+          "summary": "学院美术馆出来沿河向西即老桥",
+          "details": "金饰珠宝店桥;桥上人多快速通过",
+          "location": {
+            "name": "Ponte Vecchio",
+            "lat": 43.768,
+            "lng": 11.253
+          },
+          "tips": "老桥→米开朗琪罗广场:过桥后 San Niccolò 台阶上山 18 分钟,赶日落建议打车",
+          "transfer": {
+            "from": "学院美术馆",
+            "recommend": "walk",
+            "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 1200,
+                "min": 16,
+                "note": "沿河向西即老桥"
+              }
+            ]
+          }
+        },
+        {
+          "id": "d10-i06",
+          "time": "18:50",
+          "end_time": "20:30",
+          "name": "米开朗琪罗广场",
+          "type": "free",
+          "summary": "山顶看日落全景(10 月初日落约 18:55)",
+          "details": "佛罗伦萨全城俯瞰机位:老桥/圣母百花圆顶一览",
           "location": {
             "name": "Piazzale Michelangelo",
             "lat": 43.7634,
             "lng": 11.263
           },
-          "end_time": "20:30",
+          "tips": "日落后下山步行约 20 分钟过桥即老城",
           "transfer": {
-            "from": "学院美术馆",
+            "from": "老桥",
             "recommend": "taxi",
             "modes": [
               {
                 "mode": "taxi",
                 "min": 10,
                 "cost": "€9-11",
-                "note": "直达山顶看 18:55 日落"
+                "note": "直达山顶赶日落"
               },
               {
                 "mode": "walk",
-                "dist_m": 2400,
-                "min": 35,
-                "note": "先经老桥(16 分钟),再 San Niccolò 台阶上山顶(18 分钟),赶不上日落则选打车"
+                "dist_m": 1200,
+                "min": 18,
+                "note": "过桥后 San Niccolò 台阶上山"
               }
-            ],
-            "note": "日落后下山步行约 20 分钟,过桥即老城"
+            ]
           }
         }
       ]
@@ -1970,42 +2117,33 @@
           }
         },
         {
-          "id": "d11-i02",
+          "id": "d11-i05",
           "time": "全天",
-          "name": "圣马可广场+叹息桥",
+          "name": "圣马可广场+圣马可大教堂",
           "type": "sight",
+          "summary": "广场+钟楼+大教堂(入内/登顶票未订)",
+          "details": "欧洲最美客厅;大教堂金色马赛克立面",
           "location": {
             "name": "Piazza San Marco",
             "lat": 45.4341,
             "lng": 12.3388
           },
+          "tips": "大教堂入内免费但排长队且需遮肩;钟楼电梯票现场买",
           "images": [
             {
-              "file": "d11-i02-1.webp",
+              "file": "d11-i05-1.webp",
               "caption": "圣马可广场俯瞰"
             },
             {
-              "file": "d11-i02-2.webp",
+              "file": "d11-i05-2.webp",
               "caption": "教堂立面·金色飞狮"
             },
             {
-              "file": "d11-i02-3.webp",
+              "file": "d11-i05-3.webp",
               "caption": "圣马可大教堂外观"
-            },
-            {
-              "file": "d11-i02-4.webp",
-              "caption": "总督宫与叹息桥一带"
-            },
-            {
-              "file": "d11-i02-5.webp",
-              "caption": "运河上的贡多拉"
-            },
-            {
-              "file": "d11-i02-6.webp",
-              "caption": "门洞水巷"
             }
           ],
-          "photo_note": "广场建筑暖金褐色,教堂立面金色马赛克,深色/金色呼应;水巷贡多拉蓝绿水+暖墙,白/红都出片;清晨广场人少光柔",
+          "photo_note": "广场建筑暖金褐色,教堂立面金色马赛克,深色/金色呼应;清晨广场人少光柔",
           "transfer": {
             "from": "CX Venice Mestre(寄存行李后)",
             "recommend": "train",
@@ -2031,6 +2169,35 @@
             ],
             "note": "主岛全靠步行;若当天还要去穆拉诺(再乘 2 程船),可考虑 24 小时船票 €25/人"
           }
+        },
+        {
+          "id": "d11-i06",
+          "time": "全天",
+          "name": "总督宫+叹息桥(外景)",
+          "type": "sight",
+          "summary": "总督宫立面+叹息桥经典机位",
+          "details": "叹息桥连接总督宫与旧监狱;周边水巷最出片",
+          "location": {
+            "name": "Ponte dei Sospiri",
+            "lat": 45.4342,
+            "lng": 12.3391
+          },
+          "tips": "叹息桥内景属总督宫展线(未订票,看外景即可)",
+          "images": [
+            {
+              "file": "d11-i06-1.webp",
+              "caption": "总督宫与叹息桥一带"
+            },
+            {
+              "file": "d11-i06-2.webp",
+              "caption": "运河上的贡多拉"
+            },
+            {
+              "file": "d11-i06-3.webp",
+              "caption": "门洞水巷"
+            }
+          ],
+          "photo_note": "水巷贡多拉蓝绿水+暖墙,白/红都出片"
         },
         {
           "id": "d11-i03",
@@ -2131,10 +2298,11 @@
       "title": "米兰日(时间待细化)",
       "items": [
         {
-          "id": "d13-i01",
+          "id": "d13-i05",
           "time": "全天",
-          "name": "米兰大教堂+埃马努埃莱二世长廊",
+          "name": "米兰大教堂",
           "type": "sight",
+          "summary": "米兰大教堂(登顶票未订,可官网或现场补)",
           "location": {
             "name": "Duomo di Milano",
             "lat": 45.4641,
@@ -2142,31 +2310,23 @@
           },
           "images": [
             {
-              "file": "d13-i01-1.webp",
+              "file": "d13-i05-1.webp",
               "caption": "夕阳下的哥特立面"
             },
             {
-              "file": "d13-i01-2.webp",
+              "file": "d13-i05-2.webp",
               "caption": "内部立柱与彩窗"
             },
             {
-              "file": "d13-i01-3.webp",
+              "file": "d13-i05-3.webp",
               "caption": "屋顶尖塔近景"
             },
             {
-              "file": "d13-i01-4.webp",
+              "file": "d13-i05-4.webp",
               "caption": "屋顶俯瞰米兰红顶"
-            },
-            {
-              "file": "d13-i01-5.webp",
-              "caption": "埃马努埃莱二世长廊穹顶"
-            },
-            {
-              "file": "d13-i01-6.webp",
-              "caption": "长廊内景"
             }
           ],
-          "photo_note": "白色哥特尖塔林立,黑/白/红色在教堂前都经典;屋顶步道时装周氛围感,防风;长廊金色玻璃穹顶+奢侈品牌橱窗,黑色优雅最搭",
+          "photo_note": "白色哥特尖塔林立,黑/白/红色在教堂前都经典;屋顶步道时装周氛围感,防风",
           "transfer": {
             "from": "公寓(Walk to Duomo)",
             "recommend": "walk",
@@ -2188,14 +2348,138 @@
               "text": "米兰大教堂(Duomo di Milano)是意大利最大教堂:侧廊巨幅彩窗值得细看;地下圣卡洛·博罗梅奥水晶棺(Scurolo di San Carlo)值得排队看一眼。"
             },
             {
-              "title": "长廊公牛",
-              "text": "埃马努埃莱二世长廊(Galleria Vittorio Emanuele II)地面的公牛(toro) mosaic:后脚跟原地转三圈许愿(米兰传统);长廊里的 Camparino in Galleria 是意大利开胃酒文化发源地。"
-            },
-            {
               "title": "提示",
               "text": "教堂与屋顶均要求遮肩过膝;黄昏时段屋顶最挤,上午人少光好。"
             }
           ]
+        },
+        {
+          "id": "d13-i06",
+          "time": "全天",
+          "name": "埃马努埃莱二世长廊",
+          "type": "sight",
+          "summary": "教堂旁购物长廊",
+          "location": {
+            "name": "Galleria Vittorio Emanuele II",
+            "lat": 45.4647,
+            "lng": 9.1899
+          },
+          "images": [
+            {
+              "file": "d13-i06-1.webp",
+              "caption": "埃马努埃莱二世长廊穹顶"
+            },
+            {
+              "file": "d13-i06-2.webp",
+              "caption": "长廊内景"
+            }
+          ],
+          "photo_note": "长廊金色玻璃穹顶+奢侈品牌橱窗,黑色优雅最搭",
+          "visit_guide": [
+            {
+              "title": "长廊公牛",
+              "text": "埃马努埃莱二世长廊(Galleria Vittorio Emanuele II)地面的公牛(toro) mosaic:后脚跟原地转三圈许愿(米兰传统);长廊里的 Camparino in Galleria 是意大利开胃酒文化发源地。"
+            }
+          ]
+        },
+        {
+          "id": "d13-i07",
+          "time": "全天",
+          "name": "斯福尔扎城堡",
+          "type": "sight",
+          "summary": "红砖城堡庭院(城堡博物馆未订票)",
+          "details": "城堡庭院与喷泉免费开放",
+          "location": {
+            "name": "Castello Sforzesco",
+            "lat": 45.47,
+            "lng": 9.181
+          },
+          "tips": "城堡后身即森皮奥内公园,穿公园即和平门",
+          "images": [
+            {
+              "file": "d13-i07-1.webp",
+              "caption": "斯福尔扎城堡红砖堡垒"
+            },
+            {
+              "file": "d13-i07-2.webp",
+              "caption": "城堡钟塔与喷泉"
+            }
+          ],
+          "photo_note": "红砖城堡+绿荫,大地色/白色简洁出片",
+          "transfer": {
+            "from": "圣玛利亚感恩教堂",
+            "recommend": "walk",
+            "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 1150,
+                "min": 15,
+                "note": "经 Corso Magenta→Sempione 公园南门"
+              }
+            ]
+          }
+        },
+        {
+          "id": "d13-i08",
+          "time": "全天",
+          "name": "和平门",
+          "type": "sight",
+          "summary": "经森皮奥内公园步行到和平门",
+          "location": {
+            "name": "Arco della Pace",
+            "lat": 45.474,
+            "lng": 9.179
+          },
+          "tips": "公园里散步约 15 分钟到门",
+          "images": [
+            {
+              "file": "d13-i08-1.webp",
+              "caption": "和平门特写"
+            },
+            {
+              "file": "d13-i08-2.webp",
+              "caption": "和平门与绿荫"
+            }
+          ],
+          "photo_note": "和平门新古典白色配绿植背景,亮色对比"
+        },
+        {
+          "id": "d13-i09",
+          "time": "全天",
+          "name": "布雷拉美术馆",
+          "type": "free",
+          "summary": "布雷拉美术馆(票未订)",
+          "location": {
+            "name": "Pinacoteca di Brera",
+            "lat": 45.4724,
+            "lng": 9.186
+          },
+          "tips": "海耶兹《吻》在此;现场排队或官网补票",
+          "transfer": {
+            "from": "斯福尔扎城堡",
+            "recommend": "walk",
+            "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 750,
+                "min": 10,
+                "note": "出城堡东门经 Via Brera 艺术街区"
+              }
+            ]
+          }
+        },
+        {
+          "id": "d13-i10",
+          "time": "全天",
+          "name": "斯卡拉歌剧院",
+          "type": "free",
+          "summary": "歌剧院外观+博物馆",
+          "location": {
+            "name": "Teatro alla Scala",
+            "lat": 45.4674,
+            "lng": 9.1895
+          },
+          "tips": "斯卡拉歌剧院→回公寓 800 米/10 分钟"
         },
         {
           "id": "d13-i02",
@@ -2246,70 +2530,6 @@
                 "cost": "€8-9"
               }
             ]
-          }
-        },
-        {
-          "id": "d13-i03",
-          "time": "全天",
-          "name": "斯福尔扎城堡+和平门",
-          "type": "sight",
-          "location": {
-            "name": "Castello Sforzesco",
-            "lat": 45.47,
-            "lng": 9.181
-          },
-          "images": [
-            {
-              "file": "d13-i03-1.webp",
-              "caption": "斯福尔扎城堡红砖堡垒"
-            },
-            {
-              "file": "d13-i03-2.webp",
-              "caption": "城堡钟塔与喷泉"
-            },
-            {
-              "file": "d13-i03-3.webp",
-              "caption": "和平门特写"
-            },
-            {
-              "file": "d13-i03-4.webp",
-              "caption": "和平门与绿荫"
-            }
-          ],
-          "photo_note": "红砖城堡+绿荫,大地色/白色简洁出片;和平门新古典白色配绿植背景,亮色对比",
-          "transfer": {
-            "from": "圣玛利亚感恩教堂",
-            "recommend": "walk",
-            "modes": [
-              {
-                "mode": "walk",
-                "dist_m": 1150,
-                "min": 15,
-                "note": "经 Corso Magenta→Sempione 公园南门"
-              }
-            ]
-          }
-        },
-        {
-          "id": "d13-i04",
-          "time": "全天",
-          "name": "布雷拉美术馆+斯卡拉歌剧院",
-          "type": "free",
-          "location": {
-            "name": "Pinacoteca di Brera"
-          },
-          "transfer": {
-            "from": "斯福尔扎城堡",
-            "recommend": "walk",
-            "modes": [
-              {
-                "mode": "walk",
-                "dist_m": 750,
-                "min": 10,
-                "note": "出城堡东门经 Via Brera 艺术街区"
-              }
-            ],
-            "note": "斯卡拉歌剧院→回公寓 800 米/10 分钟"
           }
         }
       ]
@@ -3395,6 +3615,114 @@
           "caption": "完整票面(Full Experience 含地下层导览 8€)"
         }
       ]
+    },
+    {
+      "id": "fr1164-t1",
+      "name": "FR1164 登机牌(Zhengyang)",
+      "date": "2026-09-25",
+      "time": "10:25",
+      "type": "personal",
+      "owner_ids": [
+        "t1"
+      ],
+      "barcode_type": "Aztec",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "登机口 09:55 关闭(起飞前 30 分钟),逾时不候",
+      "batch": "GBHEQB",
+      "order_no": "去哪儿订单 334586542012",
+      "platform": "Ryanair(经去哪儿出票)",
+      "images": [
+        {
+          "file": "fr1164-t1-1.jpg",
+          "owner_id": "t1",
+          "caption": "登机牌:座位 20D·后门登机·序号 0154(手机没电时他人 App 可调出应急)"
+        }
+      ],
+      "notes": "座位 20D·后门登机·序号 0154;Non-Priority 仅 1 件随身小包,托运 20kg 已含;Aztec 码已离线解码核对(BCBP:姓名/座位/PNR GBHEQB 一致);托运柜台截止 09:45"
+    },
+    {
+      "id": "fr1164-t2",
+      "name": "FR1164 登机牌(Yongtong)",
+      "date": "2026-09-25",
+      "time": "10:25",
+      "type": "personal",
+      "owner_ids": [
+        "t2"
+      ],
+      "barcode_type": "Aztec",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "登机口 09:55 关闭(起飞前 30 分钟),逾时不候",
+      "batch": "GBHEQB",
+      "order_no": "去哪儿订单 334586542012",
+      "platform": "Ryanair(经去哪儿出票)",
+      "images": [
+        {
+          "file": "fr1164-t2-1.jpg",
+          "owner_id": "t2",
+          "caption": "登机牌:座位 10D·登机门见登机牌·序号 0153(手机没电时他人 App 可调出应急)"
+        }
+      ],
+      "notes": "座位 10D·登机门见登机牌·序号 0153;Non-Priority 仅 1 件随身小包,托运 20kg 已含;Aztec 码已离线解码核对(BCBP:姓名/座位/PNR GBHEQB 一致);托运柜台截止 09:45"
+    },
+    {
+      "id": "fr1164-t3",
+      "name": "FR1164 登机牌(Mingxin)",
+      "date": "2026-09-25",
+      "time": "10:25",
+      "type": "personal",
+      "owner_ids": [
+        "t3"
+      ],
+      "barcode_type": "Aztec",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "登机口 09:55 关闭(起飞前 30 分钟),逾时不候",
+      "batch": "STZYSR",
+      "order_no": "去哪儿订单 334586542012",
+      "platform": "Ryanair(经去哪儿出票)",
+      "images": [
+        {
+          "file": "fr1164-t3-1.jpg",
+          "owner_id": "t3",
+          "caption": "登机牌:座位 33E·后门登机·序号 0157(手机没电时他人 App 可调出应急)"
+        }
+      ],
+      "notes": "座位 33E·后门登机·序号 0157;Non-Priority 仅 1 件随身小包,托运 20kg 已含;Aztec 码已离线解码核对(BCBP:姓名/座位/PNR STZYSR 一致);托运柜台截止 09:45"
+    },
+    {
+      "id": "fr1164-t4",
+      "name": "FR1164 登机牌(Chiu Yan)",
+      "date": "2026-09-25",
+      "time": "10:25",
+      "type": "personal",
+      "owner_ids": [
+        "t4"
+      ],
+      "barcode_type": "Aztec",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "登机口 09:55 关闭(起飞前 30 分钟),逾时不候",
+      "batch": "STZYSR",
+      "order_no": "去哪儿订单 334586542012",
+      "platform": "Ryanair(经去哪儿出票)",
+      "images": [
+        {
+          "file": "fr1164-t4-1.jpg",
+          "owner_id": "t4",
+          "caption": "登机牌:座位 10B·前门登机·序号 0158(手机没电时他人 App 可调出应急)"
+        }
+      ],
+      "notes": "座位 10B·前门登机·序号 0158;Non-Priority 仅 1 件随身小包,托运 20kg 已含;Aztec 码已离线解码核对(BCBP:姓名/座位/PNR STZYSR 一致);托运柜台截止 09:45"
     }
   ],
   "lodging": [
@@ -3551,8 +3879,13 @@
       "to": "巴塞罗那 BCN T2",
       "arrive_time": "12:05",
       "seat": "Zhengyang 20D/Yongtong 10D/Mingxin 33E/Chiu Yan 10B(随机)",
-      "ticket_ids": [],
-      "notes": "4 人已出票(去哪儿订单 334586542012);4 人已完成在线值机(2026-09-25 晨),登机牌已存各自手机,注意电量/建议互存截图备份;每人仅随身小包 40×20×25cm + 托运 1×20kg,无登机箱;托运截止 09:45、登机口 09:55 关;已按票面覆盖原计划 13:40-15:25(Excel 总览时间有误,日程表 12:05 落地与票面一致)",
+      "ticket_ids": [
+        "fr1164-t1",
+        "fr1164-t2",
+        "fr1164-t3",
+        "fr1164-t4"
+      ],
+      "notes": "4 人已出票(去哪儿订单 334586542012);4 人已完成在线值机(2026-09-25 晨),登机牌已存各自手机并已录入票务页(手机没电时他人 App 可调出);值机 PNR:GBHEQB(Zhengyang/Yongtong)/STZYSR(Mingxin/Chiu Yan);每人仅随身小包 40×20×25cm + 托运 1×20kg,无登机箱;托运截止 09:45、登机口 09:55 关;已按票面覆盖原计划 13:40-15:25(Excel 总览时间有误,日程表 12:05 落地与票面一致)",
       "company": "瑞安航空(Ryanair)"
     },
     {
