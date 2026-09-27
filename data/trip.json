@@ -1,7 +1,7 @@
 {
   "meta": {
     "data_version": 33,
-    "generated_at": "2026-09-25T20:38:25+08:00",
+    "generated_at": "2026-09-25T20:40:00+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -1279,7 +1279,35 @@
           "end_time": "14:00",
           "name": "航班:巴塞罗那→帕尔马 VY3926",
           "type": "transport",
-          "summary": "伏林航空 VY3926 · BCN T1 13:05 → PMI 14:00,4 人已出票(原计划 12:20 已按票面覆盖)"
+          "summary": "伏林航空 VY3926 · BCN T1 13:05 → PMI 14:00;4 人已值机✓ 14 排连座(登机牌见票务)",
+          "ticket_ids": [
+            "vy3926-t1",
+            "vy3926-t2",
+            "vy3926-t3",
+            "vy3926-t4"
+          ],
+          "tips": "4 人已完成在线值机,座位 14C(D为过道) 14D 14E 14F 连座;登机牌在各自手机并已录入票务页;托运 4×20kg,柜台约 12:25 截止;建议 11:30 前到 T1;随身小包 40×20×30;落地 PMI 后取车(Record go 机场柜台)",
+          "transfer": {
+            "from": "Novotel Barcelona City",
+            "recommend": "taxi",
+            "modes": [
+              {
+                "mode": "taxi",
+                "min": 25,
+                "cost": "€30-35/车 × 2车(4人+4大箱)或 7座van一辆",
+                "note": "计价器计费约 18km,周日中午不堵约 25 分钟;前台提前叫车"
+              },
+              {
+                "mode": "bus",
+                "line": "L1+Aerobús A1",
+                "board": "Glòries",
+                "alight": "Aeroport T1",
+                "min": 55,
+                "cost": "€2.55+€7.3/人",
+                "note": "L1 到 Catalunya 换 Aerobús A1 直达 T1,大箱拖拽不便"
+              }
+            ]
+          }
         },
         {
           "id": "d05-i02",
@@ -3777,6 +3805,114 @@
         }
       ],
       "notes": "座位 10B·前门登机·序号 0158;Non-Priority 仅 1 件随身小包,托运 20kg 已含;Aztec 码已离线解码核对(BCBP:姓名/座位/PNR STZYSR 一致);托运柜台截止 09:45"
+    },
+    {
+      "id": "vy3926-t1",
+      "name": "VY3926 登机牌(Zhengyang)",
+      "date": "2026-09-27",
+      "time": "13:05",
+      "type": "personal",
+      "owner_ids": [
+        "t1"
+      ],
+      "barcode_type": "Aztec",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "托运柜台约起飞前 40 分钟截止;登机口以信息屏为准,建议起飞前 45 分钟到登机口",
+      "batch": "PDM1TR",
+      "order_no": "去哪儿订单 334585229289",
+      "platform": "Vueling 伏林航空(经去哪儿出票)",
+      "images": [
+        {
+          "file": "vy3926-t1-1.jpg",
+          "owner_id": "t1",
+          "caption": "登机牌:座位 14E·序号 0152(手机没电时他人 App 可调出应急)"
+        }
+      ],
+      "notes": "座位 14E·序号 0152;四人 14 排连座(C/D/E/F,过道两侧);Aztec 码已离线解码核对(BCBP:姓名/座位/PNR PDM1TR 一致);随身小包 40×20×30+托运 1×20kg 已含"
+    },
+    {
+      "id": "vy3926-t2",
+      "name": "VY3926 登机牌(Yongtong)",
+      "date": "2026-09-27",
+      "time": "13:05",
+      "type": "personal",
+      "owner_ids": [
+        "t2"
+      ],
+      "barcode_type": "Aztec",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "托运柜台约起飞前 40 分钟截止;登机口以信息屏为准,建议起飞前 45 分钟到登机口",
+      "batch": "PDM1TR",
+      "order_no": "去哪儿订单 334585229289",
+      "platform": "Vueling 伏林航空(经去哪儿出票)",
+      "images": [
+        {
+          "file": "vy3926-t2-1.jpg",
+          "owner_id": "t2",
+          "caption": "登机牌:座位 14F·序号 0151(手机没电时他人 App 可调出应急)"
+        }
+      ],
+      "notes": "座位 14F·序号 0151;四人 14 排连座(C/D/E/F,过道两侧);Aztec 码已离线解码核对(BCBP:姓名/座位/PNR PDM1TR 一致);随身小包 40×20×30+托运 1×20kg 已含"
+    },
+    {
+      "id": "vy3926-t3",
+      "name": "VY3926 登机牌(Mingxin)",
+      "date": "2026-09-27",
+      "time": "13:05",
+      "type": "personal",
+      "owner_ids": [
+        "t3"
+      ],
+      "barcode_type": "Aztec",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "托运柜台约起飞前 40 分钟截止;登机口以信息屏为准,建议起飞前 45 分钟到登机口",
+      "batch": "PDM1TR",
+      "order_no": "去哪儿订单 334585229289",
+      "platform": "Vueling 伏林航空(经去哪儿出票)",
+      "images": [
+        {
+          "file": "vy3926-t3-1.jpg",
+          "owner_id": "t3",
+          "caption": "登机牌:座位 14C·序号 0154(手机没电时他人 App 可调出应急)"
+        }
+      ],
+      "notes": "座位 14C·序号 0154;四人 14 排连座(C/D/E/F,过道两侧);Aztec 码已离线解码核对(BCBP:姓名/座位/PNR PDM1TR 一致);随身小包 40×20×30+托运 1×20kg 已含"
+    },
+    {
+      "id": "vy3926-t4",
+      "name": "VY3926 登机牌(Chiu Yan)",
+      "date": "2026-09-27",
+      "time": "13:05",
+      "type": "personal",
+      "owner_ids": [
+        "t4"
+      ],
+      "barcode_type": "Aztec",
+      "nominal": true,
+      "id_required": true,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "托运柜台约起飞前 40 分钟截止;登机口以信息屏为准,建议起飞前 45 分钟到登机口",
+      "batch": "PDM1TR",
+      "order_no": "去哪儿订单 334585229289",
+      "platform": "Vueling 伏林航空(经去哪儿出票)",
+      "images": [
+        {
+          "file": "vy3926-t4-1.jpg",
+          "owner_id": "t4",
+          "caption": "登机牌:座位 14D·序号 0153(手机没电时他人 App 可调出应急)"
+        }
+      ],
+      "notes": "座位 14D·序号 0153;四人 14 排连座(C/D/E/F,过道两侧);Aztec 码已离线解码核对(BCBP:姓名/座位/PNR PDM1TR 一致);随身小包 40×20×30+托运 1×20kg 已含"
     }
   ],
   "lodging": [
@@ -3951,9 +4087,14 @@
       "from": "巴塞罗那 BCN T1",
       "to": "帕尔马 PMI",
       "arrive_time": "14:00",
-      "seat": "",
-      "ticket_ids": [],
-      "notes": "伏林航空,4 人,已出票(去哪儿订单 334585229289);行李:随身小包 40×20×30cm+每人托运 1×20kg(票面确认);原计划 12:20-13:20 已按票面覆盖;落地后接驳前往阿尔库迪亚(接驳方式待补)"
+      "seat": "Zhengyang 14E/Yongtong 14F/Mingxin 14C/Chiu Yan 14D(14排连座)",
+      "ticket_ids": [
+        "vy3926-t1",
+        "vy3926-t2",
+        "vy3926-t3",
+        "vy3926-t4"
+      ],
+      "notes": "伏林航空,4 人,已出票(去哪儿订单 334585229289);4 人已完成在线值机(2026-09-25),座位 14 排连座 C/D/E/F,登机牌已存各自手机并录入票务页(值机 PNR PDM1TR);行李:随身小包 40×20×30cm+每人托运 1×20kg;落地后 Record go 机场柜台取车(Just Go Box QR)"
     },
     {
       "id": "tr4",
