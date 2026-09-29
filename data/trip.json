@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 37,
-    "generated_at": "2026-09-29T04:10:00+08:00",
+    "data_version": 38,
+    "generated_at": "2026-09-29T04:40:00+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -2317,7 +2317,8 @@
           "id": "d11-i03",
           "time": "全天",
           "name": "贡多拉游船",
-          "type": "free"
+          "type": "free",
+          "tips": "10/1 起为威尼斯涨潮季(acqua alta):10/3 出发前一晚和当天早上查潮位(Hi!Tide Venice App 或 comune.venezia.it 潮汐中心),预报≥110cm 城区才明显涨水且 MOSE 挡潮闸会升起保城;圣马可广场最洼,约+80cm 起局部积水,多发生在涨潮峰前后 1-2 小时,现场有架空步道;鞋套街头几欧随处有售;Mestre↔主岛的火车不受影响"
         },
         {
           "id": "d11-i04",
