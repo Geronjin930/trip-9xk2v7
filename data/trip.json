@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 39,
-    "generated_at": "2026-09-29T05:20:00+08:00",
+    "data_version": 40,
+    "generated_at": "2026-09-29T05:50:00+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -2222,13 +2222,21 @@
       "items": [
         {
           "id": "d11-i01",
-          "time": "全天",
+          "time": "07:20",
           "name": "火车:佛罗伦萨→威尼斯",
           "type": "transport",
-          "summary": "车次待补;住宿 05:00-10:00 退房(早班出发)",
+          "summary": "Frecciarossa 9400 · 佛罗伦萨 S.M.N. 07:20 → 威尼斯 Mestre 09:23;4 人已出票(4号车厢,座位随机分散)",
           "location": {
             "name": "Venezia Mestre"
-          }
+          },
+          "end_time": "09:23",
+          "tips": "⚠ 07:20 发车=佛罗伦萨早退房:提前与 Casa di Giotto 房东确认早退房/行李寄存方案(罗马早退房已确认过,这家别忘),06:45-07:00 离店,步行或打车到 S.M.N. 站,07:05 前上车(4 号车厢);Economy 票限本车次不可退;车上查票扫各自 Aztec 码(票务页)或报 PNR EPWA35;09:23 到 Mestre 站→CX Venice Mestre 寄存行李→区间火车/船进主岛(接驳见圣马可条目)",
+          "ticket_ids": [
+            "trenitalia-fv-t1",
+            "trenitalia-fv-t2",
+            "trenitalia-fv-t3",
+            "trenitalia-fv-t4"
+          ]
         },
         {
           "id": "d11-i05",
@@ -4326,6 +4334,138 @@
           "caption": "完整票面(含乘客名与座位)"
         }
       ]
+    },
+    {
+      "id": "trenitalia-fv-t1",
+      "name": "Frecciarossa 9400 火车票·佛罗伦萨→威尼斯(Zhengyang)",
+      "date": "2026-10-03",
+      "time": "07:20",
+      "type": "personal",
+      "owner_ids": [
+        "t1"
+      ],
+      "barcode_type": "Aztec",
+      "nominal": true,
+      "id_required": false,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "Economy 票:限票面车次,开车前可改签、不可退票;错过作废;查票可报 PNR",
+      "batch": "EPWA35",
+      "order_no": "Entitlement 29659463xx",
+      "platform": "Trenitalia(微信渠道代购)",
+      "images": [
+        {
+          "file": "trenitalia-fv-t1-1.png",
+          "owner_id": "t1",
+          "caption": "Zhengyang 的验票 Aztec 码(车上扫描或报 PNR)"
+        }
+      ],
+      "notes": "Frecciarossa 9400 · Firenze S.M. Novella 07:20 → Venezia Mestre 09:23;车厢 4 座位 11C(Economy 随机分散:6C/9B/10C/11C);PNR EPWA35(4 人同订);开车前可改签不可退;Aztec 已离线解码验证",
+      "pages": [
+        {
+          "file": "trenitalia-fv-t1-page-1.jpg",
+          "caption": "完整票面(含乘客名与座位)"
+        }
+      ]
+    },
+    {
+      "id": "trenitalia-fv-t2",
+      "name": "Frecciarossa 9400 火车票·佛罗伦萨→威尼斯(Yongtong)",
+      "date": "2026-10-03",
+      "time": "07:20",
+      "type": "personal",
+      "owner_ids": [
+        "t2"
+      ],
+      "barcode_type": "Aztec",
+      "nominal": true,
+      "id_required": false,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "Economy 票:限票面车次,开车前可改签、不可退票;错过作废;查票可报 PNR",
+      "batch": "EPWA35",
+      "order_no": "Entitlement 29659463xx",
+      "platform": "Trenitalia(微信渠道代购)",
+      "images": [
+        {
+          "file": "trenitalia-fv-t2-1.png",
+          "owner_id": "t2",
+          "caption": "Yongtong 的验票 Aztec 码(车上扫描或报 PNR)"
+        }
+      ],
+      "notes": "Frecciarossa 9400 · Firenze S.M. Novella 07:20 → Venezia Mestre 09:23;车厢 4 座位 10C(Economy 随机分散:6C/9B/10C/11C);PNR EPWA35(4 人同订);开车前可改签不可退;Aztec 已离线解码验证",
+      "pages": [
+        {
+          "file": "trenitalia-fv-t2-page-1.jpg",
+          "caption": "完整票面(含乘客名与座位)"
+        }
+      ]
+    },
+    {
+      "id": "trenitalia-fv-t3",
+      "name": "Frecciarossa 9400 火车票·佛罗伦萨→威尼斯(Mingxin)",
+      "date": "2026-10-03",
+      "time": "07:20",
+      "type": "personal",
+      "owner_ids": [
+        "t3"
+      ],
+      "barcode_type": "Aztec",
+      "nominal": true,
+      "id_required": false,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "Economy 票:限票面车次,开车前可改签、不可退票;错过作废;查票可报 PNR",
+      "batch": "EPWA35",
+      "order_no": "Entitlement 29659463xx",
+      "platform": "Trenitalia(微信渠道代购)",
+      "images": [
+        {
+          "file": "trenitalia-fv-t3-1.png",
+          "owner_id": "t3",
+          "caption": "Mingxin 的验票 Aztec 码(车上扫描或报 PNR)"
+        }
+      ],
+      "notes": "Frecciarossa 9400 · Firenze S.M. Novella 07:20 → Venezia Mestre 09:23;车厢 4 座位 9B(Economy 随机分散:6C/9B/10C/11C);PNR EPWA35(4 人同订);开车前可改签不可退;Aztec 已离线解码验证",
+      "pages": [
+        {
+          "file": "trenitalia-fv-t3-page-1.jpg",
+          "caption": "完整票面(含乘客名与座位)"
+        }
+      ]
+    },
+    {
+      "id": "trenitalia-fv-t4",
+      "name": "Frecciarossa 9400 火车票·佛罗伦萨→威尼斯(Chiu Yan)",
+      "date": "2026-10-03",
+      "time": "07:20",
+      "type": "personal",
+      "owner_ids": [
+        "t4"
+      ],
+      "barcode_type": "Aztec",
+      "nominal": true,
+      "id_required": false,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "Economy 票:限票面车次,开车前可改签、不可退票;错过作废;查票可报 PNR",
+      "batch": "EPWA35",
+      "order_no": "Entitlement 29659463xx",
+      "platform": "Trenitalia(微信渠道代购)",
+      "images": [
+        {
+          "file": "trenitalia-fv-t4-1.png",
+          "owner_id": "t4",
+          "caption": "Chiu Yan 的验票 Aztec 码(车上扫描或报 PNR)"
+        }
+      ],
+      "notes": "Frecciarossa 9400 · Firenze S.M. Novella 07:20 → Venezia Mestre 09:23;车厢 4 座位 6C(Economy 随机分散:6C/9B/10C/11C);PNR EPWA35(4 人同订);开车前可改签不可退;Aztec 已离线解码验证",
+      "pages": [
+        {
+          "file": "trenitalia-fv-t4-page-1.jpg",
+          "caption": "完整票面(含乘客名与座位)"
+        }
+      ]
     }
   ],
   "lodging": [
@@ -4545,6 +4685,25 @@
         "trenitalia-rf-t4"
       ],
       "notes": "4 人已出票(PNR EL2W8N,微信渠道代购,€44.90/人);Economy 票限本车次(开车前可改签/不可退);早退房已与房东沟通妥(用户确认);07:00 前离店;到达后当日往返比萨",
+      "company": "Trenitalia Frecciarossa"
+    },
+    {
+      "id": "tr8",
+      "date": "2026-10-03",
+      "time": "07:20",
+      "type": "train",
+      "no": "Frecciarossa 9400",
+      "from": "佛罗伦萨 S.M. Novella",
+      "to": "威尼斯 Mestre",
+      "arrive_time": "09:23",
+      "seat": "车厢4:Zhengyang 11C/Yongtong 10C/Mingxin 9B/Chiu Yan 6C(随机分散)",
+      "ticket_ids": [
+        "trenitalia-fv-t1",
+        "trenitalia-fv-t2",
+        "trenitalia-fv-t3",
+        "trenitalia-fv-t4"
+      ],
+      "notes": "4 人已出票(PNR EPWA35,微信渠道代购);Economy 票限本车次(开车前可改签/不可退);终点为 Mestre 站(非主岛),到达后酒店寄存行李再进主岛",
       "company": "Trenitalia Frecciarossa"
     },
     {
