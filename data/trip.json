@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 35,
-    "generated_at": "2026-09-27T19:30:00+08:00",
+    "data_version": 36,
+    "generated_at": "2026-09-29T03:30:00+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -1783,14 +1783,40 @@
       "items": [
         {
           "id": "d09-i01",
-          "time": "全天",
+          "time": "07:30",
           "name": "火车:罗马→佛罗伦萨",
           "type": "transport",
-          "summary": "车次待补;⚠ 早 09:30-10:00 Home Alex 退房后再出发",
+          "summary": "Frecciarossa 9406 · Termini 07:30 → 佛罗伦萨 S.M.N. 09:11;4 人已出票(7号车厢两排相邻)",
           "location": {
             "name": "Roma Termini",
             "lat": 41.9013,
             "lng": 12.5005
+          },
+          "end_time": "09:11",
+          "tips": "⚠ 票面 07:30 发车,早于 Home Alex 09:30-10:00 退房时段:前一晚收拾好行李,提前告知房东早退房(06:50-07:00 离店,按房东指引交钥匙);步行 8 分钟到 Termini(拖箱约 15 分钟)或打车起步价;07:15 前到 7 号车厢所在车厢位上车;Economy 票限本车次不可退;车上查票扫各自 Aztec 码(票务页可调出);09:11 到佛罗伦萨后,站内存包或直接换乘往比萨的区间车(往返车次待补)",
+          "ticket_ids": [
+            "trenitalia-rf-t1",
+            "trenitalia-rf-t2",
+            "trenitalia-rf-t3",
+            "trenitalia-rf-t4"
+          ],
+          "transfer": {
+            "from": "Home Alex(酒店)",
+            "recommend": "walk",
+            "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 700,
+                "min": 12,
+                "note": "沿 Via Giovanni Amendola 直走到 Termini,清晨人少"
+              },
+              {
+                "mode": "taxi",
+                "min": 5,
+                "cost": "€6-8",
+                "note": "起步价,行李多时省力"
+              }
+            ]
           }
         },
         {
@@ -4027,6 +4053,138 @@
         }
       ],
       "notes": "座位 31C·序号 0048(Wizz 随机座位,四人分散 9C/14C/24F/31C);PDF417 码已离线解码核对(BCBP:姓名/座位/PNR THUURB 一致);托运 26kg 已含,随身 40×30×20"
+    },
+    {
+      "id": "trenitalia-rf-t1",
+      "name": "Frecciarossa 9406 火车票·罗马→佛罗伦萨(Zhengyang)",
+      "date": "2026-10-01",
+      "time": "07:30",
+      "type": "personal",
+      "owner_ids": [
+        "t1"
+      ],
+      "barcode_type": "Aztec",
+      "nominal": true,
+      "id_required": false,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "Economy 票:限票面车次,开车前可改签、不可退票;错过作废",
+      "batch": "EL2W8N",
+      "order_no": "Entitlement 29657020xx",
+      "platform": "Trenitalia(微信渠道代购)",
+      "images": [
+        {
+          "file": "trenitalia-rf-t1-1.png",
+          "owner_id": "t1",
+          "caption": "Zhengyang 的验票 Aztec 码(车上/闸机扫描)"
+        }
+      ],
+      "notes": "Frecciarossa 9406 · Roma Termini 07:30 → Firenze S.M. Novella 09:11;车厢 7 座位 17B;PNR EL2W8N(4 人同订);Economy 票面 €44.90/人,开车前可改签不可退;车上查票出示手机票或此码;Aztec 已离线解码验证",
+      "pages": [
+        {
+          "file": "trenitalia-rf-t1-page-1.jpg",
+          "caption": "完整票面(含乘客名与座位)"
+        }
+      ]
+    },
+    {
+      "id": "trenitalia-rf-t2",
+      "name": "Frecciarossa 9406 火车票·罗马→佛罗伦萨(Yongtong)",
+      "date": "2026-10-01",
+      "time": "07:30",
+      "type": "personal",
+      "owner_ids": [
+        "t2"
+      ],
+      "barcode_type": "Aztec",
+      "nominal": true,
+      "id_required": false,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "Economy 票:限票面车次,开车前可改签、不可退票;错过作废",
+      "batch": "EL2W8N",
+      "order_no": "Entitlement 29657020xx",
+      "platform": "Trenitalia(微信渠道代购)",
+      "images": [
+        {
+          "file": "trenitalia-rf-t2-1.png",
+          "owner_id": "t2",
+          "caption": "Yongtong 的验票 Aztec 码(车上/闸机扫描)"
+        }
+      ],
+      "notes": "Frecciarossa 9406 · Roma Termini 07:30 → Firenze S.M. Novella 09:11;车厢 7 座位 18B;PNR EL2W8N(4 人同订);Economy 票面 €44.90/人,开车前可改签不可退;车上查票出示手机票或此码;Aztec 已离线解码验证",
+      "pages": [
+        {
+          "file": "trenitalia-rf-t2-page-1.jpg",
+          "caption": "完整票面(含乘客名与座位)"
+        }
+      ]
+    },
+    {
+      "id": "trenitalia-rf-t3",
+      "name": "Frecciarossa 9406 火车票·罗马→佛罗伦萨(Mingxin)",
+      "date": "2026-10-01",
+      "time": "07:30",
+      "type": "personal",
+      "owner_ids": [
+        "t3"
+      ],
+      "barcode_type": "Aztec",
+      "nominal": true,
+      "id_required": false,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "Economy 票:限票面车次,开车前可改签、不可退票;错过作废",
+      "batch": "EL2W8N",
+      "order_no": "Entitlement 29657020xx",
+      "platform": "Trenitalia(微信渠道代购)",
+      "images": [
+        {
+          "file": "trenitalia-rf-t3-1.png",
+          "owner_id": "t3",
+          "caption": "Mingxin 的验票 Aztec 码(车上/闸机扫描)"
+        }
+      ],
+      "notes": "Frecciarossa 9406 · Roma Termini 07:30 → Firenze S.M. Novella 09:11;车厢 7 座位 18A;PNR EL2W8N(4 人同订);Economy 票面 €44.90/人,开车前可改签不可退;车上查票出示手机票或此码;Aztec 已离线解码验证",
+      "pages": [
+        {
+          "file": "trenitalia-rf-t3-page-1.jpg",
+          "caption": "完整票面(含乘客名与座位)"
+        }
+      ]
+    },
+    {
+      "id": "trenitalia-rf-t4",
+      "name": "Frecciarossa 9406 火车票·罗马→佛罗伦萨(Chiu Yan)",
+      "date": "2026-10-01",
+      "time": "07:30",
+      "type": "personal",
+      "owner_ids": [
+        "t4"
+      ],
+      "barcode_type": "Aztec",
+      "nominal": true,
+      "id_required": false,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "Economy 票:限票面车次,开车前可改签、不可退票;错过作废",
+      "batch": "EL2W8N",
+      "order_no": "Entitlement 29657020xx",
+      "platform": "Trenitalia(微信渠道代购)",
+      "images": [
+        {
+          "file": "trenitalia-rf-t4-1.png",
+          "owner_id": "t4",
+          "caption": "Chiu Yan 的验票 Aztec 码(车上/闸机扫描)"
+        }
+      ],
+      "notes": "Frecciarossa 9406 · Roma Termini 07:30 → Firenze S.M. Novella 09:11;车厢 7 座位 17A;PNR EL2W8N(4 人同订);Economy 票面 €44.90/人,开车前可改签不可退;车上查票出示手机票或此码;Aztec 已离线解码验证",
+      "pages": [
+        {
+          "file": "trenitalia-rf-t4-page-1.jpg",
+          "caption": "完整票面(含乘客名与座位)"
+        }
+      ]
     }
   ],
   "lodging": [
@@ -4228,6 +4386,25 @@
       ],
       "notes": "4 人已出票并完成在线值机(2026-09-27),登机牌已存各自手机并录入票务页;座位随机分散 9C/14C/24F/31C(Trip.com 订单 1128 1510 3757 8890;航司编码 ZLZ4PV/ZKIU9V/IKYCYV/THUURB);行李:随身小包 40×30×20cm+托运 26kg×4 人全含(票面未体现,用户 2026-09-22 确认);机场已核实为 FCO;Leonardo Express 进城约 32 分钟到 Termini;⚠ Home Alex 入住 13:00-22:00,落地较晚需抓紧",
       "company": "维兹马耳他航空(Wizz Air Malta)"
+    },
+    {
+      "id": "tr6",
+      "date": "2026-10-01",
+      "time": "07:30",
+      "type": "train",
+      "no": "Frecciarossa 9406",
+      "from": "罗马 Termini",
+      "to": "佛罗伦萨 S.M. Novella",
+      "arrive_time": "09:11",
+      "seat": "车厢7:Zhengyang 17B/Yongtong 18B/Mingxin 18A/Chiu Yan 17A",
+      "ticket_ids": [
+        "trenitalia-rf-t1",
+        "trenitalia-rf-t2",
+        "trenitalia-rf-t3",
+        "trenitalia-rf-t4"
+      ],
+      "notes": "4 人已出票(PNR EL2W8N,微信渠道代购,€44.90/人);Economy 票限本车次(开车前可改签/不可退);⚠ 票面 07:30 发车,早于 Home Alex 09:30-10:00 退房时段,需 07:00 前离店;到达后当日往返比萨",
+      "company": "Trenitalia Frecciarossa"
     },
     {
       "id": "tr5",
