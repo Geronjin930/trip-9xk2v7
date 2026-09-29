@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 53,
-    "generated_at": "2026-09-30T09:35:00+08:00",
+    "data_version": 56,
+    "generated_at": "2026-09-30T10:50:00+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -1925,54 +1925,114 @@
           "end_time": "15:30"
         },
         {
-          "id": "d08-i06",
-          "time": "17:30",
-          "name": "特雷维喷泉",
-          "type": "free",
-          "summary": "许愿池傍晚人仍多但光线最好;天黑亮灯(约 19:15 后)另有一番味道;抛硬币:背对右手过左肩",
-          "details": "巴洛克喷泉+海神宫立面",
+          "id": "d08-i07",
+          "time": "15:45",
+          "end_time": "17:00",
+          "name": "卡比托利欧广场+Vittoriano 露台",
+          "type": "sight",
+          "summary": "米开朗基罗设计的菱形广场+罗马城徽母狼;隔壁白色 Vittoriano 顶层露台 €10 电梯看日落",
           "location": {
-            "name": "Trevi Fountain",
-            "lat": 41.9009,
-            "lng": 12.4833
+            "name": "Piazza del Campidoglio",
+            "lat": 41.8931,
+            "lng": 12.4825
           },
-          "tips": "真理之口→特雷维 1.8 公里/24 分钟;人多扒手多;背对喷泉右肩抛硬币许愿;回酒店:步行 1.9 公里或地铁 A 线 Barberini→Termini+步行 8 分钟",
           "visit_guide": [
             {
-              "title": "海神宫立面",
-              "img": "d08-i06-1.png",
-              "text": "Fontana di Trevi(萨尔维 1763):中央海神俄刻阿诺斯驾贝壳战车,两侧\"丰饶\"与\"健康\"女神;整面宫殿墙作背景,巴洛克\"舞台式喷泉\"巅峰。"
+              "title": "米氏广场",
+              "img": "d08-i07-2.png",
+              "text": "Piazza del Campidoglio:米开朗基罗 1536 年设计(菱形地砖纹样+台阶逆坡视差魔法);中央马可·奥勒留鎏金骑马像为复制品(原件为保存在馆内唯一的古罗马青铜骑马像);台阶顶两尊双子座 Dioscuri 骑像。"
             },
             {
-              "title": "抛硬币",
-              "text": "背对喷泉、右手越过左肩抛一枚硬币=会再回罗马(每天捞出约 €3000,全部捐给明爱慈善会);两枚遇爱情,三枚结婚(自选)。"
+              "title": "母狼真品",
+              "img": "d08-i07-1.png",
+              "text": "Lupa Capitolina 卡比托利奥母狼:罗马城徽——青铜母狼哺育罗慕路斯与雷穆斯;狼身约公元前 5 世纪伊特鲁里亚原作,双婴为 15 世纪补铸;藏 Musei Capitolini(门票约 €15,今天周三 9:30-19:30 全天开放);时间紧可只在广场看 Dioscuri,母狼需进馆。"
             },
             {
-              "title": "避人流",
-              "text": "白天人挤人,清晨 7 点前或深夜 11 点后最出片;周边小巷防扒手(喷泉区是全罗马扒手第一高发点);露天池内禁止下水(重罚)。"
+              "title": "Vittoriano",
+              "text": "Terrazza delle Quadrighe。白色 Vittoriano 纪念堂(威尼斯广场旁,罗马人戏称'结婚蛋糕'):顶层 Quadriga 露台电梯 €10,日落前 360° 望全城(广场西缘有售票口);广场与台阶免费。"
             }
           ],
-          "end_time": "19:00",
           "transfer": {
             "from": "真理之口",
-            "recommend": "walk",
+            "recommend": "bus",
             "modes": [
               {
-                "mode": "walk",
-                "dist_m": 1800,
-                "min": 24,
-                "note": "经卡比托利欧山/威尼斯广场一路向北,顺路看 Vittoriano 白色纪念堂"
+                "mode": "bus",
+                "line": "81/628 路",
+                "board": "Santa Maria in Cosmedin",
+                "alight": "Ara Coeli/Piazza Venezia",
+                "min": 15,
+                "cost": "€1.5/人",
+                "note": "下车即 Vittoriano;爬 Cordonata 台阶(缓坡石阶,顶部就是米氏广场)"
               },
               {
-                "mode": "bus",
-                "line": "62 路",
-                "board": "Argentina",
-                "alight": "Corsu/Barberini",
-                "min": 15,
-                "cost": "€1.5/人"
+                "mode": "walk",
+                "dist_m": 1600,
+                "min": 22,
+                "note": "沿台伯河经犹太区北上,顺路看龟喷泉"
               }
-            ],
-            "note": "晚餐可在喷泉周边或回 Termini 方向解决"
+            ]
+          },
+          "images": [
+            {
+              "file": "d08-i07-1.png",
+              "caption": "示意·卡比托利奥母狼 Lupa Capitolina(博物馆内)"
+            },
+            {
+              "file": "d08-i07-2.png",
+              "caption": "示意·米开朗基罗广场与双子座骑像"
+            }
+          ],
+          "photo_note": "白色 Vittoriano 与米氏广场石阶傍晚侧光最出片;博物馆内母狼隔着玻璃带反光,拍细节不如拍广场"
+        },
+        {
+          "id": "d08-i08",
+          "time": "18:30",
+          "end_time": "21:30",
+          "name": "Trastevere 特拉斯提弗列·晚餐",
+          "type": "meal",
+          "summary": "罗马最上镜的老城夜生活区:圣母大教堂金马赛克+石板巷晚餐;tram 8 一站直达",
+          "location": {
+            "name": "Santa Maria in Trastevere",
+            "lat": 41.8896,
+            "lng": 12.4695
+          },
+          "tips": "石板路穿舒适鞋;餐厅 19:30 后满座,热门店(Da Enzo al 29)排队早去;回程 tram 8→Argentina 转公交 64/40 回 Termini,或打车 €13-18",
+          "visit_guide": [
+            {
+              "title": "圣母大教堂",
+              "img": "d08-i08-1.png",
+              "text": "Basilica di Santa Maria in Trastevere(约 340 年始建,罗马最早献给圣母的教堂):立面 12-13 世纪金底马赛克(圣母与十位持灯少女);内部 22 根古罗马立柱+Pietro Cavallini 马赛克;免费开放到 20:30 左右;门前八角喷泉是广场灵魂。"
+            },
+            {
+              "title": "晚餐推荐",
+              "text": "老城石板巷晚餐三选:①Da Enzo al 29(小馆天花板,cacio e pepe/洋蓟,排队早去取号)②Tonnarello(老牌大分量,露台位)③Otaleg!(冰淇淋反拼 gelato,饭后甜点);饭后在 Santa Maria 广场喷泉边坐坐,石板巷夜景最罗马。"
+            },
+            {
+              "title": "回程",
+              "text": "Trastevere→酒店:tram 8(见电车轨道即站)3 站到 Argentina 步行换 64/40 路公交回 Termini(40 路 10 分钟直达);或从 Viale di Trastevere 打车 €13-18 约 15 分钟;tram 平日运行到 00:00 左右。"
+            }
+          ],
+          "transfer": {
+            "from": "卡比托利欧(威尼斯广场)",
+            "recommend": "tram",
+            "modes": [
+              {
+                "mode": "tram",
+                "line": "8 号线",
+                "board": "Argentina",
+                "alight": "Belli/Santa Maria in Trastevere",
+                "min": 12,
+                "cost": "€1.5/人",
+                "note": "Vittoriano 西侧步行 5 分钟到 Argentina 电车站;出站即广场"
+              },
+              {
+                "mode": "walk",
+                "dist_m": 1600,
+                "min": 25,
+                "note": "经台伯岛(Tiberina)过 Ponte Fabricio 古桥,顺路但天黑后路段偏暗"
+              }
+            ]
           }
         }
       ]
