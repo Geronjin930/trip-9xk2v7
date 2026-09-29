@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 38,
-    "generated_at": "2026-09-29T04:40:00+08:00",
+    "data_version": 39,
+    "generated_at": "2026-09-29T05:20:00+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -2370,10 +2370,18 @@
       "items": [
         {
           "id": "d12-i01",
-          "time": "全天",
+          "time": "08:00",
           "name": "火车:威尼斯→米兰",
           "type": "transport",
-          "summary": "方式待核实(酒店在梅斯特)"
+          "summary": "Frecciarossa 9713 · Mestre 08:00 → 米兰中央 10:17;4 人已出票(7号车厢 7A-D 四连座)",
+          "end_time": "10:17",
+          "tips": "Mestre 站上车(不是主岛 Santa Lucia 站),酒店在梅斯特步行可达,07:30 前到站;Economy 票限本车次不可退;车上查票扫各自 Aztec 码(票务页可调出)或报 PNR EMBYWN;10:17 到米兰中央后:站内 KiPoint 寄存行李(约€6/件/5小时),下午先逛大教堂周边,16:00 去 Via dell'Unione 4 公寓入住(确认号 5210.508.440,PIN 9957)",
+          "ticket_ids": [
+            "trenitalia-vm-t1",
+            "trenitalia-vm-t2",
+            "trenitalia-vm-t3",
+            "trenitalia-vm-t4"
+          ]
         },
         {
           "id": "d12-i02",
@@ -4186,6 +4194,138 @@
           "caption": "完整票面(含乘客名与座位)"
         }
       ]
+    },
+    {
+      "id": "trenitalia-vm-t1",
+      "name": "Frecciarossa 9713 火车票·威尼斯→米兰(Zhengyang)",
+      "date": "2026-10-04",
+      "time": "08:00",
+      "type": "personal",
+      "owner_ids": [
+        "t1"
+      ],
+      "barcode_type": "Aztec",
+      "nominal": true,
+      "id_required": false,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "Economy 票:限票面车次,开车前可改签、不可退票;错过作废;查票可报 PNR",
+      "batch": "EMBYWN",
+      "order_no": "Entitlement 29659814xx",
+      "platform": "Trenitalia(微信渠道代购)",
+      "images": [
+        {
+          "file": "trenitalia-vm-t1-1.png",
+          "owner_id": "t1",
+          "caption": "Zhengyang 的验票 Aztec 码(车上扫描或报 PNR)"
+        }
+      ],
+      "notes": "Frecciarossa 9713 · Venezia Mestre 08:00 → Milano Centrale 10:17;车厢 7 座位 7B(四人 7A/7B/7C/7D 连座一排);PNR EMBYWN(4 人同订);Economy 票面 €40.90/人,开车前可改签不可退;Aztec 已离线解码验证",
+      "pages": [
+        {
+          "file": "trenitalia-vm-t1-page-1.jpg",
+          "caption": "完整票面(含乘客名与座位)"
+        }
+      ]
+    },
+    {
+      "id": "trenitalia-vm-t2",
+      "name": "Frecciarossa 9713 火车票·威尼斯→米兰(Yongtong)",
+      "date": "2026-10-04",
+      "time": "08:00",
+      "type": "personal",
+      "owner_ids": [
+        "t2"
+      ],
+      "barcode_type": "Aztec",
+      "nominal": true,
+      "id_required": false,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "Economy 票:限票面车次,开车前可改签、不可退票;错过作废;查票可报 PNR",
+      "batch": "EMBYWN",
+      "order_no": "Entitlement 29659814xx",
+      "platform": "Trenitalia(微信渠道代购)",
+      "images": [
+        {
+          "file": "trenitalia-vm-t2-1.png",
+          "owner_id": "t2",
+          "caption": "Yongtong 的验票 Aztec 码(车上扫描或报 PNR)"
+        }
+      ],
+      "notes": "Frecciarossa 9713 · Venezia Mestre 08:00 → Milano Centrale 10:17;车厢 7 座位 7A(四人 7A/7B/7C/7D 连座一排);PNR EMBYWN(4 人同订);Economy 票面 €40.90/人,开车前可改签不可退;Aztec 已离线解码验证",
+      "pages": [
+        {
+          "file": "trenitalia-vm-t2-page-1.jpg",
+          "caption": "完整票面(含乘客名与座位)"
+        }
+      ]
+    },
+    {
+      "id": "trenitalia-vm-t3",
+      "name": "Frecciarossa 9713 火车票·威尼斯→米兰(Mingxin)",
+      "date": "2026-10-04",
+      "time": "08:00",
+      "type": "personal",
+      "owner_ids": [
+        "t3"
+      ],
+      "barcode_type": "Aztec",
+      "nominal": true,
+      "id_required": false,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "Economy 票:限票面车次,开车前可改签、不可退票;错过作废;查票可报 PNR",
+      "batch": "EMBYWN",
+      "order_no": "Entitlement 29659814xx",
+      "platform": "Trenitalia(微信渠道代购)",
+      "images": [
+        {
+          "file": "trenitalia-vm-t3-1.png",
+          "owner_id": "t3",
+          "caption": "Mingxin 的验票 Aztec 码(车上扫描或报 PNR)"
+        }
+      ],
+      "notes": "Frecciarossa 9713 · Venezia Mestre 08:00 → Milano Centrale 10:17;车厢 7 座位 7C(四人 7A/7B/7C/7D 连座一排);PNR EMBYWN(4 人同订);Economy 票面 €40.90/人,开车前可改签不可退;Aztec 已离线解码验证",
+      "pages": [
+        {
+          "file": "trenitalia-vm-t3-page-1.jpg",
+          "caption": "完整票面(含乘客名与座位)"
+        }
+      ]
+    },
+    {
+      "id": "trenitalia-vm-t4",
+      "name": "Frecciarossa 9713 火车票·威尼斯→米兰(Chiu Yan)",
+      "date": "2026-10-04",
+      "time": "08:00",
+      "type": "personal",
+      "owner_ids": [
+        "t4"
+      ],
+      "barcode_type": "Aztec",
+      "nominal": true,
+      "id_required": false,
+      "entry_window": null,
+      "exchange_required": null,
+      "late_policy": "Economy 票:限票面车次,开车前可改签、不可退票;错过作废;查票可报 PNR",
+      "batch": "EMBYWN",
+      "order_no": "Entitlement 29659814xx",
+      "platform": "Trenitalia(微信渠道代购)",
+      "images": [
+        {
+          "file": "trenitalia-vm-t4-1.png",
+          "owner_id": "t4",
+          "caption": "Chiu Yan 的验票 Aztec 码(车上扫描或报 PNR)"
+        }
+      ],
+      "notes": "Frecciarossa 9713 · Venezia Mestre 08:00 → Milano Centrale 10:17;车厢 7 座位 7D(四人 7A/7B/7C/7D 连座一排);PNR EMBYWN(4 人同订);Economy 票面 €40.90/人,开车前可改签不可退;Aztec 已离线解码验证",
+      "pages": [
+        {
+          "file": "trenitalia-vm-t4-page-1.jpg",
+          "caption": "完整票面(含乘客名与座位)"
+        }
+      ]
     }
   ],
   "lodging": [
@@ -4405,6 +4545,25 @@
         "trenitalia-rf-t4"
       ],
       "notes": "4 人已出票(PNR EL2W8N,微信渠道代购,€44.90/人);Economy 票限本车次(开车前可改签/不可退);早退房已与房东沟通妥(用户确认);07:00 前离店;到达后当日往返比萨",
+      "company": "Trenitalia Frecciarossa"
+    },
+    {
+      "id": "tr7",
+      "date": "2026-10-04",
+      "time": "08:00",
+      "type": "train",
+      "no": "Frecciarossa 9713",
+      "from": "威尼斯 Mestre",
+      "to": "米兰中央 Centrale",
+      "arrive_time": "10:17",
+      "seat": "车厢7:Zhengyang 7B/Yongtong 7A/Mingxin 7C/Chiu Yan 7D(四连座)",
+      "ticket_ids": [
+        "trenitalia-vm-t1",
+        "trenitalia-vm-t2",
+        "trenitalia-vm-t3",
+        "trenitalia-vm-t4"
+      ],
+      "notes": "4 人已出票(PNR EMBYWN,微信渠道代购,€40.90/人);Economy 票限本车次(开车前可改签/不可退);Mestre 站上车(非主岛 Santa Lucia),酒店在梅斯特步行可达;到达米兰中央 10:17",
       "company": "Trenitalia Frecciarossa"
     },
     {
