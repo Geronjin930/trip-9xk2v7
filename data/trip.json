@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 52,
-    "generated_at": "2026-09-30T09:05:00+08:00",
+    "data_version": 53,
+    "generated_at": "2026-09-30T09:35:00+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -1725,6 +1725,79 @@
       "title": "古罗马日(宿罗马,次日晨退房)",
       "items": [
         {
+          "id": "d08-i04",
+          "time": "09:30",
+          "end_time": "12:00",
+          "name": "古罗马广场+帕拉蒂尼山",
+          "type": "sight",
+          "summary": "上午一次走完(联票单次入场不可重入):沿圣道看提图斯凯旋门/维斯塔神庙/元老院,上帕拉蒂尼山俯瞰全广场",
+          "details": "从斗兽场检票口旁入口进广场,沿圣道(Via Sacra)一路走到帕拉蒂尼山俯瞰",
+          "location": {
+            "name": "Foro Romano",
+            "lat": 41.8925,
+            "lng": 12.4853
+          },
+          "tips": "凭斗兽场同一张票入场;碎石坡道务必舒适鞋",
+          "images": [
+            {
+              "file": "d08-i04-1.webp",
+              "caption": "古罗马广场遗迹全景"
+            },
+            {
+              "file": "d08-i04-2.webp",
+              "caption": "红砖遗址"
+            },
+            {
+              "file": "d08-i04-3.webp",
+              "caption": "遗址柱廊与游人"
+            }
+          ],
+          "photo_note": "地面碎石坡道,务必舒适鞋;帕拉蒂尼山远眺斗兽场机位人多需等",
+          "visit_guide": [
+            {
+              "title": "圣道顺序",
+              "img": "d08-i04-1.webp",
+              "text": "Foro Romano 从帕拉蒂尼口进先上山或沿圣道走:提图斯凯旋门→圆形神庙(维斯塔灶神庙,贞女守圣火)→安托尼努斯与法斯提娜神庙(最完整)→元老院 Curia Julia(三世纪大理石地板原位;门口台阶即恺撒火葬处,至今有人放花)→出西口。"
+            },
+            {
+              "title": "元老院",
+              "img": "d08-i04-2.webp",
+              "text": "Curia Julia 屋大维所建元老院(1930 年代修复):三世纪大理石地板与台阶原位,内部巨型斑岩浴盆;门口俯看即恺撒火葬处(Rostra 前,至今仍有人放花)。"
+            },
+            {
+              "title": "帕拉蒂尼山",
+              "img": "d08-i04-3.webp",
+              "text": "Palatino:罗马建城传说发生地,皇帝宫殿群遗址;山上平台俯瞰全广场+斗兽场同框,上午顺光最出片。"
+            },
+            {
+              "title": "实用",
+              "text": "联票单次入场(出园不可再进),两处必须一次走完约 2.5 小时;碎石路舒适鞋;无遮挡备水;⚠ 先逛广场再上山or先上山随人流,出门定在西侧即斗兽场方向。"
+            }
+          ],
+          "transfer": {
+            "from": "Home Alex(酒店)",
+            "recommend": "metro",
+            "modes": [
+              {
+                "mode": "metro",
+                "line": "B线",
+                "board": "Castro Pretorio",
+                "alight": "Colosseo",
+                "min": 12,
+                "cost": "€1.5/人",
+                "stops": 3,
+                "note": "酒店步行 5 分钟到站;出站沿圣格雷戈里奥街(Via di San Gregorio)步行 5 分钟到帕拉蒂尼入口"
+              },
+              {
+                "mode": "taxi",
+                "min": 10,
+                "cost": "€10-12"
+              }
+            ],
+            "note": "09:00 开园即进,趁凉快人少;出口顺圣道往西,出园后广场边吃个 panino 再走 5 分钟到斗兽场"
+          }
+        },
+        {
           "id": "d08-i03",
           "time": "12:30",
           "end_time": "14:15",
@@ -1754,28 +1827,22 @@
           ],
           "photo_note": "千年石遗址米黄/土褐色调,红裙/饱和色对比最强(经典游客照位)",
           "transfer": {
-            "from": "Home Alex(酒店)",
-            "recommend": "metro",
+            "from": "古罗马广场(上午逛完,先午餐)",
+            "recommend": "walk",
             "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 500,
+                "min": 8,
+                "note": "广场西口沿圣道回走 8 分钟即斗兽场;广场边 Via dei Fori Imperiali 有 panino 店/超市,12:00 前解决午餐"
+              },
               {
                 "mode": "metro",
                 "line": "B线",
-                "board": "Castro Pretorio",
+                "board": "Colosseo",
                 "alight": "Colosseo",
-                "min": 12,
-                "cost": "€1.5/人",
-                "stops": 3,
-                "note": "酒店步行 5 分钟到站,3 站 5 分钟;出站即斗兽场"
-              },
-              {
-                "mode": "walk",
-                "dist_m": 2400,
-                "min": 31
-              },
-              {
-                "mode": "taxi",
-                "min": 10,
-                "cost": "€10-12"
+                "min": 2,
+                "note": "无需坐车"
               }
             ]
           },
@@ -1808,59 +1875,8 @@
           ]
         },
         {
-          "id": "d08-i04",
-          "time": "14:15",
-          "end_time": "16:30",
-          "name": "古罗马广场+帕拉蒂尼山",
-          "type": "sight",
-          "summary": "同一张 Full Experience 票含古罗马广场+帕拉蒂尼山(9/29-10/1 任一日有效)",
-          "details": "从斗兽场检票口旁入口进广场,沿圣道(Via Sacra)一路走到帕拉蒂尼山俯瞰",
-          "location": {
-            "name": "Foro Romano",
-            "lat": 41.8925,
-            "lng": 12.4853
-          },
-          "tips": "凭斗兽场同一张票入场;碎石坡道务必舒适鞋",
-          "images": [
-            {
-              "file": "d08-i04-1.webp",
-              "caption": "古罗马广场遗迹全景"
-            },
-            {
-              "file": "d08-i04-2.webp",
-              "caption": "红砖遗址"
-            },
-            {
-              "file": "d08-i04-3.webp",
-              "caption": "遗址柱廊与游人"
-            }
-          ],
-          "photo_note": "地面碎石坡道,务必舒适鞋;帕拉蒂尼山远眺斗兽场机位人多需等",
-          "visit_guide": [
-            {
-              "title": "圣道顺序",
-              "img": "d08-i04-1.webp",
-              "text": "Foro Romano 从斗兽场旁入口进,沿圣道 Via Sacra 向西北:提图斯凯旋门→圆形神庙(维斯塔灶神庙,贞女守圣火)→安托尼努斯与法斯提娜神庙(最完整,因改教堂幸存)→屋大维娅门廊方向出。"
-            },
-            {
-              "title": "元老院",
-              "img": "d08-i04-2.webp",
-              "text": "Curia Julia 屋大维所建元老院(1930 年代修复):三世纪大理石地板与台阶原位,内部巨型斑岩浴盆;门口俯看即恺撒火葬处(Rostra 前,至今仍有人放花)。"
-            },
-            {
-              "title": "帕拉蒂尼山",
-              "img": "d08-i04-3.webp",
-              "text": "Palatino:罗马建城传说(母狼哺育的罗慕路斯)发生地,皇帝宫殿群遗址;山上平台是俯瞰整个广场的最佳机位,下午顺光。"
-            },
-            {
-              "title": "实用",
-              "text": "同一张 Full Experience 票含三处(9/29-10/1 任一日有效);碎石路务必舒适鞋;广场内无遮挡,备水防晒。"
-            }
-          ]
-        },
-        {
           "id": "d08-i05",
-          "time": "全天",
+          "time": "14:30",
           "name": "真理之口",
           "type": "free",
           "summary": "顺线打卡(排队拍照约 15-30 分钟)",
@@ -1872,19 +1888,22 @@
           },
           "tips": "插手拍照免费但需排队;开放时间以教堂门廊现场公示为准",
           "transfer": {
-            "from": "斗兽场(古罗马广场)",
-            "recommend": "walk",
+            "from": "斗兽场",
+            "recommend": "bus",
             "modes": [
               {
-                "mode": "walk",
-                "dist_m": 1800,
-                "min": 24,
-                "note": "经古罗马广场西侧→真理之口"
+                "mode": "bus",
+                "line": "81/628 路",
+                "board": "Colosseo/San Gregorio",
+                "alight": "Greca/Santa Maria in Cosmedin",
+                "min": 20,
+                "cost": "€1.5/人",
+                "note": "环线公交直达,或沿台伯河步行 25 分钟"
               },
               {
                 "mode": "taxi",
-                "min": 6,
-                "cost": "€7-8"
+                "min": 8,
+                "cost": "€8-10"
               }
             ]
           },
@@ -1902,14 +1921,15 @@
               "title": "周边连线",
               "text": "出教堂向东北沿台伯河 10 分钟到犹太区(Turtle Fountain 龟喷泉);维托里亚诺二世纪念堂白建筑从广场可见。"
             }
-          ]
+          ],
+          "end_time": "15:30"
         },
         {
           "id": "d08-i06",
-          "time": "全天",
+          "time": "17:30",
           "name": "特雷维喷泉",
           "type": "free",
-          "summary": "许愿池;晚间亮灯最美",
+          "summary": "许愿池傍晚人仍多但光线最好;天黑亮灯(约 19:15 后)另有一番味道;抛硬币:背对右手过左肩",
           "details": "巴洛克喷泉+海神宫立面",
           "location": {
             "name": "Trevi Fountain",
@@ -1931,7 +1951,29 @@
               "title": "避人流",
               "text": "白天人挤人,清晨 7 点前或深夜 11 点后最出片;周边小巷防扒手(喷泉区是全罗马扒手第一高发点);露天池内禁止下水(重罚)。"
             }
-          ]
+          ],
+          "end_time": "19:00",
+          "transfer": {
+            "from": "真理之口",
+            "recommend": "walk",
+            "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 1800,
+                "min": 24,
+                "note": "经卡比托利欧山/威尼斯广场一路向北,顺路看 Vittoriano 白色纪念堂"
+              },
+              {
+                "mode": "bus",
+                "line": "62 路",
+                "board": "Argentina",
+                "alight": "Corsu/Barberini",
+                "min": 15,
+                "cost": "€1.5/人"
+              }
+            ],
+            "note": "晚餐可在喷泉周边或回 Termini 方向解决"
+          }
         }
       ]
     },
