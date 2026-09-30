@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 60,
-    "generated_at": "2026-09-30T11:35:00+08:00",
+    "data_version": 61,
+    "generated_at": "2026-09-30T12:00:00+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -1725,79 +1725,6 @@
       "title": "古罗马日(宿罗马,次日晨退房)",
       "items": [
         {
-          "id": "d08-i04",
-          "time": "09:30",
-          "end_time": "12:00",
-          "name": "古罗马广场+帕拉蒂尼山",
-          "type": "sight",
-          "summary": "上午一次走完(联票单次入场不可重入):沿圣道看提图斯凯旋门/维斯塔神庙/元老院,上帕拉蒂尼山俯瞰全广场",
-          "details": "从斗兽场检票口旁入口进广场,沿圣道(Via Sacra)一路走到帕拉蒂尼山俯瞰",
-          "location": {
-            "name": "Foro Romano",
-            "lat": 41.8925,
-            "lng": 12.4853
-          },
-          "tips": "凭斗兽场同一张票入场;碎石坡道务必舒适鞋",
-          "images": [
-            {
-              "file": "d08-i04-1.webp",
-              "caption": "古罗马广场遗迹全景"
-            },
-            {
-              "file": "d08-i04-2.webp",
-              "caption": "红砖遗址"
-            },
-            {
-              "file": "d08-i04-3.webp",
-              "caption": "遗址柱廊与游人"
-            }
-          ],
-          "photo_note": "地面碎石坡道,务必舒适鞋;帕拉蒂尼山远眺斗兽场机位人多需等",
-          "visit_guide": [
-            {
-              "title": "圣道顺序",
-              "img": "d08-i04-1.webp",
-              "text": "从帕拉蒂尼口(Varco Vignola)进,先上帕拉蒂尼山(约 25 分到顶,法尔内塞花园平台俯瞰全广场+斗兽场),再沿 Clivus Palatinus 下到圣道东端:提图斯凯旋门→马克森提乌斯大殿残壁→维斯塔灶神庙(贞女院)→安托尼努斯与法斯提娜神庙→元老院 Curia Julia(门口台阶=恺撒火葬处)→西口 Largo della Salara Vecchia 出。"
-            },
-            {
-              "title": "元老院",
-              "img": "d08-i04-2.webp",
-              "text": "Curia Julia 屋大维所建元老院(1930 年代修复):三世纪大理石地板与台阶原位,内部巨型斑岩浴盆;门口俯看即恺撒火葬处(Rostra 前,至今仍有人放花)。"
-            },
-            {
-              "title": "帕拉蒂尼山",
-              "img": "d08-i04-3.webp",
-              "text": "Palatino:罗马建城传说发生地,皇帝宫殿群遗址;山上平台俯瞰全广场+斗兽场同框,上午顺光最出片。"
-            },
-            {
-              "title": "实用",
-              "text": "联票单次入场(出园不可再进),两处必须一次走完约 2.5 小时;碎石路舒适鞋;无遮挡备水;⚠ 先逛广场再上山or先上山随人流,出门定在西侧即斗兽场方向。"
-            }
-          ],
-          "transfer": {
-            "from": "Home Alex(酒店)",
-            "recommend": "metro",
-            "modes": [
-              {
-                "mode": "metro",
-                "line": "B线",
-                "board": "Castro Pretorio",
-                "alight": "Colosseo",
-                "min": 12,
-                "cost": "€1.5/人",
-                "stops": 3,
-                "note": "酒店步行 5 分钟到站;B 线 3 站到 Colosseo;出站向西南沿 Via di San Gregorio 街步行 5 分钟=帕拉蒂尼入口 Varco Vignola(排队最短)"
-              },
-              {
-                "mode": "taxi",
-                "min": 10,
-                "cost": "€10-12"
-              }
-            ],
-            "note": "09:15 出门→09:40 Colosseo 站→09:45 帕拉蒂尼口进;路线=先上山后下圣道单向走(下坡为主);11:30 前到西口 Largo della Salara Vecchia 出园→panino→沿帝国广场大道走 8 分钟回斗兽场"
-          }
-        },
-        {
           "id": "d08-i03",
           "time": "12:30",
           "end_time": "14:15",
@@ -1827,24 +1754,26 @@
           ],
           "photo_note": "千年石遗址米黄/土褐色调,红裙/饱和色对比最强(经典游客照位)",
           "transfer": {
-            "from": "古罗马广场(上午逛完,先午餐)",
-            "recommend": "walk",
+            "from": "酒店(Monti 街区 brunch 后)",
+            "recommend": "metro",
             "modes": [
               {
-                "mode": "walk",
-                "dist_m": 500,
-                "min": 8,
-                "note": "广场西口沿圣道回走 8 分钟即斗兽场;广场边 Via dei Fori Imperiali 有 panino 店/超市,12:00 前解决午餐"
+                "mode": "metro",
+                "line": "B 线",
+                "board": "Cavour/Termini",
+                "alight": "Colosseo",
+                "min": 10,
+                "cost": "€1.5/人",
+                "note": "brunch 在 Monti:推荐 Fafi(网红 brunch,Cavour 站旁)或 Two Sizes;12:00 出发,12:10 前到检票口"
               },
               {
-                "mode": "metro",
-                "line": "B线",
-                "board": "Colosseo",
-                "alight": "Colosseo",
-                "min": 2,
-                "note": "无需坐车"
+                "mode": "walk",
+                "dist_m": 1200,
+                "min": 16,
+                "note": "Monti 步行下坡即斗兽场"
               }
-            ]
+            ],
+            "note": "⚠ 12:30 地下层场次,护照原件,提前 20 分钟到检票口"
           },
           "ticket_ids": [
             "colosseo-t1",
@@ -1875,69 +1804,82 @@
           ]
         },
         {
-          "id": "d08-i05",
+          "id": "d08-i04",
           "time": "14:30",
-          "name": "真理之口",
-          "type": "free",
-          "summary": "顺线打卡(排队拍照约 15-30 分钟)",
-          "details": "科斯梅丁圣玛利亚教堂门廊的石雕面具",
+          "end_time": "17:00",
+          "name": "古罗马广场+帕拉蒂尼山",
+          "type": "sight",
+          "summary": "下午一次走完(联票单次入场):帕拉蒂尼口进先上山(山顶俯瞰偏逆光,广场内圣道顺光)→圣道西行→西口出",
+          "details": "从斗兽场检票口旁入口进广场,沿圣道(Via Sacra)一路走到帕拉蒂尼山俯瞰",
           "location": {
-            "name": "Bocca della Verità",
-            "lat": 41.8885,
-            "lng": 12.4828
+            "name": "Foro Romano",
+            "lat": 41.8925,
+            "lng": 12.4853
           },
-          "tips": "插手拍照免费但需排队;开放时间以教堂门廊现场公示为准",
-          "transfer": {
-            "from": "斗兽场",
-            "recommend": "bus",
-            "modes": [
-              {
-                "mode": "bus",
-                "line": "81/628 路",
-                "board": "Colosseo/San Gregorio",
-                "alight": "Greca/Santa Maria in Cosmedin",
-                "min": 20,
-                "cost": "€1.5/人",
-                "note": "环线公交直达,或沿台伯河步行 25 分钟"
-              },
-              {
-                "mode": "taxi",
-                "min": 8,
-                "cost": "€8-10"
-              }
-            ]
-          },
-          "visit_guide": [
-            {
-              "title": "大理石脸",
-              "img": "d08-i05-1.png",
-              "text": "Bocca della Verità:公元前 1 世纪下水道井盖(河神脸),中世纪起成为\"测谎器\"——传说撒谎者伸手进去会被咬掉;排队伸手拍照是标配(现场约 15-30 分钟)。"
-            },
-            {
-              "title": "所在教堂",
-              "text": "教堂 Santa Maria in Cosmedin(6 世纪):免费进;中世纪钟楼与马赛克残片值得顺看;真理之口就在门廊左侧。"
-            },
-            {
-              "title": "周边连线",
-              "text": "出教堂向东北沿台伯河 10 分钟到犹太区(Turtle Fountain 龟喷泉);维托里亚诺二世纪念堂白建筑从广场可见。"
-            }
-          ],
-          "end_time": "15:30",
+          "tips": "凭斗兽场同一张票入场;碎石坡道务必舒适鞋",
           "images": [
             {
-              "file": "d08-i05-1.png",
-              "caption": "示意·真理之口 Bocca della Verità(门廊左侧)"
+              "file": "d08-i04-1.webp",
+              "caption": "古罗马广场遗迹全景"
+            },
+            {
+              "file": "d08-i04-2.webp",
+              "caption": "红砖遗址"
+            },
+            {
+              "file": "d08-i04-3.webp",
+              "caption": "遗址柱廊与游人"
             }
           ],
-          "photo_note": "大理石脸前排队人转得快;教堂立面朴素但内部马赛克精致;门口 nasoni 饮水泉可补水"
+          "photo_note": "地面碎石坡道,务必舒适鞋;帕拉蒂尼山远眺斗兽场机位人多需等",
+          "visit_guide": [
+            {
+              "title": "圣道顺序",
+              "img": "d08-i04-1.webp",
+              "text": "下午场:帕拉蒂尼口(Varco Vignola)进先上山(25 分到顶,法尔内塞花园平台俯瞰——下午看广场偏逆光,广场内圣道步道则顺光),沿 Clivus Palatinus 下到圣道东端:提图斯凯旋门→马克森提乌斯大殿→维斯塔灶神庙→安托尼努斯与法斯提娜神庙→元老院 Curia Julia(台阶=恺撒火葬处)→17:00 前西口 Largo della Salara Vecchia 出。"
+            },
+            {
+              "title": "元老院",
+              "img": "d08-i04-2.webp",
+              "text": "Curia Julia 屋大维所建元老院(1930 年代修复):三世纪大理石地板与台阶原位,内部巨型斑岩浴盆;门口俯看即恺撒火葬处(Rostra 前,至今仍有人放花)。"
+            },
+            {
+              "title": "帕拉蒂尼山",
+              "img": "d08-i04-3.webp",
+              "text": "Palatino:罗马建城传说发生地,皇帝宫殿群遗址;山上平台俯瞰全广场+斗兽场同框,上午顺光最出片。"
+            },
+            {
+              "title": "实用",
+              "text": "联票单次入场(出园不可再进),两处必须一次走完约 2.5 小时;碎石路舒适鞋;无遮挡备水;⚠ 先逛广场再上山or先上山随人流,出门定在西侧即斗兽场方向。"
+            }
+          ],
+          "transfer": {
+            "from": "斗兽场(14:15 出园)",
+            "recommend": "walk",
+            "modes": [
+              {
+                "mode": "walk",
+                "dist_m": 600,
+                "min": 8,
+                "note": "出斗兽场沿 Via di San Gregorio 南行 5 分钟=帕拉蒂尼口(Varco Vignola)进"
+              },
+              {
+                "mode": "walk",
+                "dist_m": 400,
+                "min": 6,
+                "note": "或走凯旋门旁入口(旺季常只出不进,以现场为准)"
+              }
+            ],
+            "note": "14:30 进园→帕拉蒂尼山 45 分钟→圣道西行→17:00 前西口出;出门右转 5 分钟即卡比托利欧"
+          }
         },
         {
           "id": "d08-i07",
-          "time": "15:45",
-          "end_time": "17:00",
+          "time": "17:15",
+          "end_time": "18:30",
           "name": "卡比托利欧广场+Vittoriano 露台",
           "type": "sight",
-          "summary": "米开朗基罗设计的菱形广场+罗马城徽母狼;隔壁白色 Vittoriano 顶层露台 €10 电梯看日落",
+          "summary": "日落前黄金档:米氏广场+母狼(进馆需快,19:30 闭)+Vittoriano 露台看日落(约 18:50)",
           "location": {
             "name": "Piazza del Campidoglio",
             "lat": 41.8931,
@@ -1952,7 +1894,7 @@
             {
               "title": "母狼真品",
               "img": "d08-i07-1.png",
-              "text": "Lupa Capitolina 卡比托利奥母狼:罗马城徽——青铜母狼哺育罗慕路斯与雷穆斯;狼身约公元前 5 世纪伊特鲁里亚原作,双婴为 15 世纪补铸;藏 Musei Capitolini(门票约 €15,今天周三 9:30-19:30 全天开放);时间紧可只在广场看 Dioscuri,母狼需进馆。"
+              "text": "Lupa Capitolina 卡比托利奥母狼:罗马城徽——青铜母狼哺育罗慕路斯与雷穆斯;狼身约公元前 5 世纪伊特鲁里亚原作,双婴为 15 世纪补铸;藏 Musei Capitolini(门票约 €15,今天周三 9:30-19:30 全天开放);时间紧可只在广场看 Dioscuri,母狼需进馆。今天若想进馆:19:30 闭馆,17:30 前入馆只够看母狼+二层精华,取舍自行决定。"
             },
             {
               "title": "Vittoriano",
@@ -1960,23 +1902,14 @@
             }
           ],
           "transfer": {
-            "from": "真理之口",
-            "recommend": "bus",
+            "from": "古罗马广场西口",
+            "recommend": "walk",
             "modes": [
               {
-                "mode": "bus",
-                "line": "81/628 路",
-                "board": "Santa Maria in Cosmedin",
-                "alight": "Ara Coeli/Piazza Venezia",
-                "min": 15,
-                "cost": "€1.5/人",
-                "note": "下车即 Vittoriano;爬 Cordonata 台阶(缓坡石阶,顶部就是米氏广场)"
-              },
-              {
                 "mode": "walk",
-                "dist_m": 1600,
-                "min": 22,
-                "note": "沿台伯河经犹太区北上,顺路看龟喷泉"
+                "dist_m": 450,
+                "min": 6,
+                "note": "出西口沿 Via dei Fori Imperiali 向西北,上 Cordonata 台阶即米氏广场"
               }
             ]
           },
@@ -1994,7 +1927,7 @@
         },
         {
           "id": "d08-i08",
-          "time": "18:30",
+          "time": "18:45",
           "end_time": "21:30",
           "name": "Trastevere 特拉斯提弗列·晚餐",
           "type": "meal",
@@ -2032,7 +1965,7 @@
                 "alight": "Belli/Santa Maria in Trastevere",
                 "min": 12,
                 "cost": "€1.5/人",
-                "note": "Vittoriano 西侧步行 5 分钟到 Argentina 电车站;出站即广场"
+                "note": "Vittoriano 西侧步行 5 分钟到 Argentina 电车站;出站即广场;18:30 从威尼斯广场出发刚好"
               },
               {
                 "mode": "walk",
