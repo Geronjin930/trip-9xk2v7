@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 59,
-    "generated_at": "2026-09-30T11:20:00+08:00",
+    "data_version": 60,
+    "generated_at": "2026-09-30T11:35:00+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -1757,7 +1757,7 @@
             {
               "title": "圣道顺序",
               "img": "d08-i04-1.webp",
-              "text": "Foro Romano 从帕拉蒂尼口进先上山或沿圣道走:提图斯凯旋门→圆形神庙(维斯塔灶神庙,贞女守圣火)→安托尼努斯与法斯提娜神庙(最完整)→元老院 Curia Julia(三世纪大理石地板原位;门口台阶即恺撒火葬处,至今有人放花)→出西口。"
+              "text": "从帕拉蒂尼口(Varco Vignola)进,先上帕拉蒂尼山(约 25 分到顶,法尔内塞花园平台俯瞰全广场+斗兽场),再沿 Clivus Palatinus 下到圣道东端:提图斯凯旋门→马克森提乌斯大殿残壁→维斯塔灶神庙(贞女院)→安托尼努斯与法斯提娜神庙→元老院 Curia Julia(门口台阶=恺撒火葬处)→西口 Largo della Salara Vecchia 出。"
             },
             {
               "title": "元老院",
@@ -1786,7 +1786,7 @@
                 "min": 12,
                 "cost": "€1.5/人",
                 "stops": 3,
-                "note": "酒店步行 5 分钟到站;出站沿圣格雷戈里奥街(Via di San Gregorio)步行 5 分钟到帕拉蒂尼入口"
+                "note": "酒店步行 5 分钟到站;B 线 3 站到 Colosseo;出站向西南沿 Via di San Gregorio 街步行 5 分钟=帕拉蒂尼入口 Varco Vignola(排队最短)"
               },
               {
                 "mode": "taxi",
@@ -1794,7 +1794,7 @@
                 "cost": "€10-12"
               }
             ],
-            "note": "09:15 出门→09:40 进 Castro Pretorio 站 B 线 3 站→09:45 帕拉蒂尼口进园(开园 09:00);按原计划 2.5 小时从容走全程,11:50 前出园→panino 快午餐→12:15 前到斗兽场检票口"
+            "note": "09:15 出门→09:40 Colosseo 站→09:45 帕拉蒂尼口进;路线=先上山后下圣道单向走(下坡为主);11:30 前到西口 Largo della Salara Vecchia 出园→panino→沿帝国广场大道走 8 分钟回斗兽场"
           }
         },
         {
