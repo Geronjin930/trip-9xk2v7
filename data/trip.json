@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 58,
-    "generated_at": "2026-09-30T11:10:00+08:00",
+    "data_version": 59,
+    "generated_at": "2026-09-30T11:20:00+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -1922,7 +1922,14 @@
               "text": "出教堂向东北沿台伯河 10 分钟到犹太区(Turtle Fountain 龟喷泉);维托里亚诺二世纪念堂白建筑从广场可见。"
             }
           ],
-          "end_time": "15:30"
+          "end_time": "15:30",
+          "images": [
+            {
+              "file": "d08-i05-1.png",
+              "caption": "示意·真理之口 Bocca della Verità(门廊左侧)"
+            }
+          ],
+          "photo_note": "大理石脸前排队人转得快;教堂立面朴素但内部马赛克精致;门口 nasoni 饮水泉可补水"
         },
         {
           "id": "d08-i07",
@@ -2006,7 +2013,8 @@
             },
             {
               "title": "晚餐推荐",
-              "text": "老城石板巷晚餐三选:①Da Enzo al 29(小馆天花板,cacio e pepe/洋蓟,排队早去取号)②Tonnarello(老牌大分量,露台位)③Otaleg!(冰淇淋反拼 gelato,饭后甜点);饭后在 Santa Maria 广场喷泉边坐坐,石板巷夜景最罗马。"
+              "text": "老城石板巷晚餐三选:①Da Enzo al 29(小馆天花板,cacio e pepe/洋蓟,排队早去取号)②Tonnarello(老牌大分量,露台位)③Otaleg!(冰淇淋反拼 gelato,饭后甜点);饭后在 Santa Maria 广场喷泉边坐坐,石板巷夜景最罗马。",
+              "img": "d08-i08-2.png"
             },
             {
               "title": "回程",
@@ -2033,7 +2041,18 @@
                 "note": "经台伯岛(Tiberina)过 Ponte Fabricio 古桥,顺路但天黑后路段偏暗"
               }
             ]
-          }
+          },
+          "images": [
+            {
+              "file": "d08-i08-1.png",
+              "caption": "示意·圣母大教堂广场与喷泉"
+            },
+            {
+              "file": "d08-i08-2.png",
+              "caption": "示意·石板巷与九重葛(雅尼库伦山阶梯方向)"
+            }
+          ],
+          "photo_note": "傍晚金光打在橙墙+九重葛最出片;教堂立面金马赛克日落时最亮;广场喷泉边坐坐看 locals"
         }
       ]
     },
