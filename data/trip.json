@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 66,
-    "generated_at": "2026-10-02T10:15:00+08:00",
+    "data_version": 67,
+    "generated_at": "2026-10-02T12:10:00+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -2340,7 +2340,8 @@
                 "min": 9,
                 "note": "过老桥 Ponte Vecchio 即到"
               }
-            ]
+            ],
+            "note": "出乌菲兹即阿诺河边,老桥就在眼前;过桥后沿 Via de' Guicciardini 直行 8 分钟=皮蒂广场;13:30-14:30 午餐建议在过桥后的 Oltrarno 一侧:Santo Spirito 广场周边小馆/佛城牛肚包老铺(桥北出口斜对面);桥上金饰店橱窗顺路看,人多注意背包"
           },
           "visit_guide": [
             {
