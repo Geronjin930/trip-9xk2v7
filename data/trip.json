@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 63,
-    "generated_at": "2026-10-02T09:20:00+08:00",
+    "data_version": 65,
+    "generated_at": "2026-10-02T10:00:00+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -2213,26 +2213,20 @@
           },
           "visit_guide": [
             {
-              "title": "免费入内",
-              "text": "大殿(Cattedrale di Santa Maria del Fiore)本体免费(2026 年仍免费);游客入殿时段约 10:15-15:45、周日不开放,行程 10/2 周五不受影响;殿内看瓦萨里(Vasari)《末日审判》(Giudizio Universale)穹顶 Cupola(Brunelleschi 布鲁内莱斯基 1436)画+北侧大圆窗光斑。",
-              "img": "d10-i03-1.webp"
+              "title": "1 洗礼堂",
+              "text": "Battistero di San Giovanni(08:30 开):先看面向主殿的东门\"天堂之门\"复制品(原件在博物馆),进门抬头看八角穹顶 13 世纪金底马赛克;15 分钟。"
             },
             {
-              "title": "大理石地面",
-              "text": "大殿中段的黄道带占星拼花地面低头找,许多人全程抬头看穹顶 Cupola(Brunelleschi 布鲁内莱斯基 1436),反而错过脚下最有意思的细节。"
+              "title": "2 钟楼登顶",
+              "text": "Campanile di Giotto(08:15 开,414 级无电梯):此时排队最少;顶平台与圆顶等高最近距离看布鲁内莱斯基大圆顶砖构,顺光;上下约 40 分钟。"
             },
             {
-              "title": "登顶替代",
-              "text": "穹顶 Cupola(Brunelleschi 布鲁内莱斯基 1436)(cupola)463 级需提前很久预约(未约则不登);乔托钟楼 Campanile di Giotto(campanile di Giotto)登顶当场购票常有余位,机位反而能拍到穹顶 Cupola(Brunelleschi 布鲁内莱斯基 1436)本体。",
-              "img": "d10-i03-3.webp"
+              "title": "3 主殿 10:15",
+              "text": "Santa Maria del Fiore 主殿 10:15 开门(免费,北门进):中殿直走到八角交叉部,仰视瓦萨里《最后的审判》大圆顶(地面有圆点标记最佳仰视位)→绕主祭坛→可选下 Santa Reparata 地下遗址;30-40 分钟。"
             },
             {
-              "title": "天国之门",
-              "text": "洗礼堂 Battistero(battistero)东门 Porta del Paradiso 是复制品,原件在主教座堂博物馆(Museo dell'Opera del Duomo,联票含);馆内顶楼有米开朗基罗未完成的《圣母怜子》(Pietà Bandini)。"
-            },
-            {
-              "title": "全景机位",
-              "text": "拍穹顶 Cupola(Brunelleschi 布鲁内莱斯基 1436)全景去米开朗基罗广场(Piazzale Michelangelo)日落最好(公交直达);市区内则推乔托钟楼 Campanile di Giotto顶。"
+              "title": "4 转场乌菲兹",
+              "text": "10:45 出南门,沿 Via dei Calzaiuoli 步行街直行 10 分钟(右手依次是 Orsanmichele 教堂、Signoria 广场),11:15 前到乌菲兹正门排票口。"
             }
           ]
         },
@@ -2284,26 +2278,31 @@
           },
           "visit_guide": [
             {
-              "title": "联票安排",
-              "text": "Passepartout 含乌菲兹 Uffizi(瓦萨里 1560 为美第奇建的办公楼,\"办公室\"之意)(Galleria degli Uffizi)+皮蒂宫(Palazzo Pitti)+波波里花园(Giardino di Boboli)各一次、首用后 5 日有效;11:30 乌菲兹 Uffizi(瓦萨里 1560 为美第奇建的办公楼,\"办公室\"之意)出来顺路皮蒂+波波里正好。",
-              "img": "d10-i02-1.webp"
+              "title": "1 进门上二层",
+              "img": "d10-i02-1.webp",
+              "text": "安检后进庭院,上主楼梯(或电梯)到二层展厅层;全程单向 U 形动线,从 2 号厅开始,不回头。"
             },
             {
-              "title": "动线",
-              "text": "三层『U』形长廊一条动线走完:西翼早期文艺复兴→南端波提切利(Botticelli)→东翼达芬奇/米开朗基罗,1.5-2 小时。"
+              "title": "2 厅2-9",
+              "text": "2 号厅:乔托/契马布埃/杜乔三幅圣母子并排(西方绘画起点,先看三幅对比)→3-6 号锡耶纳与哥特→7 号利皮《圣母子与两天使》(波提切利之师)。"
             },
             {
-              "title": "波提切利厅",
-              "text": "Sala di Botticelli(2026-06 全新重开):《Botticelli《维纳斯的诞生》Nascita di Venere的诞生》(Nascita di Venere)与《《春》Primavera》(Primavera)如今面对面相挂,文艺复兴灰墙新展陈;人多,先直奔这里再回头补前面。",
-              "img": "d10-i02-3.webp"
+              "title": "3 波提切利厅",
+              "img": "d10-i02-2.webp",
+              "text": "10-14 号厅,全馆核心:《春》Primavera(10 号厅正对门)与《维纳斯的诞生》(13/14 号厅)——各留 5 分钟站定细看;至少 25 分钟。"
             },
             {
-              "title": "别漏",
-              "text": "达芬奇《天使报喜》(Annunciazione)、米开朗基罗《圣家族》(Tondo Doni)、卡拉瓦乔《Caravaggio《美杜莎》》(Testa di Medusa)、提香《乌尔比诺的Botticelli《维纳斯的诞生》Nascita di Venere》(Venere di Urbino)。"
+              "title": "4 厅15-18",
+              "text": "15 号达芬奇三幅早期作品(三王来拜未完成稿)→16-17 地图室→18 号 Tribuna 八角珍宝室(美第奇核心收藏,八角贝壳龛+穹顶红绸)。"
             },
             {
-              "title": "平台咖啡",
-              "text": "南端露台咖啡正对老桥(Ponte Vecchio),是拍老桥的最好机位;实名票随身带护照,大包必须寄存。"
+              "title": "5 北廊大师",
+              "img": "d10-i02-3.webp",
+              "text": "沿北走廊:23 号提香《乌尔比诺的维纳斯》→25 号米开朗基罗《圣家族》Tondo Doni→41 号拉斐尔(金翅雀圣母/教皇尤利乌斯二世);走廊端头即河景窗。"
+            },
+            {
+              "title": "6 西廊与出口",
+              "text": "西走廊一排窗正对阿诺河与老桥(全景机位)→卡拉瓦乔厅(2024 重排过,按当日地面图示,在西段尽头)→沿楼梯下到一层纪念品店出馆;迷路保险:看到带窗的走廊=在出口方向。"
             }
           ],
           "late_policy": "11:30 定时入场为唯一强制时段;迟到即失去优先权——同日通常仍可进(可能补 €4/排普通队),无官方宽限,务必 11:15 前到"
@@ -2335,16 +2334,20 @@
           },
           "visit_guide": [
             {
-              "title": "皮蒂宫",
-              "text": "Palazzo Pitti:卢卡·皮蒂(美第奇对手)1440 年建,后被美第奇买下成大公府邸;帕拉蒂纳美术馆(Galleria Palatina,拉斐尔/提香/鲁本斯,€16)与皇家公寓连票;立面 205 米宽巨石如堡垒。"
+              "title": "1 行星厅",
+              "text": "Pitti 庭院→主楼梯上一层=帕拉蒂纳美术馆:按\"行星厅\"套房顺序走——维纳斯厅(Venus)→阿波罗厅→玛尔斯厅→朱庇特厅(皮耶特罗·达·科尔托纳穹顶画巅峰)→萨图恩厅;拉斐尔《椅中圣母》《戴面纱的女士》在萨图恩/朱庇特两厅;提香/鲁本斯满墙。1-1.5 小时。"
             },
             {
-              "title": "波波里花园",
-              "text": "Giardino di Boboli(1550 起):美第奇家族后花园,露天雕塑博物馆;山丘顶咖啡亭(Kaffeehaus)望全城;与皮蒂宫联票 €22 左右,逛全需 2-3 小时。"
+              "title": "2 皇家公寓",
+              "text": "行星厅末端连排皇家公寓(拿破仑时期房间),快速穿行 10 分钟。"
             },
             {
-              "title": "实用",
-              "text": "两处 16:00 后停止入场(闭馆 18:30 前后);南门出即圣尼科洛区,上米开朗琪罗广场顺路。"
+              "title": "3 波波里花园",
+              "text": "从宫后 Ammannati 庭院出口进园(Giardino di Boboli):①半圆形露天剧场(Anfiteatro)→②Buontalenti 大洞窟(Grotta)→沿柏树主轴 Viottolone 下行→③Isolotto 岛与海神洋喷泉;体力好加 Kaffeehaus 山坡(全园俯瞰);1.5 小时。"
+            },
+            {
+              "title": "4 出园转场",
+              "text": "原路从主轴回到宫殿侧出园(10 分钟上坡)——Porta Romana 侧门出会绕远;出园在广场咖啡歇脚,16:45 出发步行 25 分钟或打车 €10 去 17:15 的学院美术馆。"
             }
           ]
         },
@@ -2398,22 +2401,22 @@
           },
           "visit_guide": [
             {
-              "title": "大卫",
-              "text": "David(5.17 米,穹顶长廊尽头):正面看重心偏一腿的站姿,侧面看右手攥着的石头;17:15 人少光线好。",
-              "img": "d10-i01-1.webp"
+              "title": "1 巨人厅",
+              "text": "进门第一厅(Sala del Colosso):中央石膏雕塑群;直接穿过左转。"
             },
             {
-              "title": "四囚徒",
-              "text": "I Prigioni(长廊两侧,米开朗基罗)未完成到能看清他『从石头里释放人形』的凿痕。",
-              "img": "d10-i01-2.webp"
+              "title": "2 囚徒长廊",
+              "img": "d10-i01-1.webp",
+              "text": "长廊两侧=米开朗基罗四尊《囚徒》(Prigioni)未完成像:人物在粗凿石料中\"挣扎欲出\"——千万别跳过直奔大卫,这四尊是理解大卫的钥匙。"
             },
             {
-              "title": "余下两廊",
-              "text": "石膏模型长廊(Gipsoteca)+俄国圣像(icone russe);小馆 45-60 分钟足够,值得在大卫前坐十分钟再走。"
+              "title": "3 大卫亭",
+              "img": "d10-i01-2.webp",
+              "text": "长廊尽头穹顶大厅=大卫 Davide(5.16 米,1504):右手血管、眼神与比例都按远观看放大处理;绕背面一圈+长凳坐看 5 分钟;此处人最挤,包前背。"
             },
             {
-              "title": "顺路",
-              "text": "Pass 48h 含巴杰罗博物馆(Museo del Bargello,米开朗基罗早年《酒神》Bacco 所在),次日用得上。"
+              "title": "4 出馆",
+              "text": "出口经过乐器博物馆侧厅(美第奇婚典古乐器,顺路 5 分钟)→纪念品店出门右转即 Via Ricasoli 大街;全程单线,不会迷路。"
             }
           ],
           "late_policy": "票面 17:15-17:30 的 15 分钟窗口:无官方宽限,实证较宽容(约 30 分钟内常放行但失去优先);绝对上限=当日 18:10 停止入场"
