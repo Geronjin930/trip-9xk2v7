@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 72,
-    "generated_at": "2026-10-03T05:25:00+08:00",
+    "data_version": 74,
+    "generated_at": "2026-10-03T06:05:00+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -2588,7 +2588,7 @@
             },
             {
               "title": "Linea 1 上船",
-              "text": "看站牌电子屏确认 \"Linea 1 — Lido 方向\"(1 号线往丽都);大运河两侧都是景,随坐"
+              "text": "看站牌电子屏确认 \"Linea 1 — Lido 方向\"(1 号线往丽都);大运河两侧都是景,随坐;周末/午后高峰段 1 号线拥挤,靠站时先下后上,站稳扶好"
             },
             {
               "title": "沿途停靠(IT/CN)",
@@ -2662,7 +2662,7 @@
           "time": "13:30",
           "name": "圣马可大教堂",
           "type": "sight",
-          "end_time": "14:30",
+          "end_time": "14:00",
           "summary": "免费排队入内;金色马赛克 8000㎡;着装遮肩过膝,大包/行李箱禁入",
           "transfer": {
             "from": "圣马可广场",
@@ -2681,7 +2681,7 @@
             "how": "免费排队过检票亭(或官网 €3 预约免排);着装遮肩过膝,大包/行李箱禁入(广场寄存点付费)",
             "note": "内部分道检票:主殿免费区→金坛 Pala d'Oro(€3)/博物馆登廊(€7)需另扫"
           },
-          "tips": "金坛 Pala d'Oro €3、博物馆+登廊(四马原件)€7 为内部分道另扫;13:30 排队通常 15-25 分钟",
+          "tips": "排队 15-25 分钟(10-16 点高峰);若队伍超 40 分钟,果断取舍——金坛可放弃,主殿看完就走;14:00 出门接总督宫",
           "images": [
             {
               "file": "d11-i11-1.webp",
@@ -2692,10 +2692,10 @@
         },
         {
           "id": "d11-i06",
-          "time": "14:30",
+          "time": "14:05",
           "name": "总督宫(外景)",
           "type": "sight",
-          "end_time": "14:50",
+          "end_time": "14:25",
           "summary": "哥特杰作立面+巨人阶梯;未订票看外景即可,入内 €30 须官网预约",
           "transfer": {
             "from": "圣马可大教堂",
@@ -2727,10 +2727,10 @@
         },
         {
           "id": "d11-i12",
-          "time": "14:50",
+          "time": "14:30",
           "name": "叹息桥+潘多拉桥机位",
           "type": "free",
-          "end_time": "15:15",
+          "end_time": "14:50",
           "summary": "叹息桥 Ponte dei Sospiri 外景;最佳机位在旁侧 Ponte della Paglia 桥上(面向桥身)",
           "transfer": {
             "from": "总督宫",
@@ -2748,10 +2748,10 @@
         },
         {
           "id": "d11-i04",
-          "time": "15:45",
+          "time": "15:00",
           "name": "穆拉诺玻璃岛",
           "type": "sight",
-          "end_time": "17:15",
+          "end_time": "16:35",
           "summary": "1 号线转 12 号线上岛:玻璃工坊街+玻璃博物馆(€12);回程 4.2 直达火车站码头",
           "transfer": {
             "from": "叹息桥(Ponte della Paglia)",
@@ -2777,7 +2777,7 @@
               }
             ]
           },
-          "tips": "工坊演示免费看完会被引导进店,买不买随意;真品认准 Vetro Artistico Murano 商标;博物馆周一闭馆(今日周日正常开)",
+          "tips": "穆拉诺只走工坊街(免费)50 分钟足够;玻璃博物馆售票短队(€12)可选;⚠ 决策点:若 16:30 前没能到 12 号线码头,跳过本站直接坐到彩虹岛(Linea 12 全程到底 Burano);回程船 30 分钟一班,末班前务必上船",
           "images": [
             {
               "file": "d11-i04-1.webp",
@@ -2795,16 +2795,69 @@
           "photo_note": "下午岛上游人渐少;工坊街橱窗灯光晚上更好看,但回程船 17:15 要赶"
         },
         {
+          "id": "d11-i13",
+          "time": "16:45",
+          "end_time": "18:05",
+          "name": "彩虹岛 Burano(彩色渔村)",
+          "type": "sight",
+          "summary": "Linea 12 从穆拉诺 10 分钟直达:彩色房子+斜钟楼+蕾丝;17:00-18:00 黄金光正打在彩色墙上",
+          "location": {
+            "name": "Burano",
+            "lat": 45.4854,
+            "lng": 12.4139
+          },
+          "transfer": {
+            "from": "穆拉诺 Colonna 码头",
+            "recommend": "boat",
+            "modes": [
+              {
+                "mode": "boat",
+                "line": "Linea 12(Burano/Torcello 方向)",
+                "board": "Murano Colonna",
+                "alight": "Burano(Burano 主码头)",
+                "min": 10,
+                "cost": "24h 票已含",
+                "note": "穆拉诺→马佐博(Mazzorbo)→步行过桥即彩虹岛;回程同码头 12 号线(末班约 20:40,按 30 分钟一班预留)"
+              }
+            ]
+          },
+          "visit_guide": [
+            {
+              "title": "主街三看点",
+              "text": "①沿 Via Baldassarre Galuppi 主街两侧彩色渔村屋(传说渔夫出海迷路靠颜色认家)→②斜钟楼 San Martino(比萨之外意大利最著名斜塔之一)→③河边房子倒影机位(过小桥到对岸回望)。"
+            },
+            {
+              "title": "蕾丝与时间",
+              "text": "蕾丝博物馆(€5)可选;主街 45-55 分钟走完;17 点后旅行团撤退,黄金光+安静=全天最佳时段。"
+            },
+            {
+              "title": "回程衔接",
+              "text": "18:05 前回到码头,Linea 12 回 Fondamente Nove(约 35-40 分钟)→换 4.2/5.1 到 Ferrovia(10 分钟)→火车回 Mestre。"
+            }
+          ],
+          "photo_note": "傍晚黄金光正打主街东南侧彩色墙;绿窗框+晾衣绳出片;倒影机位在南侧小桥",
+          "images": [
+            {
+              "file": "d11-i13-1.png",
+              "caption": "示意·彩色渔村屋与运河"
+            },
+            {
+              "file": "d11-i13-2.png",
+              "caption": "示意·斜钟楼 San Martino"
+            }
+          ]
+        },
+        {
           "id": "d11-i10",
-          "time": "17:15",
+          "time": "18:45",
           "name": "水巴 4.2 回程→S.Lucia→Mestre 取行李入住",
           "type": "transport",
-          "end_time": "18:30",
-          "summary": "Linea 4.2 直达 Ferrovia(40 分钟)→区间火车回 Mestre(€1.3-2,10 分钟一班)→酒店取行李+入住",
+          "end_time": "20:00",
+          "summary": "Linea 12 彩虹岛→F.te Nove(40 分钟)→换 4.2/5.1 到 Ferrovia→火车回 Mestre→取行李入住",
           "visit_guide": [
             {
               "title": "4.2 上船",
-              "text": "Murano Colonna 码头认准 \"Linea 4.2\" 往 Ferrovia 方向环线;经停 F.te Nove(新堤岸)、卡纳雷吉欧运河各小站后到 Ferrovia(费罗维亚=火车站码头)"
+              "text": "彩虹岛 Burano 主码头登 Linea 12(F.te Nove 方向);约 35-40 分钟到 Fondamente Nove(新堤岸码头);同站换 4.2 或 5.1 到 Ferrovia(费罗维亚=火车站码头,约 10 分钟)"
             },
             {
               "title": "火车回 Mestre",
@@ -2813,6 +2866,10 @@
             {
               "title": "取行李入住",
               "text": "酒店前台取寄存行李+办入住;晚餐就在 Mestre(比主岛便宜 30%),明早 07:20 火车同站出发"
+            },
+            {
+              "title": "排队提示",
+              "text": "傍晚 4.2/5.1 是通勤高峰段较挤;火车站自助购票机可能排队,APP(ATAC/Trainline)提前买票更快"
             }
           ]
         }
