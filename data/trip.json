@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 75,
-    "generated_at": "2026-10-03T06:30:00+08:00",
+    "data_version": 76,
+    "generated_at": "2026-10-03T06:50:00+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -5452,7 +5452,7 @@
         "trenitalia-vm-t3",
         "trenitalia-vm-t4"
       ],
-      "notes": "4 人已出票(PNR EMBYWN,微信渠道代购,€40.90/人);Economy 票限本车次(开车前可改签/不可退);Mestre 站上车(非主岛 Santa Lucia),酒店在梅斯特步行可达;到达米兰中央 10:17",
+      "notes": "4 人已出票(PNR EMBYWN,微信渠道代购,€40.90/人);Economy 票限本车次(开车前可改签/不可退);Mestre 站上车(非主岛 Santa Lucia),酒店在梅斯特步行可达;到达米兰中央 10:17;改签规则(Economy 票):开车前可改日期/时间各一次(起讫站不可变),Economy 档位有座则免费、无座按 Base 档补差;开车后作废不可改不可退;办理=Mestre 站 Trenitalia 售票窗口报 PNR EMBYWN(4 张同单一次改),或联系微信代购渠道(或收手续费)",
       "company": "Trenitalia Frecciarossa"
     },
     {
