@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 79,
-    "generated_at": "2026-10-04T04:40:00+08:00",
+    "data_version": 80,
+    "generated_at": "2026-10-04T05:20:00+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -2888,21 +2888,54 @@
         {
           "id": "d12-i03",
           "time": "09:30",
-          "end_time": "13:45",
-          "name": "威尼斯晨间自由·退房寄存",
+          "end_time": "14:00",
+          "name": "退房寄存→穆拉诺玻璃岛(上午场)",
           "type": "free",
-          "summary": "09:30 退房寄存(酒店前台或 Mestre 站 KiPoint)→10:00 火车进主岛→自由活动→13:30 回 Mestre 取行李",
-          "tips": "三选一建议:①总督宫入内(€30,周日开门,昨日在桥外未进)②圣马可钟楼登顶(€10 电梯,晨景)③里亚托市场+咖啡慢逛;12:45 前往 Ferrovia 码头反向没必要——直接 13:00 火车回 Mestre;14:15 前取完行李进站",
+          "summary": "09:30 退房→KiPoint(Mestre 站)存行李→火车进岛→穆拉诺:玻璃博物馆 €8(周日开,10:00-18:00)+工坊街+岛上午餐→13:00 返程→14:00 前回 Mestre 取行李候 15:00 车",
+          "tips": "行李两段式:①退房后带行李到 Mestre 站 KiPoint 寄存(€5-6/件/天,就在候车楼);②穆拉诺回程直接取行李,不走回头路;船票买单程两次(€9.5×2=€19)比 24h(€25)划算——今天只有往返两程;博物馆今天周日正常开(10:00-18:00,售票 17:30 止,€8);工坊演示免费看完进店随意;岛上午餐比主岛便宜:Torrace/Osteria al Bacareto 类小馆",
           "visit_guide": [
             {
-              "title": "晨光威尼斯",
-              "text": "昨日的点二刷有完全不同的光:大运河晨雾/圣马可广场无人版(8 点前)/学院桥全景;咖啡站站着喝一杯 €1.2 的 espresso 是本地节奏。"
+              "title": "上午动线",
+              "text": "10:30 岛上:先玻璃博物馆(Museo del Vetro,€8,从 Murano Museo 码头步行 3 分钟;看从罗马时代到康达里尼时代的玻璃演进)→11:45 工坊街(Fondamenta dei Vetrai 沿运河两岸)→12:45 午餐→13:00 Colonna 码头上船返程。"
             },
             {
-              "title": "时间链",
-              "text": "09:30 退房寄存→10:00 Mestre→S.Lucia(€1.3-2)→10:20-12:45 主岛自由→13:00 火车回→13:15 取行李→14:15 进站候 15:00 车。"
+              "title": "买什么",
+              "text": "认准 Vetro Artistico Murano 原产地红色商标;小件(酒杯/首饰)€15-40 起步;工坊演示免费,看完进店买不买都不尴尬。"
             }
-          ]
+          ],
+          "transfer": {
+            "from": "Mestre 站(KiPoint 存好行李)",
+            "recommend": "boat",
+            "modes": [
+              {
+                "mode": "train",
+                "line": "区间火车",
+                "board": "Venezia Mestre",
+                "alight": "Venezia S.Lucia",
+                "min": 10,
+                "cost": "€1.3-2",
+                "note": "10:00 上车,班次 10-15 分钟一班"
+              },
+              {
+                "mode": "boat",
+                "line": "Linea 4.2(F.te Nove/Murano 方向)",
+                "board": "Ferrovia(火车站码头)",
+                "alight": "Murano Museo/Colonna",
+                "min": 35,
+                "cost": "€9.5 单程",
+                "note": "S.Lucia 出站左手码头直接上 4.2(勿上 4.1,那是绕朱代卡的远路);约 11:00 上岛"
+              },
+              {
+                "mode": "boat",
+                "line": "回程 Linea 4.1/4.2",
+                "board": "Murano Colonna/Museo",
+                "alight": "Ferrovia",
+                "min": 35,
+                "cost": "€9.5",
+                "note": "13:00 上船 13:35 到火车站,火车 13:45 回 Mestre"
+              }
+            ]
+          }
         },
         {
           "id": "d12-i01",
