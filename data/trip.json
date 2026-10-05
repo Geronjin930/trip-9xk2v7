@@ -1,7 +1,7 @@
 {
   "meta": {
-    "data_version": 80,
-    "generated_at": "2026-10-04T05:20:00+08:00",
+    "data_version": 82,
+    "generated_at": "2026-10-04T05:45:00+08:00",
     "contract_version": "v1"
   },
   "travelers": [
@@ -3331,32 +3331,73 @@
         },
         {
           "id": "d14-i02",
-          "time": "全天",
-          "name": "送机:酒店→米兰马尔彭萨机场(MXP)",
+          "time": "08:15",
+          "name": "送机:公寓→马尔彭萨 T1(地铁+机场快线)",
           "type": "transport",
-          "summary": "方式待补;建议 10:30 前出发(国际段值机截止早)",
+          "summary": "M1 红线 3 站到 Cadorna 换 Malpensa Express(€13,35-40 分),09:40 前到 T1;人均 €15.2",
           "transfer": {
             "from": "公寓(Walk to Duomo)",
-            "recommend": "train",
+            "recommend": "metro",
             "modes": [
               {
-                "mode": "train",
-                "line": "Malpensa Express",
-                "board": "Milano Cadorna",
-                "alight": "Malpensa T1",
-                "min": 37,
-                "cost": "€13/人",
-                "note": "M1 Duomo→Cadorna 2 站转乘;每 30 分钟一班,建议乘 10:00-10:30 班次;从 Centrale 发车则 52 分钟"
+                "mode": "metro",
+                "line": "M1 红线→Malpensa Express",
+                "board": "Duomo",
+                "alight": "MXP T1",
+                "min": 85,
+                "cost": "€15.2/人",
+                "note": "主推方案:08:15 出门,08:22 Duomo 上 M1(往 Rho Fieramilano/Bisceglie 任一),3 站 08:30 到 Cadorna;换 Malpensa Express 09:05 班→09:40 到 T1"
+              },
+              {
+                "mode": "metro",
+                "line": "M3 黄线→Malpensa Express",
+                "board": "Duomo",
+                "alight": "MXP T1",
+                "min": 105,
+                "cost": "€15.2/人",
+                "note": "备选:Centrale 换乘,车程 50 分,总时 65 分;班次与 Cadorna 错开"
               },
               {
                 "mode": "taxi",
-                "min": 45,
-                "cost": "固定价约€105",
-                "note": "4 人一车含全部行李,门到门"
+                "min": 50,
+                "cost": "固定价约 €110-125/车",
+                "note": "4 人分摊 €28-31/人,45 分钟门到门,最省力;上车前确认一口价"
               }
             ],
-            "note": "10:30 前出发(国际段值机截止早);退税单先海关盖章再托运"
-          }
+            "note": "全部细节见下方参观要点与示意图"
+          },
+          "end_time": "09:45",
+          "visit_guide": [
+            {
+              "title": "①出门与地铁",
+              "img": "d14-i02-1.png",
+              "text": "08:15 出门步行 5 分钟到 Duomo 站;ATM 票 €2.20(90 分钟票,机器/APP 购);M1 红线往 Rho Fieramilano 或 Bisceglie 方向均可——两支都在 3 站后到 Cadorna:Cordusio→Cairoli→Cadorna,约 8 分钟。"
+            },
+            {
+              "title": "②Cadorna 换乘",
+              "text": "出站跟 \"Malpensa Express / Trenord\" 绿色指示走;机场快线每 30 分钟一班(以站屏为准);票 €13——Trenord APP/机器提前购,或站台 Pay&Go 刷卡闸 €13 直接进。"
+            },
+            {
+              "title": "③快线与到达",
+              "text": "09:05 班 09:40 到 MXP T1(地下站,电梯直达出发层);不对号入座,行李放大件架;求稳坐 08:35 前一班;航站楼:T1(越南航空在 T1),如屏幕显示 T2 有接驳摆渡。"
+            },
+            {
+              "title": "④值机与退税",
+              "text": "09:45 越南航空柜台(长航线提前 3 小时):护照+行程单;托运每人 2 件;⚠ 退税单先在机场海关盖章再放进托运行李;登机口 11:15 前确认。"
+            }
+          ],
+          "check_in": {
+            "where": "Trenord:Cadorna 站 Pay&Go 刷卡闸或提前 APP 购票;机场值机=MXP T1 出发层越南航空(Vietnam Airlines)柜台",
+            "how": "地铁票 ATM €2.20 过闸;机场快线 €13 刷二维码/闸机;值机 09:45 开始排队,护照+行程单,行李 2 件/人",
+            "note": "Malpensa Express 票价冻至 2027-09(€13);错过 09:05 班,09:35 班 10:10 到仍从容"
+          },
+          "images": [
+            {
+              "file": "d14-i02-1.png",
+              "caption": "送机路线示意(地铁+机场快线六步)"
+            }
+          ],
+          "photo_note": "路线图已标注时刻/票价/备选;当天早 7 点查一次 Trenord 官网 strike 信息(意大利罢工看运气)"
         },
         {
           "id": "d14-i03",
@@ -3364,7 +3405,12 @@
           "name": "航班:米兰→河内→广州(越南航空联程)",
           "type": "transport",
           "summary": "VN72 10/6 12:45 MXP→河内 04:45(+1),停留 7h40m;VN506 河内 12:25→广州白云 T2 15:20(10/7);行李直挂、无需过境签",
-          "tips": "退税单先海关盖章再托运;⚠ 本票仅含 Zhengyang/Yongtong,另两人回程票待确认"
+          "tips": "退税单先海关盖章再托运;⚠ 本票仅含 Zhengyang/Yongtong,另两人回程票待确认",
+          "check_in": {
+            "where": "MXP T1 出发层越南航空柜台(值机)→护照查验+安检→登机口",
+            "how": "09:45 柜台开柜即排队:护照/托运 2 件/人→出发行李票贴护照后;出境盖章+安检后到登机口",
+            "note": "12:45 起飞,登机口一般 12:00 前公布;护照/贵重/充电宝随身;退税单已在托运前盖海关章"
+          }
         }
       ]
     },
